@@ -42,9 +42,9 @@ export async function scrapeDruzstevni(browser) {
       if (resources.length) days.push({ date, resources });
     }
 
-    return { venue: 'druzstevni', name: 'Bazén Družstevní', url: BASE_URL, ok: true, error: null, days };
+    return { venue: 'druzstevni', name: 'Bazén Družstevní', url: BASE_URL, ok: true, error: null, days, occupancy: [] };
   } catch (err) {
-    return { venue: 'druzstevni', name: 'Bazén Družstevní', url: BASE_URL, ok: false, error: err.message, days };
+    return { venue: 'druzstevni', name: 'Bazén Družstevní', url: BASE_URL, ok: false, error: err.message, days, occupancy: [] };
   } finally {
     await page.close();
   }

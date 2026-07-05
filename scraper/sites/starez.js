@@ -11,11 +11,40 @@ function parseCzechDateHeading(text) {
   return `${y}-${MONTHS[Number(mo)]}-${String(d).padStart(2, '0')}`;
 }
 
+// The homepage (not the reservation page) shows live headcount boxes like
+// <div class="box"><div class="text"><p>BAZÉNY A POSILOVNA</p><h5>11/220</h5>
+// Lužánky has two separate gates (BAZÉNY, WELLNESS); Ponávka has none.
+async function scrapeOccupancy(browser, homeUrl) {
+  const page = await browser.newPage();
+  try {
+    await page.goto(homeUrl, { waitUntil: 'domcontentloaded', timeout: 45000 });
+    const html = await page.content();
+    const $ = cheerio.load(html);
+
+    const seen = new Map(); // label -> {current, max} (page repeats the same boxes for mobile/desktop)
+    $('.box').each((_, el) => {
+      const $el = $(el);
+      const label = $el.find('.text > p').first().text().trim();
+      const value = $el.find('.text > h5').first().text().trim();
+      const m = value.match(/(\d+)\s*\/\s*(\d+)/);
+      if (label && m && !seen.has(label)) {
+        seen.set(label, { label, current: parseInt(m[1], 10), max: parseInt(m[2], 10) });
+      }
+    });
+    return [...seen.values()];
+  } catch {
+    return [];
+  } finally {
+    await page.close();
+  }
+}
+
 // Shared scraper for the three STAREZ-run venues, which all use the same
 // reservation grid template. All days (a full week) live inside a single
 // .s-reservation__body wrapper as a flat, repeating sequence of
 // h3 (date heading) -> h4 (pool/resource name) -> .s-reservation-table blocks.
 export async function scrapeStarezVenue(browser, { venue, name, url }) {
+  const occupancy = await scrapeOccupancy(browser, new URL('/', url).toString());
   const page = await browser.newPage();
   try {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
@@ -93,9 +122,9 @@ export async function scrapeStarezVenue(browser, { venue, name, url }) {
       .filter(([, resources]) => resources.length)
       .map(([date, resources]) => ({ date, resources }));
 
-    return { venue, name, url, ok: true, error: null, days };
+    return { venue, name, url, ok: true, error: null, days, occupancy };
   } catch (err) {
-    return { venue, name, url, ok: false, error: err.message, days: [] };
+    return { venue, name, url, ok: false, error: err.message, days: [], occupancy };
   } finally {
     await page.close();
   }
