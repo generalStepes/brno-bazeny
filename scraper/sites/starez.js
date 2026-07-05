@@ -91,17 +91,24 @@ export async function scrapeStarezVenue(browser, { venue, name, url }) {
               const status = statusFromStarezColor(colorMatch ? colorMatch[1] : null);
               const timeText = $span.find('.table-time').text().trim(); // e.g. "8:00-9:00"
               const [start, end] = timeText.split('-').map((t) => t.trim());
-              if (start && end) slots.push({ start, end, status });
+              // The <small> text carries context that the color alone
+              // doesn't, e.g. "volná šířka" / "rezervovaná šířka: KPSP 50" -
+              // important because *any* lane (délka or šířka-numbered) can
+              // switch into width-swim mode when something else (water polo,
+              // diving practice) blocks normal length-swimming that day.
+              const label = $span.find('small').text().replace(/\s+/g, ' ').trim();
+              if (start && end) slots.push({ start, end, status, label: label || undefined });
             });
           const baseCategory = currentResourceName || 'Bazén';
-          // "šířka" (width) lanes aren't extra capacity - they're a
-          // substitute mode used only when length-lanes (délka) are blocked
-          // (e.g. water polo), letting swimmers cross the pool's width
-          // instead. They normally sit idle/closed, so counting them
-          // alongside délka lanes as if they were additional lanes wrongly
-          // drags down the "free" percentage. Tag them as their own
-          // category so they're excluded from primary scoring like other
-          // auxiliary categories, while still visible in the detail view.
+          // A "šířka" (width)-numbered lane isn't extra capacity on a normal
+          // day - it sits idle/closed while length-swimming (délka) is
+          // offered as usual. But on days when length-lanes are blocked
+          // (e.g. a water polo/diving event), *either* délka- or
+          // šířka-numbered lanes can switch into active width-swim mode
+          // (color-coded volná/rezervovaná šířka) and become real, usable
+          // slots. So šířka-numbered lanes are tagged their own category and
+          // only excluded from primary scoring while idle (closed) - see
+          // isAuxiliaryCategory/primaryCountsAt in docs/app.js.
           const category = /šířka/i.test(laneName) ? `${baseCategory} (šířka)` : baseCategory;
           // VIP zóna (Lužánky) isn't part of general swim availability at
           // all - it's a separately-booked private area, dropped entirely
