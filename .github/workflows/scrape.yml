@@ -2,8 +2,8 @@ name: Scrape pool availability
 
 on:
   schedule:
-    # 06:00, 11:00, 16:00, 21:00 Europe/Prague (CEST, UTC+2 in summer)
-    - cron: '0 4,9,14,19 * * *'
+    # Every hour, on the hour
+    - cron: '0 * * * *'
   workflow_dispatch: {}
 
 permissions:
