@@ -41,7 +41,9 @@ function parseDayTable($, table) {
       let status;
       if (text) status = 'reserved';
       else if (classes.includes('closed')) status = 'closed';
-      else if (classes.includes('reservable')) status = 'reservable';
+      // "reservable" here means free-to-rent-ahead-of-time, not a walk-in
+      // swim option - treated as unavailable for the "go swim now" use case.
+      else if (classes.includes('reservable')) status = 'reserved';
       else status = 'unknown';
 
       slots.push({ start, end, status, label: text || undefined });

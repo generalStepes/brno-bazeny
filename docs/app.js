@@ -18,18 +18,14 @@ const I18N = {
     'venue.nowFree': 'teď volno',
     'recommend.badge': 'Doporučujeme',
     'tier.available': 'Volno',
-    'tier.reservable': 'Lze rezervovat',
     'tier.unavailable': 'Obsazeno / zavřeno',
     'tier.noData': 'Bez dat',
     'result.lanesFree': (free, total) => `${free} z ${total} volných`,
-    'result.reservableCount': (n, total) => `${n} z ${total} lze rezervovat`,
     'legend.available': 'volno',
-    'legend.reservable': 'lze rezervovat',
     'legend.reserved': 'obsazeno',
     'legend.closed': 'zavřeno',
     'legend.unknown': 'neznámé',
     'status.available': 'volno',
-    'status.reservable': 'lze rezervovat',
     'status.reserved': 'obsazeno',
     'status.closed': 'zavřeno',
     'status.unknown': 'neznámé',
@@ -52,18 +48,14 @@ const I18N = {
     'venue.nowFree': 'free now',
     'recommend.badge': 'Recommended',
     'tier.available': 'Open',
-    'tier.reservable': 'Bookable',
     'tier.unavailable': 'Full / closed',
     'tier.noData': 'No data',
     'result.lanesFree': (free, total) => `${free} of ${total} free`,
-    'result.reservableCount': (n, total) => `${n} of ${total} bookable`,
     'legend.available': 'open',
-    'legend.reservable': 'bookable',
     'legend.reserved': 'occupied',
     'legend.closed': 'closed',
     'legend.unknown': 'unknown',
     'status.available': 'open',
-    'status.reservable': 'bookable',
     'status.reserved': 'occupied',
     'status.closed': 'closed',
     'status.unknown': 'unknown',
@@ -141,7 +133,7 @@ function isAuxiliaryCategory(category) {
 }
 
 function emptyCounts() {
-  return { available: 0, reservable: 0, reserved: 0, closed: 0, unknown: 0, total: 0 };
+  return { available: 0, reserved: 0, closed: 0, unknown: 0, total: 0 };
 }
 function addSlotToCounts(counts, status) {
   counts[status] = (counts[status] || 0) + 1;
@@ -185,11 +177,10 @@ function primaryCountsAt(day, timeStr) {
 function tierFor(counts) {
   if (!counts) return 'noData';
   if (counts.available > 0) return 'available';
-  if (counts.reservable > 0) return 'reservable';
   return 'unavailable';
 }
 
-const TIER_RANK = { available: 0, reservable: 1, unavailable: 2, noData: 3 };
+const TIER_RANK = { available: 0, unavailable: 1, noData: 2 };
 
 function buildRanking(date, time) {
   return DATA.venues
@@ -201,19 +192,18 @@ function buildRanking(date, time) {
       // Relative occupancy, not raw lane count: a big venue like Lužánky
       // naturally has more free lanes in absolute terms, but that doesn't
       // mean it's less crowded - rank by the *share* of lanes that are free.
-      const score = counts ? (tier === 'available' ? counts.available : tier === 'reservable' ? counts.reservable : 0) / counts.total : 0;
+      const score = counts ? counts.available / counts.total : 0;
       return { venue, day, counts, categories, tier, score };
     })
     .sort((a, b) => TIER_RANK[a.tier] - TIER_RANK[b.tier] || b.score - a.score);
 }
 
 function tierBadgeClass(tier) {
-  return { available: 'free', reservable: 'limited', unavailable: 'none', noData: 'na' }[tier];
+  return { available: 'free', unavailable: 'none', noData: 'na' }[tier];
 }
 
 function summaryText(counts, tier) {
   if (tier === 'available') return `${Math.round((counts.available / counts.total) * 100)} % ${t('legend.available')} (${t('result.lanesFree', counts.available, counts.total)})`;
-  if (tier === 'reservable') return `${Math.round((counts.reservable / counts.total) * 100)} % ${t('legend.reservable')} (${t('result.reservableCount', counts.reservable, counts.total)})`;
   return t(`tier.${tier}`);
 }
 
@@ -297,7 +287,7 @@ function renderQueryResults() {
   recoContainer.innerHTML = '';
   listContainer.innerHTML = '';
 
-  const usable = ranking.filter((e) => e.tier === 'available' || e.tier === 'reservable');
+  const usable = ranking.filter((e) => e.tier === 'available');
   if (!usable.length) {
     const p = document.createElement('p');
     p.className = 'no-data';
