@@ -8,8 +8,9 @@ const WEEKS_AHEAD = 2; // each page load returns ~7 days; follow the "next week"
 // schedule) sub-page renders ~7 days per load as a sequence of
 // table.reservation-day-YYYYMMDD blocks, with a "next week" pager link
 // (?from=YYYY-MM-DD) to keep going further out.
-// Slots here mean "free to rent a lane", not "open for public walk-in swim" -
-// this venue works as a lane-rental system, not open-swim admission.
+// A blank cell ("reservable" class, no text) means the lane is free for
+// public walk-in use right now. A cell only becomes unavailable once it
+// actually has a renter's name in it (a club/lesson booking).
 function parseDayTable($, table) {
   const $table = $(table);
   const classAttr = $table.attr('class') || '';
@@ -41,9 +42,7 @@ function parseDayTable($, table) {
       let status;
       if (text) status = 'reserved';
       else if (classes.includes('closed')) status = 'closed';
-      // "reservable" here means free-to-rent-ahead-of-time, not a walk-in
-      // swim option - treated as unavailable for the "go swim now" use case.
-      else if (classes.includes('reservable')) status = 'reserved';
+      else if (classes.includes('reservable')) status = 'available';
       else status = 'unknown';
 
       slots.push({ start, end, status, label: text || undefined });
@@ -78,8 +77,6 @@ export async function scrapeKravihora(browser) {
     }
 
     days.sort((a, b) => a.date.localeCompare(b.date));
-    const note = 'Kravihora provozuje dráhy formou pronájmu, nikoli volného vstupu pro veřejnost – "volno" zde znamená volnou dráhu k pronájmu.';
-    for (const day of days) day.note = note;
 
     return { venue: 'kravihora', name: 'Krytá plavecká hala Kraví hora', url: MAIN_URL, ok: true, error: null, days };
   } catch (err) {
