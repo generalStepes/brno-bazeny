@@ -1,6 +1,6 @@
 :root {
   --available: #4caf50;
-  --reservable: #4a90d9;
+  --link: #4a90d9;
   --reserved: #b0b0b0;
   --closed: #e0e0e0;
   --unknown: #f0d060;
@@ -157,7 +157,7 @@ body {
 
 .recommend-link {
   font-size: 0.8rem;
-  color: var(--reservable);
+  color: var(--link);
   text-decoration: none;
 }
 .recommend-link:hover { text-decoration: underline; }
@@ -199,7 +199,7 @@ body {
 
 .result-row a {
   font-size: 0.78rem;
-  color: var(--reservable);
+  color: var(--link);
   text-decoration: none;
 }
 .result-row a:hover { text-decoration: underline; }
@@ -272,7 +272,7 @@ body {
 
 .venue-head a {
   font-size: 0.8rem;
-  color: var(--reservable);
+  color: var(--link);
   text-decoration: none;
 }
 .venue-head a:hover { text-decoration: underline; }
@@ -284,7 +284,6 @@ body {
   font-weight: 600;
 }
 .venue-badge.free { background: #e5f6e8; color: #227a34; }
-.venue-badge.limited { background: #fff4d9; color: #8a6300; }
 .venue-badge.none { background: #f3e6e6; color: #8a2f2f; }
 .venue-badge.na { background: #eee; color: #777; }
 
@@ -334,7 +333,6 @@ body {
   margin: 0 1px;
 }
 .slot.available { background: var(--available); }
-.slot.reservable { background: var(--reservable); }
 .slot.reserved { background: var(--reserved); }
 .slot.closed { background: var(--closed); }
 .slot.unknown { background: var(--unknown); }
@@ -373,7 +371,6 @@ body {
   display: inline-block;
 }
 .swatch.available { background: var(--available); }
-.swatch.reservable { background: var(--reservable); }
 .swatch.reserved { background: var(--reserved); }
 .swatch.closed { background: var(--closed); }
 .swatch.unknown { background: var(--unknown); }

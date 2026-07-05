@@ -64,12 +64,17 @@ export async function scrapeStarezVenue(browser, { venue, name, url }) {
               const [start, end] = timeText.split('-').map((t) => t.trim());
               if (start && end) slots.push({ start, end, status });
             });
-          if (slots.length) {
+          const category = currentResourceName || 'Bazén';
+          // VIP zóna (Lužánky) isn't part of general swim availability at
+          // all - it's a separately-booked private area, dropped entirely
+          // rather than just excluded from scoring like the other auxiliary
+          // categories (whirlpool, sauna, relaxation pool).
+          if (slots.length && !/vip/i.test(category)) {
             // `category` is the pool/section as published by the venue itself
             // (e.g. "Dráhy v 50m bazénu" vs "Dráhy v 25m bazénu" at Lužánky) -
             // needed because lumping different pool sizes/types into one
             // "lanes free" number would be misleading.
-            resources.push({ name: `${currentResourceName || 'Bazén'} - ${laneName}`, category: currentResourceName || 'Bazén', slots });
+            resources.push({ name: `${category} - ${laneName}`, category, slots });
           }
         });
         dayMap.set(currentDate, resources);

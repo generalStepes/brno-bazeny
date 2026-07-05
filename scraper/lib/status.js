@@ -1,14 +1,14 @@
 // Normalized slot status values used across all venues:
 //   'available'  - open for public/free swimming right now
-//   'reservable' - bookable (e.g. with deposit, or lane for rent) but not free public swim
-//   'reserved'   - occupied/booked by someone else
+//   'reserved'   - occupied/booked by someone else, or only bookable ahead
+//                  of time rather than usable for a walk-in swim right now
 //   'closed'     - facility closed / not offered at this time
 //   'unknown'    - could not be determined
 
 export const STAREZ_COLOR_STATUS = {
   '#B2D680': 'available', // volno pro verejnost
-  '#7CAC38': 'reservable', // volno k rezervaci se zalohou (Brno iD)
-  '#BDEBFB': 'reservable', // volno k pronajmu
+  '#7CAC38': 'reserved', // volno k rezervaci se zalohou (Brno iD) - bookable ahead, not a walk-in swim
+  '#BDEBFB': 'reserved', // volno k pronajmu - bookable ahead, not a walk-in swim
   '#F9D993': 'available', // volna sirka
   '#E19E0D': 'reserved', // rezervovana sirka
   '#ED455B': 'reserved', // prihlaste se na akci se zalohou (event)
