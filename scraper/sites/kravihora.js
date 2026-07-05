@@ -46,7 +46,10 @@ function parseDayTable($, table) {
 
       slots.push({ start, end, status, label: text || undefined });
     });
-    if (slots.length) resources.push({ name: laneName, slots });
+    // Categorize so lap lanes aren't lumped together with the whirlpool/play
+    // pool when computing "lanes free" - those aren't swim lanes.
+    const category = /^dráha/i.test(laneName) ? 'Dráhy' : laneName;
+    if (slots.length) resources.push({ name: laneName, category, slots });
   });
 
   return resources.length ? { date, resources } : null;

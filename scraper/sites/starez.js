@@ -65,7 +65,11 @@ export async function scrapeStarezVenue(browser, { venue, name, url }) {
               if (start && end) slots.push({ start, end, status });
             });
           if (slots.length) {
-            resources.push({ name: `${currentResourceName || 'Bazén'} - ${laneName}`, slots });
+            // `category` is the pool/section as published by the venue itself
+            // (e.g. "Dráhy v 50m bazénu" vs "Dráhy v 25m bazénu" at Lužánky) -
+            // needed because lumping different pool sizes/types into one
+            // "lanes free" number would be misleading.
+            resources.push({ name: `${currentResourceName || 'Bazén'} - ${laneName}`, category: currentResourceName || 'Bazén', slots });
           }
         });
         dayMap.set(currentDate, resources);

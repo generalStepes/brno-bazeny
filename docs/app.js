@@ -132,23 +132,54 @@ function fmtDateLabel(iso) {
 
 // ---------- Recommendation / query logic ----------
 
-function statusCountsAt(day, timeStr) {
-  if (!day) return null;
+// Whirlpools, saunas, VIP zones and relaxation pools aren't lap-swimming
+// lanes - they shouldn't count toward (or dilute) a venue's "free to swim"
+// score, even though the scraper reports them as resources too.
+const AUXILIARY_CATEGORY_PATTERN = /vířiv|saun|\bvip\b|relaxa/i;
+function isAuxiliaryCategory(category) {
+  return AUXILIARY_CATEGORY_PATTERN.test(category || '');
+}
+
+function emptyCounts() {
+  return { available: 0, reservable: 0, reserved: 0, closed: 0, unknown: 0, total: 0 };
+}
+function addSlotToCounts(counts, status) {
+  counts[status] = (counts[status] || 0) + 1;
+  counts.total++;
+}
+
+// Groups a day's resources by their venue-published category (e.g. "Dráhy v
+// 50m bazénu" vs "Dráhy v 25m bazénu" at Lužánky) so a single lumped number
+// never hides that free lanes are only in one pool size/section.
+function categoryCountsAt(day, timeStr) {
+  const byCategory = new Map();
+  if (!day) return byCategory;
   const t0 = parseTimeToMinutes(timeStr);
-  const counts = { available: 0, reservable: 0, reserved: 0, closed: 0, unknown: 0 };
-  let total = 0;
   for (const resource of day.resources) {
-    const slot = resource.slots.find((s) => {
-      const s0 = parseTimeToMinutes(s.start);
-      const s1 = parseTimeToMinutes(s.end);
-      return t0 >= s0 && t0 < s1;
-    });
-    if (slot) {
-      counts[slot.status] = (counts[slot.status] || 0) + 1;
-      total++;
-    }
+    const category = resource.category || day.name || 'Bazén';
+    const slot = resource.slots.find((s) => t0 >= parseTimeToMinutes(s.start) && t0 < parseTimeToMinutes(s.end));
+    if (!slot) continue;
+    if (!byCategory.has(category)) byCategory.set(category, emptyCounts());
+    addSlotToCounts(byCategory.get(category), slot.status);
   }
-  return total ? { ...counts, total } : null;
+  return byCategory;
+}
+
+function sumCounts(countsList) {
+  const sum = emptyCounts();
+  for (const c of countsList) {
+    for (const key of Object.keys(sum)) sum[key] += c[key] || 0;
+  }
+  return sum;
+}
+
+// Primary counts = only real swim-lane categories (excludes whirlpool/sauna/
+// VIP/relaxation), used for ranking and headline numbers.
+function primaryCountsAt(day, timeStr) {
+  const byCategory = categoryCountsAt(day, timeStr);
+  const primary = [...byCategory.entries()].filter(([cat]) => !isAuxiliaryCategory(cat)).map(([, c]) => c);
+  const total = sumCounts(primary);
+  return total.total ? total : null;
 }
 
 function tierFor(counts) {
@@ -164,10 +195,14 @@ function buildRanking(date, time) {
   return DATA.venues
     .map((venue) => {
       const day = venue.days.find((d) => d.date === date);
-      const counts = statusCountsAt(day, time);
+      const counts = primaryCountsAt(day, time);
+      const categories = categoryCountsAt(day, time);
       const tier = tierFor(counts);
-      const score = tier === 'available' ? counts.available : tier === 'reservable' ? counts.reservable : 0;
-      return { venue, day, counts, tier, score };
+      // Relative occupancy, not raw lane count: a big venue like Lužánky
+      // naturally has more free lanes in absolute terms, but that doesn't
+      // mean it's less crowded - rank by the *share* of lanes that are free.
+      const score = counts ? (tier === 'available' ? counts.available : tier === 'reservable' ? counts.reservable : 0) / counts.total : 0;
+      return { venue, day, counts, categories, tier, score };
     })
     .sort((a, b) => TIER_RANK[a.tier] - TIER_RANK[b.tier] || b.score - a.score);
 }
@@ -176,21 +211,41 @@ function tierBadgeClass(tier) {
   return { available: 'free', reservable: 'limited', unavailable: 'none', noData: 'na' }[tier];
 }
 
+function summaryText(counts, tier) {
+  if (tier === 'available') return `${Math.round((counts.available / counts.total) * 100)} % ${t('legend.available')} (${t('result.lanesFree', counts.available, counts.total)})`;
+  if (tier === 'reservable') return `${Math.round((counts.reservable / counts.total) * 100)} % ${t('legend.reservable')} (${t('result.reservableCount', counts.reservable, counts.total)})`;
+  return t(`tier.${tier}`);
+}
+
+// Only worth listing per-category when a venue actually splits into more
+// than one primary category (currently just Lužánky's 50m/25m/16m/kids pool).
+function renderCategoryBreakdown(categories) {
+  const primaryEntries = [...categories.entries()].filter(([cat]) => !isAuxiliaryCategory(cat));
+  if (primaryEntries.length < 2) return null;
+  const p = document.createElement('p');
+  p.className = 'category-breakdown';
+  p.textContent = primaryEntries.map(([cat, c]) => `${cat}: ${c.available}/${c.total}`).join(' · ');
+  return p;
+}
+
 function renderResultLine(entry) {
-  const { venue, counts, tier } = entry;
+  const { venue, counts, categories, tier } = entry;
   const li = document.createElement('li');
   li.className = 'result-row';
 
+  const info = document.createElement('div');
+  info.className = 'result-info';
   const name = document.createElement('span');
   name.className = 'result-name';
   name.textContent = venue.name;
-  li.appendChild(name);
+  info.appendChild(name);
+  const breakdown = counts ? renderCategoryBreakdown(categories) : null;
+  if (breakdown) info.appendChild(breakdown);
+  li.appendChild(info);
 
   const badge = document.createElement('span');
   badge.className = `venue-badge ${tierBadgeClass(tier)}`;
-  if (tier === 'available') badge.textContent = t('result.lanesFree', counts.available, counts.total);
-  else if (tier === 'reservable') badge.textContent = t('result.reservableCount', counts.reservable, counts.total);
-  else badge.textContent = t(`tier.${tier}`);
+  badge.textContent = counts ? summaryText(counts, tier) : t('tier.noData');
   li.appendChild(badge);
 
   const link = document.createElement('a');
@@ -218,9 +273,11 @@ function renderRecommendationCard(entry, index) {
 
   const detail = document.createElement('p');
   detail.className = 'recommend-detail';
-  if (entry.tier === 'available') detail.textContent = t('result.lanesFree', entry.counts.available, entry.counts.total);
-  else if (entry.tier === 'reservable') detail.textContent = t('result.reservableCount', entry.counts.reservable, entry.counts.total);
+  detail.textContent = summaryText(entry.counts, entry.tier);
   card.appendChild(detail);
+
+  const breakdown = renderCategoryBreakdown(entry.categories);
+  if (breakdown) card.appendChild(breakdown);
 
   const link = document.createElement('a');
   link.href = entry.venue.url;
@@ -352,7 +409,7 @@ function renderVenue(venue, selectedDate) {
   head.appendChild(h2);
 
   const dayData = venue.days.find((d) => d.date === selectedDate);
-  const counts = statusCountsAt(dayData, new Date().toTimeString().slice(0, 5));
+  const counts = primaryCountsAt(dayData, new Date().toTimeString().slice(0, 5));
   if (counts && selectedDate === todayISO()) {
     const badge = document.createElement('span');
     const tier = tierFor(counts);
