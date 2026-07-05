@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bazény Brno – dostupnost</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="page-header">
+    <h1>🏊 Bazény v Brně – dostupnost</h1>
+    <p class="subtitle">Souhrn otevřených drah napříč brněnskými bazény. Data se aktualizují automaticky několikrát denně.</p>
+    <p class="updated-at" id="updated-at">Načítám data…</p>
+  </header>
+
+  <nav class="date-tabs" id="date-tabs" aria-label="Výběr dne"></nav>
+
+  <main id="venues" class="venues"></main>
+
+  <footer class="page-footer">
+    <p>Data jsou stahována automaticky z veřejných stránek jednotlivých bazénů a nemusí být 100% přesná – pro rezervaci vždy použijte odkaz na daný bazén.</p>
+    <p class="legend">
+      <span class="legend-item"><span class="swatch available"></span> volno</span>
+      <span class="legend-item"><span class="swatch reservable"></span> lze rezervovat</span>
+      <span class="legend-item"><span class="swatch reserved"></span> obsazeno</span>
+      <span class="legend-item"><span class="swatch closed"></span> zavřeno</span>
+      <span class="legend-item"><span class="swatch unknown"></span> neznámé</span>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

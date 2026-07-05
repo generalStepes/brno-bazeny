@@ -1,0 +1,218 @@
+:root {
+  --available: #4caf50;
+  --reservable: #4a90d9;
+  --reserved: #b0b0b0;
+  --closed: #e0e0e0;
+  --unknown: #f0d060;
+  --ink: #1c2733;
+  --muted: #6b7684;
+  --border: #e3e7eb;
+  --bg: #f7f9fb;
+  --card-bg: #ffffff;
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  padding: 0 1rem 3rem;
+}
+
+.page-header {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 0 1rem;
+}
+
+.page-header h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--muted);
+}
+
+.updated-at {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.date-tabs {
+  max-width: 960px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.date-tab {
+  flex: 0 0 auto;
+  padding: 0.5rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.date-tab.active {
+  background: var(--ink);
+  color: white;
+  border-color: var(--ink);
+}
+
+.date-tab .dow {
+  display: block;
+  font-size: 0.7rem;
+  color: inherit;
+  opacity: 0.7;
+}
+
+.venues {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.venue-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+}
+
+.venue-card.errored {
+  border-color: #e5a3a3;
+}
+
+.venue-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.venue-head h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.venue-head a {
+  font-size: 0.8rem;
+  color: var(--reservable);
+  text-decoration: none;
+}
+.venue-head a:hover { text-decoration: underline; }
+
+.venue-badge {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-weight: 600;
+}
+.venue-badge.free { background: #e5f6e8; color: #227a34; }
+.venue-badge.limited { background: #fff4d9; color: #8a6300; }
+.venue-badge.none { background: #f3e6e6; color: #8a2f2f; }
+.venue-badge.na { background: #eee; color: #777; }
+
+.venue-note {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0.4rem 0 0.6rem;
+}
+
+.timeline-wrap {
+  margin-top: 0.6rem;
+  overflow-x: auto;
+}
+
+.timeline-hours {
+  display: grid;
+  grid-template-columns: 160px repeat(32, minmax(14px, 1fr));
+  font-size: 0.65rem;
+  color: var(--muted);
+  min-width: 640px;
+}
+.timeline-hours .hour-label {
+  grid-column: span 2;
+  border-left: 1px solid var(--border);
+  padding-left: 2px;
+}
+
+.resource-row {
+  display: grid;
+  grid-template-columns: 160px repeat(32, minmax(14px, 1fr));
+  align-items: center;
+  min-width: 640px;
+  height: 22px;
+}
+
+.resource-name {
+  font-size: 0.75rem;
+  padding-right: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slot {
+  height: 16px;
+  border-radius: 3px;
+  margin: 0 1px;
+}
+.slot.available { background: var(--available); }
+.slot.reservable { background: var(--reservable); }
+.slot.reserved { background: var(--reserved); }
+.slot.closed { background: var(--closed); }
+.slot.unknown { background: var(--unknown); }
+
+.now-line {
+  position: relative;
+}
+
+.no-data {
+  font-size: 0.85rem;
+  color: var(--muted);
+  padding: 0.5rem 0;
+}
+
+.page-footer {
+  max-width: 960px;
+  margin: 2rem auto 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.legend {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.swatch.available { background: var(--available); }
+.swatch.reservable { background: var(--reservable); }
+.swatch.reserved { background: var(--reserved); }
+.swatch.closed { background: var(--closed); }
+.swatch.unknown { background: var(--unknown); }
