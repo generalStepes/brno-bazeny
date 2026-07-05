@@ -38,7 +38,7 @@ export async function scrapeDruzstevni(browser) {
 
       const resources = Array.from(resourceSlots.entries())
         .filter(([, slots]) => slots.length)
-        .map(([name, slots]) => ({ name, slots }));
+        .map(([name, slots]) => ({ name, category: /dráha/i.test(name) ? 'Dráhy' : name, slots }));
       if (resources.length) days.push({ date, resources });
     }
 

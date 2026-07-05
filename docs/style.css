@@ -181,9 +181,20 @@ body {
   border-bottom: 1px solid var(--border);
 }
 
-.result-name {
+.result-info {
   flex: 1 1 auto;
+  min-width: 200px;
+}
+
+.result-name {
   font-weight: 600;
+}
+
+.category-breakdown {
+  margin: 0.15rem 0 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 400;
 }
 
 .result-row a {

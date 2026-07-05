@@ -74,6 +74,7 @@ export async function scrapeTesla(browser) {
       resources: [
         {
           name: 'Bazén 25m',
+          category: 'Bazén 25m',
           slots: [{ start: hours.start, end: hours.end, status: 'available' }],
         },
       ],

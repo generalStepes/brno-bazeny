@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T18:41:53.183Z",
+  "generatedAt": "2026-07-05T18:49:25.133Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -13,6 +13,7 @@
           "resources": [
             {
               "name": "Bazén pro plavce - dráha 1",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -83,6 +84,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 2",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -153,6 +155,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 3",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -223,6 +226,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 4",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -293,6 +297,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 5",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -363,6 +368,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 6",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -433,6 +439,7 @@
             },
             {
               "name": "Rekreační bazén - část",
+              "category": "Rekreační bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -503,6 +510,7 @@
             },
             {
               "name": "Finská sauna - sauna",
+              "category": "Finská sauna",
               "slots": [
                 {
                   "start": "11:00",
@@ -563,6 +571,7 @@
           "resources": [
             {
               "name": "Bazén pro plavce - dráha 1",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -643,6 +652,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 2",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -723,6 +733,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 3",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -803,6 +814,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 4",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -883,6 +895,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 5",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -963,6 +976,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 6",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -1043,6 +1057,7 @@
             },
             {
               "name": "Rekreační bazén - část",
+              "category": "Rekreační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -1123,6 +1138,7 @@
             },
             {
               "name": "Finská sauna - sauna",
+              "category": "Finská sauna",
               "slots": [
                 {
                   "start": "14:00",
@@ -1168,6 +1184,7 @@
           "resources": [
             {
               "name": "Bazén pro plavce - dráha 1",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -1248,6 +1265,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 2",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -1328,6 +1346,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 3",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -1408,6 +1427,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 4",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -1488,6 +1508,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 5",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -1568,6 +1589,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 6",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -1648,6 +1670,7 @@
             },
             {
               "name": "Rekreační bazén - část",
+              "category": "Rekreační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -1728,6 +1751,7 @@
             },
             {
               "name": "Finská sauna - sauna",
+              "category": "Finská sauna",
               "slots": [
                 {
                   "start": "14:00",
@@ -1773,6 +1797,7 @@
           "resources": [
             {
               "name": "Bazén pro plavce - dráha 1",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -1853,6 +1878,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 2",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -1933,6 +1959,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 3",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -2013,6 +2040,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 4",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -2093,6 +2121,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 5",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -2173,6 +2202,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 6",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -2253,6 +2283,7 @@
             },
             {
               "name": "Rekreační bazén - část",
+              "category": "Rekreační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -2333,6 +2364,7 @@
             },
             {
               "name": "Finská sauna - sauna",
+              "category": "Finská sauna",
               "slots": [
                 {
                   "start": "14:00",
@@ -2378,6 +2410,7 @@
           "resources": [
             {
               "name": "Bazén pro plavce - dráha 1",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -2458,6 +2491,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 2",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -2538,6 +2572,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 3",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -2618,6 +2653,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 4",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -2698,6 +2734,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 5",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -2778,6 +2815,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 6",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -2858,6 +2896,7 @@
             },
             {
               "name": "Rekreační bazén - část",
+              "category": "Rekreační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -2938,6 +2977,7 @@
             },
             {
               "name": "Finská sauna - sauna",
+              "category": "Finská sauna",
               "slots": [
                 {
                   "start": "14:00",
@@ -2983,6 +3023,7 @@
           "resources": [
             {
               "name": "Bazén pro plavce - dráha 1",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -3063,6 +3104,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 2",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -3143,6 +3185,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 3",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -3223,6 +3266,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 4",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -3303,6 +3347,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 5",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -3383,6 +3428,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 6",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "6:00",
@@ -3463,6 +3509,7 @@
             },
             {
               "name": "Rekreační bazén - část",
+              "category": "Rekreační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -3543,6 +3590,7 @@
             },
             {
               "name": "Finská sauna - sauna",
+              "category": "Finská sauna",
               "slots": [
                 {
                   "start": "14:00",
@@ -3588,6 +3636,7 @@
           "resources": [
             {
               "name": "Bazén pro plavce - dráha 1",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -3658,6 +3707,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 2",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -3728,6 +3778,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 3",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -3798,6 +3849,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 4",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -3868,6 +3920,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 5",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -3938,6 +3991,7 @@
             },
             {
               "name": "Bazén pro plavce - dráha 6",
+              "category": "Bazén pro plavce",
               "slots": [
                 {
                   "start": "8:00",
@@ -4008,6 +4062,7 @@
             },
             {
               "name": "Rekreační bazén - část",
+              "category": "Rekreační bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -4078,6 +4133,7 @@
             },
             {
               "name": "Finská sauna - sauna",
+              "category": "Finská sauna",
               "slots": [
                 {
                   "start": "11:00",
@@ -4147,6 +4203,7 @@
           "resources": [
             {
               "name": "Bazén - dráha 1",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -4212,6 +4269,7 @@
             },
             {
               "name": "Bazén - dráha 2",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -4277,6 +4335,7 @@
             },
             {
               "name": "Bazén - dráha 3",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -4347,6 +4406,7 @@
           "resources": [
             {
               "name": "Bazén - dráha 1",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4357,6 +4417,7 @@
             },
             {
               "name": "Bazén - dráha 2",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4367,6 +4428,7 @@
             },
             {
               "name": "Bazén - dráha 3",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4382,6 +4444,7 @@
           "resources": [
             {
               "name": "Bazén - dráha 1",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4392,6 +4455,7 @@
             },
             {
               "name": "Bazén - dráha 2",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4402,6 +4466,7 @@
             },
             {
               "name": "Bazén - dráha 3",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4417,6 +4482,7 @@
           "resources": [
             {
               "name": "Bazén - dráha 1",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4427,6 +4493,7 @@
             },
             {
               "name": "Bazén - dráha 2",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4437,6 +4504,7 @@
             },
             {
               "name": "Bazén - dráha 3",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4452,6 +4520,7 @@
           "resources": [
             {
               "name": "Bazén - dráha 1",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4462,6 +4531,7 @@
             },
             {
               "name": "Bazén - dráha 2",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4472,6 +4542,7 @@
             },
             {
               "name": "Bazén - dráha 3",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4487,6 +4558,7 @@
           "resources": [
             {
               "name": "Bazén - dráha 1",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4497,6 +4569,7 @@
             },
             {
               "name": "Bazén - dráha 2",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4507,6 +4580,7 @@
             },
             {
               "name": "Bazén - dráha 3",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -4522,6 +4596,7 @@
           "resources": [
             {
               "name": "Bazén - dráha 1",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -4532,6 +4607,7 @@
             },
             {
               "name": "Bazén - dráha 2",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -4542,6 +4618,7 @@
             },
             {
               "name": "Bazén - dráha 3",
+              "category": "Bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -4566,6 +4643,7 @@
           "resources": [
             {
               "name": "Dráhy v 50m bazénu - délka 1",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -4716,6 +4794,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 2",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -4866,6 +4945,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 3",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -5016,6 +5096,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 4",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -5166,6 +5247,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 5",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -5316,6 +5398,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 6",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -5466,6 +5549,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 7",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -5616,6 +5700,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 8",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -5761,6 +5846,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 9",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -5916,6 +6002,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 10",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -6071,6 +6158,7 @@
             },
             {
               "name": "Relaxační bazén - celý bazén",
+              "category": "Relaxační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -6231,6 +6319,7 @@
             },
             {
               "name": "VIP zóna - celá zóna",
+              "category": "VIP zóna",
               "slots": [
                 {
                   "start": "12:00",
@@ -6331,6 +6420,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 1",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -6456,6 +6546,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 2",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -6581,6 +6672,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 3",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -6706,6 +6798,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 4",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -6831,6 +6924,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 5",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -6956,6 +7050,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 6",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -7081,6 +7176,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 7",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -7206,6 +7302,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 8",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -7331,6 +7428,7 @@
             },
             {
               "name": "16m bazén - celý bazén",
+              "category": "16m bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -7456,6 +7554,7 @@
           "resources": [
             {
               "name": "Dráhy v 50m bazénu - délka 1",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -7606,6 +7705,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 2",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -7756,6 +7856,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 3",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -7906,6 +8007,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 4",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -8056,6 +8158,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 5",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -8206,6 +8309,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 6",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -8356,6 +8460,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 7",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -8506,6 +8611,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 8",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -8641,6 +8747,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 9",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -8796,6 +8903,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 10",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -8951,6 +9059,7 @@
             },
             {
               "name": "Relaxační bazén - celý bazén",
+              "category": "Relaxační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -9111,6 +9220,7 @@
             },
             {
               "name": "VIP zóna - celá zóna",
+              "category": "VIP zóna",
               "slots": [
                 {
                   "start": "14:00",
@@ -9151,6 +9261,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 1",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -9261,6 +9372,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 2",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -9386,6 +9498,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 3",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -9511,6 +9624,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 4",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -9636,6 +9750,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 5",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -9761,6 +9876,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 6",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -9876,6 +9992,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 7",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -9991,6 +10108,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 8",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -10096,6 +10214,7 @@
             },
             {
               "name": "16m bazén - celý bazén",
+              "category": "16m bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -10191,6 +10310,7 @@
           "resources": [
             {
               "name": "Dráhy v 50m bazénu - délka 1",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -10346,6 +10466,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 2",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -10501,6 +10622,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 3",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -10661,6 +10783,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 4",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -10821,6 +10944,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 5",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -10981,6 +11105,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 6",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -11141,6 +11266,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 7",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -11291,6 +11417,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 8",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -11446,6 +11573,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 9",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -11606,6 +11734,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 10",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -11766,6 +11895,7 @@
             },
             {
               "name": "Relaxační bazén - celý bazén",
+              "category": "Relaxační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -11926,6 +12056,7 @@
             },
             {
               "name": "VIP zóna - celá zóna",
+              "category": "VIP zóna",
               "slots": [
                 {
                   "start": "14:00",
@@ -12006,6 +12137,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 1",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -12111,6 +12243,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 2",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -12236,6 +12369,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 3",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -12361,6 +12495,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 4",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -12486,6 +12621,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 5",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -12611,6 +12747,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 6",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -12726,6 +12863,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 7",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -12841,6 +12979,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 8",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -12946,6 +13085,7 @@
             },
             {
               "name": "16m bazén - celý bazén",
+              "category": "16m bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -13041,6 +13181,7 @@
           "resources": [
             {
               "name": "Dráhy v 50m bazénu - délka 1",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -13201,6 +13342,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 2",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -13361,6 +13503,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 3",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -13521,6 +13664,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 4",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -13681,6 +13825,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 5",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -13841,6 +13986,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 6",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -14001,6 +14147,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 7",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -14161,6 +14308,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 8",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -14301,6 +14449,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 9",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -14461,6 +14610,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 10",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -14621,6 +14771,7 @@
             },
             {
               "name": "Relaxační bazén - celý bazén",
+              "category": "Relaxační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -14781,6 +14932,7 @@
             },
             {
               "name": "VIP zóna - celá zóna",
+              "category": "VIP zóna",
               "slots": [
                 {
                   "start": "14:00",
@@ -14821,6 +14973,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 1",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -14936,6 +15089,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 2",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -15061,6 +15215,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 3",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -15186,6 +15341,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 4",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -15311,6 +15467,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 5",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -15436,6 +15593,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 6",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -15551,6 +15709,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 7",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -15666,6 +15825,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 8",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -15771,6 +15931,7 @@
             },
             {
               "name": "16m bazén - celý bazén",
+              "category": "16m bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -15871,6 +16032,7 @@
           "resources": [
             {
               "name": "Dráhy v 50m bazénu - délka 1",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -16031,6 +16193,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 2",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -16191,6 +16354,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 3",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -16351,6 +16515,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 4",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -16511,6 +16676,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 5",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -16671,6 +16837,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 6",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -16831,6 +16998,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 7",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -16991,6 +17159,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 8",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -17151,6 +17320,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 9",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -17311,6 +17481,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 10",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -17471,6 +17642,7 @@
             },
             {
               "name": "Relaxační bazén - celý bazén",
+              "category": "Relaxační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -17631,6 +17803,7 @@
             },
             {
               "name": "VIP zóna - celá zóna",
+              "category": "VIP zóna",
               "slots": [
                 {
                   "start": "14:00",
@@ -17711,6 +17884,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 1",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -17821,6 +17995,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 2",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -17946,6 +18121,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 3",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -18071,6 +18247,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 4",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -18196,6 +18373,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 5",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -18321,6 +18499,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 6",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -18436,6 +18615,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 7",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -18551,6 +18731,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 8",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -18656,6 +18837,7 @@
             },
             {
               "name": "16m bazén - celý bazén",
+              "category": "16m bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -18751,6 +18933,7 @@
           "resources": [
             {
               "name": "Dráhy v 50m bazénu - délka 1",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -18911,6 +19094,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 2",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -19071,6 +19255,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 3",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -19231,6 +19416,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 4",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -19391,6 +19577,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 5",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -19551,6 +19738,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 6",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -19711,6 +19899,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 7",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -19871,6 +20060,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 8",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -19996,6 +20186,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 9",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -20131,6 +20322,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 10",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -20266,6 +20458,7 @@
             },
             {
               "name": "Relaxační bazén - celý bazén",
+              "category": "Relaxační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -20426,6 +20619,7 @@
             },
             {
               "name": "VIP zóna - celá zóna",
+              "category": "VIP zóna",
               "slots": [
                 {
                   "start": "14:00",
@@ -20506,6 +20700,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 1",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -20621,6 +20816,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 2",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -20746,6 +20942,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 3",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -20871,6 +21068,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 4",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -20996,6 +21194,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 5",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -21121,6 +21320,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 6",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -21236,6 +21436,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 7",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -21351,6 +21552,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 8",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -21466,6 +21668,7 @@
             },
             {
               "name": "16m bazén - celý bazén",
+              "category": "16m bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -21576,6 +21779,7 @@
           "resources": [
             {
               "name": "Dráhy v 50m bazénu - délka 1",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -21726,6 +21930,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 2",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -21876,6 +22081,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 3",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -22026,6 +22232,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 4",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -22176,6 +22383,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 5",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -22326,6 +22534,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 6",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -22476,6 +22685,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 7",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -22626,6 +22836,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - délka 8",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -22751,6 +22962,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 9",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -22886,6 +23098,7 @@
             },
             {
               "name": "Dráhy v 50m bazénu - šířka 10",
+              "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
                   "start": "6:00",
@@ -23021,6 +23234,7 @@
             },
             {
               "name": "Relaxační bazén - celý bazén",
+              "category": "Relaxační bazén",
               "slots": [
                 {
                   "start": "6:00",
@@ -23181,6 +23395,7 @@
             },
             {
               "name": "VIP zóna - celá zóna",
+              "category": "VIP zóna",
               "slots": [
                 {
                   "start": "12:00",
@@ -23281,6 +23496,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 1",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -23406,6 +23622,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 2",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -23531,6 +23748,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 3",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -23656,6 +23874,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 4",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -23781,6 +24000,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 5",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -23906,6 +24126,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 6",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -24031,6 +24252,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 7",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -24156,6 +24378,7 @@
             },
             {
               "name": "Dráhy v 25m bazénu - délka 8",
+              "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
                   "start": "7:00",
@@ -24281,6 +24504,7 @@
             },
             {
               "name": "16m bazén - celý bazén",
+              "category": "16m bazén",
               "slots": [
                 {
                   "start": "8:00",
@@ -24415,6 +24639,7 @@
           "resources": [
             {
               "name": "1. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -24492,6 +24717,7 @@
             },
             {
               "name": "2. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -24569,6 +24795,7 @@
             },
             {
               "name": "3. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -24646,6 +24873,7 @@
             },
             {
               "name": "4. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -24723,6 +24951,7 @@
             },
             {
               "name": "5. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -24800,6 +25029,7 @@
             },
             {
               "name": "6. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -24877,6 +25107,7 @@
             },
             {
               "name": "Malý bazének",
+              "category": "Malý bazének",
               "slots": [
                 {
                   "start": "8:00",
@@ -24959,6 +25190,7 @@
           "resources": [
             {
               "name": "1. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -25060,6 +25292,7 @@
             },
             {
               "name": "2. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -25161,6 +25394,7 @@
             },
             {
               "name": "3. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -25262,6 +25496,7 @@
             },
             {
               "name": "4. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -25363,6 +25598,7 @@
             },
             {
               "name": "5. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -25464,6 +25700,7 @@
             },
             {
               "name": "6. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -25565,6 +25802,7 @@
             },
             {
               "name": "Malý bazének",
+              "category": "Malý bazének",
               "slots": [
                 {
                   "start": "6:00",
@@ -25671,6 +25909,7 @@
           "resources": [
             {
               "name": "1. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -25772,6 +26011,7 @@
             },
             {
               "name": "2. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -25873,6 +26113,7 @@
             },
             {
               "name": "3. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -25974,6 +26215,7 @@
             },
             {
               "name": "4. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -26075,6 +26317,7 @@
             },
             {
               "name": "5. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -26176,6 +26419,7 @@
             },
             {
               "name": "6. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -26277,6 +26521,7 @@
             },
             {
               "name": "Malý bazének",
+              "category": "Malý bazének",
               "slots": [
                 {
                   "start": "6:00",
@@ -26383,6 +26628,7 @@
           "resources": [
             {
               "name": "1. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -26484,6 +26730,7 @@
             },
             {
               "name": "2. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -26585,6 +26832,7 @@
             },
             {
               "name": "3. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -26686,6 +26934,7 @@
             },
             {
               "name": "4. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -26787,6 +27036,7 @@
             },
             {
               "name": "5. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -26888,6 +27138,7 @@
             },
             {
               "name": "6. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -26989,6 +27240,7 @@
             },
             {
               "name": "Malý bazének",
+              "category": "Malý bazének",
               "slots": [
                 {
                   "start": "6:00",
@@ -27095,6 +27347,7 @@
           "resources": [
             {
               "name": "1. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -27196,6 +27449,7 @@
             },
             {
               "name": "2. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -27297,6 +27551,7 @@
             },
             {
               "name": "3. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -27398,6 +27653,7 @@
             },
             {
               "name": "4. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -27499,6 +27755,7 @@
             },
             {
               "name": "5. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -27600,6 +27857,7 @@
             },
             {
               "name": "6. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -27701,6 +27959,7 @@
             },
             {
               "name": "Malý bazének",
+              "category": "Malý bazének",
               "slots": [
                 {
                   "start": "6:00",
@@ -27807,6 +28066,7 @@
           "resources": [
             {
               "name": "1. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -27908,6 +28168,7 @@
             },
             {
               "name": "2. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -28009,6 +28270,7 @@
             },
             {
               "name": "3. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -28110,6 +28372,7 @@
             },
             {
               "name": "4. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -28211,6 +28474,7 @@
             },
             {
               "name": "5. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -28312,6 +28576,7 @@
             },
             {
               "name": "6. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "6:00",
@@ -28413,6 +28678,7 @@
             },
             {
               "name": "Malý bazének",
+              "category": "Malý bazének",
               "slots": [
                 {
                   "start": "6:00",
@@ -28519,6 +28785,7 @@
           "resources": [
             {
               "name": "1. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -28596,6 +28863,7 @@
             },
             {
               "name": "2. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -28673,6 +28941,7 @@
             },
             {
               "name": "3. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -28750,6 +29019,7 @@
             },
             {
               "name": "4. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -28827,6 +29097,7 @@
             },
             {
               "name": "5. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -28904,6 +29175,7 @@
             },
             {
               "name": "6. dráha",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "8:00",
@@ -28981,6 +29253,7 @@
             },
             {
               "name": "Malý bazének",
+              "category": "Malý bazének",
               "slots": [
                 {
                   "start": "8:00",
@@ -29072,6 +29345,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -29207,6 +29481,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -29342,6 +29617,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -29477,6 +29753,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -29612,6 +29889,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -29747,6 +30025,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -29882,6 +30161,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -30017,6 +30297,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -30158,6 +30439,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -30285,6 +30567,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -30420,6 +30703,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -30555,6 +30839,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -30690,6 +30975,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -30825,6 +31111,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -30960,6 +31247,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -31083,6 +31371,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -31224,6 +31513,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -31347,6 +31637,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -31474,6 +31765,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -31605,6 +31897,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -31740,6 +32033,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -31875,6 +32169,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -32010,6 +32305,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -32133,6 +32429,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -32274,6 +32571,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -32409,6 +32707,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -32544,6 +32843,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -32679,6 +32979,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -32814,6 +33115,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -32949,6 +33251,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -33084,6 +33387,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -33215,6 +33519,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -33356,6 +33661,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -33483,6 +33789,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -33614,6 +33921,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -33749,6 +34057,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -33884,6 +34193,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -34019,6 +34329,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -34154,6 +34465,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -34277,6 +34589,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -34418,6 +34731,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -34549,6 +34863,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -34680,6 +34995,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -34815,6 +35131,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -34950,6 +35267,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -35085,6 +35403,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -35220,6 +35539,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -35347,6 +35667,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -35488,6 +35809,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -35623,6 +35945,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -35758,6 +36081,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -35893,6 +36217,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -36028,6 +36353,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -36163,6 +36489,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -36298,6 +36625,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -36433,6 +36761,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -36574,6 +36903,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -36709,6 +37039,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -36844,6 +37175,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -36979,6 +37311,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -37114,6 +37447,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -37249,6 +37583,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -37384,6 +37719,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -37519,6 +37855,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -37660,6 +37997,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -37775,6 +38113,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -37898,6 +38237,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -38021,6 +38361,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -38156,6 +38497,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -38291,6 +38633,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -38426,6 +38769,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -38541,6 +38885,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -38682,6 +39027,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -38801,6 +39147,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -38920,6 +39267,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -39047,6 +39395,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -39182,6 +39531,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -39317,6 +39667,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -39452,6 +39803,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -39563,6 +39915,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -39704,6 +40057,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -39831,6 +40185,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -39958,6 +40313,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -40085,6 +40441,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -40220,6 +40577,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -40355,6 +40713,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -40490,6 +40849,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -40609,6 +40969,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -40750,6 +41111,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -40869,6 +41231,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -40988,6 +41351,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -41115,6 +41479,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -41250,6 +41615,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -41385,6 +41751,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -41520,6 +41887,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -41631,6 +41999,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -41772,6 +42141,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -41899,6 +42269,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -42026,6 +42397,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -42157,6 +42529,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -42292,6 +42665,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -42427,6 +42801,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -42562,6 +42937,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -42685,6 +43061,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -42826,6 +43203,7 @@
           "resources": [
             {
               "name": "Dráha 1",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -42961,6 +43339,7 @@
             },
             {
               "name": "Dráha 2",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -43096,6 +43475,7 @@
             },
             {
               "name": "Dráha 3",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -43231,6 +43611,7 @@
             },
             {
               "name": "Dráha 4",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -43366,6 +43747,7 @@
             },
             {
               "name": "Dráha 5",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -43501,6 +43883,7 @@
             },
             {
               "name": "Dráha 6",
+              "category": "Dráhy",
               "slots": [
                 {
                   "start": "06:00",
@@ -43636,6 +44019,7 @@
             },
             {
               "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
               "slots": [
                 {
                   "start": "06:00",
@@ -43771,6 +44155,7 @@
             },
             {
               "name": "Vířivka",
+              "category": "Vířivka",
               "slots": [
                 {
                   "start": "06:00",
@@ -43922,6 +44307,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "08:00",
@@ -43938,6 +44324,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "06:00",
@@ -43954,6 +44341,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "06:00",
@@ -43970,6 +44358,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "06:00",
@@ -43986,6 +44375,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "06:00",
@@ -44002,6 +44392,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "06:00",
@@ -44018,6 +44409,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "08:00",
@@ -44034,6 +44426,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "08:00",
@@ -44050,6 +44443,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "06:00",
@@ -44066,6 +44460,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "06:00",
@@ -44082,6 +44477,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "06:00",
@@ -44098,6 +44494,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "06:00",
@@ -44114,6 +44511,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "06:00",
@@ -44130,6 +44528,7 @@
           "resources": [
             {
               "name": "Bazén 25m",
+              "category": "Bazén 25m",
               "slots": [
                 {
                   "start": "08:00",
