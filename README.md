@@ -8,7 +8,7 @@ Venues covered: Aquapark Kohoutovice, Bazén Ponávka, Bazény Lužánky (all ST
 
 - `scraper/` – a Node + Playwright script (`npm run scrape`) that visits each venue's site, parses its reservation grid, and writes a normalized snapshot to `docs/data/latest.json`.
 - `docs/` – a static site (vanilla HTML/CSS/JS, no build step) that reads `data/latest.json` and renders a per-venue timeline for the selected day. This folder is served directly by GitHub Pages.
-- `.github/workflows/scrape.yml` – runs the scraper four times a day on GitHub Actions and commits the refreshed `latest.json`, which redeploys the Pages site automatically.
+- `.github/workflows/scrape.yml` – runs the scraper every hour on GitHub Actions and commits the refreshed `latest.json`, which redeploys the Pages site automatically.
 
 ## Known limitations (site-imposed, not scraper bugs)
 
