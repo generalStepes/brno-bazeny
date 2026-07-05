@@ -32,6 +32,8 @@ const I18N = {
     'disclaimer': 'Data jsou stahována automaticky z veřejných stránek jednotlivých bazénů a nemusí být 100% přesná – pro rezervaci vždy použijte odkaz na daný bazén.',
     'updatedAt': (d) => `Naposledy aktualizováno: ${d}`,
     'noResults': 'Pro tento čas nemáme u žádného bazénu data.',
+    'occupancy.now': 'aktuální obsazenost',
+    'occupancy.people': (current, max) => `${current} z ${max} osob`,
   },
   en: {
     'site.title': '🏊 Brno Pools – availability',
@@ -62,6 +64,8 @@ const I18N = {
     'disclaimer': 'Data is scraped automatically from each pool’s public website and may not be 100% accurate — always use the link to the venue itself before relying on it.',
     'updatedAt': (d) => `Last updated: ${d}`,
     'noResults': 'No data available for any pool at this time.',
+    'occupancy.now': 'current headcount',
+    'occupancy.people': (current, max) => `${current} of ${max} people`,
   },
 };
 
@@ -94,8 +98,15 @@ const DOW = {
 
 let DATA = null;
 let queryDate = null; // ISO
-let queryTime = '17:00';
+let queryTime = null;
 let timelineDate = null; // ISO, for the detailed section
+
+function nearestHalfHour(date) {
+  const minutes = date.getHours() * 60 + date.getMinutes();
+  const rounded = Math.round(minutes / 30) * 30;
+  const clamped = Math.min(Math.max(rounded, TIMELINE_START_MIN), TIMELINE_END_MIN - 30);
+  return `${String(Math.floor(clamped / 60)).padStart(2, '0')}:${String(clamped % 60).padStart(2, '0')}`;
+}
 
 // Deliberately local-time based throughout (not UTC/toISOString) since this
 // site is about "today" for someone standing in Brno right now, and mixing
@@ -218,6 +229,20 @@ function renderCategoryBreakdown(categories) {
   return p;
 }
 
+// Occupancy is a live headcount snapshot from whenever the scraper last ran -
+// it isn't tied to a schedule/time, so it's only shown when looking at today,
+// as supplementary context alongside the (separate) lane-availability score.
+function renderOccupancyNote(venue, forDate) {
+  if (forDate !== todayISO() || !venue.occupancy || !venue.occupancy.length) return null;
+  const p = document.createElement('p');
+  p.className = 'occupancy-note';
+  const parts = venue.occupancy.map((o) =>
+    venue.occupancy.length > 1 ? `${o.label}: ${t('occupancy.people', o.current, o.max)}` : t('occupancy.people', o.current, o.max)
+  );
+  p.textContent = `${t('occupancy.now')}: ${parts.join(' · ')}`;
+  return p;
+}
+
 function renderResultLine(entry) {
   const { venue, counts, categories, tier } = entry;
   const li = document.createElement('li');
@@ -231,6 +256,8 @@ function renderResultLine(entry) {
   info.appendChild(name);
   const breakdown = counts ? renderCategoryBreakdown(categories) : null;
   if (breakdown) info.appendChild(breakdown);
+  const occNote = renderOccupancyNote(venue, queryDate);
+  if (occNote) info.appendChild(occNote);
   li.appendChild(info);
 
   const badge = document.createElement('span');
@@ -268,6 +295,9 @@ function renderRecommendationCard(entry, index) {
 
   const breakdown = renderCategoryBreakdown(entry.categories);
   if (breakdown) card.appendChild(breakdown);
+
+  const occNote = renderOccupancyNote(entry.venue, queryDate);
+  if (occNote) card.appendChild(occNote);
 
   const link = document.createElement('a');
   link.href = entry.venue.url;
@@ -319,6 +349,8 @@ function populateQueryControls() {
     queryDate = daySelect.value;
     renderQueryResults();
   };
+
+  if (!queryTime) queryTime = nearestHalfHour(new Date());
 
   timeSelect.innerHTML = '';
   for (let m = TIMELINE_START_MIN; m < TIMELINE_END_MIN; m += 30) {
@@ -416,6 +448,9 @@ function renderVenue(venue, selectedDate) {
   head.appendChild(link);
 
   card.appendChild(head);
+
+  const occNote = renderOccupancyNote(venue, selectedDate);
+  if (occNote) card.appendChild(occNote);
 
   if (venue.ok === false) {
     const err = document.createElement('p');

@@ -197,6 +197,14 @@ body {
   font-weight: 400;
 }
 
+.occupancy-note {
+  margin: 0.15rem 0 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 400;
+  font-style: italic;
+}
+
 .result-row a {
   font-size: 0.78rem;
   color: var(--link);

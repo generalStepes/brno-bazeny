@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T19:29:58.180Z",
+  "generatedAt": "2026-07-05T19:44:24.056Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4189,6 +4189,13 @@
             }
           ]
         }
+      ],
+      "occupancy": [
+        {
+          "label": "BAZÉNY A POSILOVNA",
+          "current": 8,
+          "max": 220
+        }
       ]
     },
     {
@@ -4629,7 +4636,8 @@
             }
           ]
         }
-      ]
+      ],
+      "occupancy": []
     },
     {
       "venue": "luzanky",
@@ -24098,6 +24106,18 @@
             }
           ]
         }
+      ],
+      "occupancy": [
+        {
+          "label": "BAZÉNY",
+          "current": 6,
+          "max": 634
+        },
+        {
+          "label": "WELLNESS",
+          "current": 0,
+          "max": 68
+        }
       ]
     },
     {
@@ -28804,7 +28824,8 @@
             }
           ]
         }
-      ]
+      ],
+      "occupancy": []
     },
     {
       "venue": "kravihora",
@@ -43750,6 +43771,13 @@
               ]
             }
           ]
+        }
+      ],
+      "occupancy": [
+        {
+          "label": "Bazén",
+          "current": 0,
+          "max": 135
         }
       ]
     },
@@ -59942,7 +59970,8 @@
           ],
           "note": "Počet volných drah je získán automatickým rozpoznáním textu z měsíčního rozpisu (obrázku) na webu TJ Tesla. Konkrétní čísla drah (Dráha 1, 2, ...) jsou orientační - důležitý je jen celkový počet volných drah."
         }
-      ]
+      ],
+      "occupancy": []
     }
   ]
 }

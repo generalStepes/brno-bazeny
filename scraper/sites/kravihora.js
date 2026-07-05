@@ -56,7 +56,24 @@ function parseDayTable($, table) {
   return resources.length ? { date, resources } : null;
 }
 
+// The main page buries live occupancy inside a free-text address block
+// alongside water/air temperatures, e.g. "...obsazenost: 0 / 135...".
+async function scrapeOccupancy(browser) {
+  const page = await browser.newPage();
+  try {
+    await page.goto(MAIN_URL, { waitUntil: 'domcontentloaded', timeout: 45000 });
+    const text = await page.evaluate(() => document.body.innerText);
+    const m = text.match(/obsazenost:?\s*(\d+)\s*\/\s*(\d+)/i);
+    return m ? [{ label: 'Bazén', current: parseInt(m[1], 10), max: parseInt(m[2], 10) }] : [];
+  } catch {
+    return [];
+  } finally {
+    await page.close();
+  }
+}
+
 export async function scrapeKravihora(browser) {
+  const occupancy = await scrapeOccupancy(browser);
   const page = await browser.newPage();
   const days = [];
   try {
@@ -78,9 +95,9 @@ export async function scrapeKravihora(browser) {
 
     days.sort((a, b) => a.date.localeCompare(b.date));
 
-    return { venue: 'kravihora', name: 'Krytá plavecká hala Kraví hora', url: MAIN_URL, ok: true, error: null, days };
+    return { venue: 'kravihora', name: 'Krytá plavecká hala Kraví hora', url: MAIN_URL, ok: true, error: null, days, occupancy };
   } catch (err) {
-    return { venue: 'kravihora', name: 'Krytá plavecká hala Kraví hora', url: MAIN_URL, ok: days.length > 0, error: err.message, days };
+    return { venue: 'kravihora', name: 'Krytá plavecká hala Kraví hora', url: MAIN_URL, ok: days.length > 0, error: err.message, days, occupancy };
   } finally {
     await page.close();
   }
