@@ -137,11 +137,21 @@ function fmtDateLabel(iso) {
 
 // Whirlpools, saunas, VIP zones and relaxation pools aren't lap-swimming
 // lanes - they shouldn't count toward (or dilute) a venue's "free to swim"
-// score, even though the scraper reports them as resources too.
-const AUXILIARY_CATEGORY_PATTERN = /vířiv|saun|\bvip\b|relaxa|šířka/i;
+// score, even though the scraper reports them as resources too. These are
+// *always* excluded, regardless of status.
+const AUXILIARY_ALWAYS_PATTERN = /vířiv|saun|\bvip\b|relaxa/i;
 function isAuxiliaryCategory(category) {
-  return AUXILIARY_CATEGORY_PATTERN.test(category || '');
+  return AUXILIARY_ALWAYS_PATTERN.test(category || '') || SIRKA_CATEGORY_PATTERN.test(category || '');
 }
+
+// "šířka" (width) lanes are a special case: on a normal day they sit idle
+// (status 'closed') and shouldn't count as extra capacity. But on days when
+// something else blocks normal length-swimming (water polo, diving
+// practice), the venue switches *some* lanes - either délka- or
+// šířka-numbered ones - into an active width-swim mode, which is a real,
+// usable (or already-booked) slot and should count normally. So šířka is
+// only treated as auxiliary while idle.
+const SIRKA_CATEGORY_PATTERN = /šířka/i;
 
 function emptyCounts() {
   return { available: 0, reserved: 0, closed: 0, unknown: 0, total: 0 };
@@ -177,12 +187,23 @@ function sumCounts(countsList) {
 }
 
 // Primary counts = only real swim-lane categories (excludes whirlpool/sauna/
-// VIP/relaxation), used for ranking and headline numbers.
+// VIP/relaxation, and idle šířka lanes), used for ranking and headline
+// numbers. Computed per-slot (not from the category aggregate) because
+// whether a šířka lane counts depends on that specific slot's own status.
 function primaryCountsAt(day, timeStr) {
-  const byCategory = categoryCountsAt(day, timeStr);
-  const primary = [...byCategory.entries()].filter(([cat]) => !isAuxiliaryCategory(cat)).map(([, c]) => c);
-  const total = sumCounts(primary);
-  return total.total ? total : null;
+  if (!day) return null;
+  const t0 = parseTimeToMinutes(timeStr);
+  const counts = emptyCounts();
+  for (const resource of day.resources) {
+    const category = resource.category || day.name || 'Bazén';
+    const slot = resource.slots.find((s) => t0 >= parseTimeToMinutes(s.start) && t0 < parseTimeToMinutes(s.end));
+    if (!slot) continue;
+    const isIdleSirka = SIRKA_CATEGORY_PATTERN.test(category) && slot.status === 'closed';
+    const isAlwaysAuxiliary = AUXILIARY_ALWAYS_PATTERN.test(category);
+    if (isAlwaysAuxiliary || isIdleSirka) continue;
+    addSlotToCounts(counts, slot.status);
+  }
+  return counts.total ? counts : null;
 }
 
 function tierFor(counts) {
