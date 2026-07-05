@@ -127,7 +127,7 @@ function fmtDateLabel(iso) {
 // Whirlpools, saunas, VIP zones and relaxation pools aren't lap-swimming
 // lanes - they shouldn't count toward (or dilute) a venue's "free to swim"
 // score, even though the scraper reports them as resources too.
-const AUXILIARY_CATEGORY_PATTERN = /vířiv|saun|\bvip\b|relaxa/i;
+const AUXILIARY_CATEGORY_PATTERN = /vířiv|saun|\bvip\b|relaxa|šířka/i;
 function isAuxiliaryCategory(category) {
   return AUXILIARY_CATEGORY_PATTERN.test(category || '');
 }

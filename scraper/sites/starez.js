@@ -64,7 +64,16 @@ export async function scrapeStarezVenue(browser, { venue, name, url }) {
               const [start, end] = timeText.split('-').map((t) => t.trim());
               if (start && end) slots.push({ start, end, status });
             });
-          const category = currentResourceName || 'Bazén';
+          const baseCategory = currentResourceName || 'Bazén';
+          // "šířka" (width) lanes aren't extra capacity - they're a
+          // substitute mode used only when length-lanes (délka) are blocked
+          // (e.g. water polo), letting swimmers cross the pool's width
+          // instead. They normally sit idle/closed, so counting them
+          // alongside délka lanes as if they were additional lanes wrongly
+          // drags down the "free" percentage. Tag them as their own
+          // category so they're excluded from primary scoring like other
+          // auxiliary categories, while still visible in the detail view.
+          const category = /šířka/i.test(laneName) ? `${baseCategory} (šířka)` : baseCategory;
           // VIP zóna (Lužánky) isn't part of general swim availability at
           // all - it's a separately-booked private area, dropped entirely
           // rather than just excluded from scoring like the other auxiliary
