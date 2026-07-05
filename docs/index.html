@@ -8,23 +8,46 @@
 </head>
 <body>
   <header class="page-header">
-    <h1>🏊 Bazény v Brně – dostupnost</h1>
-    <p class="subtitle">Souhrn otevřených drah napříč brněnskými bazény. Data se aktualizují automaticky několikrát denně.</p>
+    <div class="header-top">
+      <h1 id="site-title">🏊 Bazény v Brně – dostupnost</h1>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="lang-btn active" data-lang="cs">CS</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+    <p class="subtitle" id="site-subtitle">Souhrn otevřených drah napříč brněnskými bazény. Data se aktualizují automaticky několikrát denně.</p>
     <p class="updated-at" id="updated-at">Načítám data…</p>
   </header>
 
+  <section class="query-card" aria-label="Vyhledání volného bazénu">
+    <h2 id="query-title">Chci jít plavat</h2>
+    <div class="query-controls">
+      <label class="query-field">
+        <span id="label-day">Kdy</span>
+        <select id="query-day"></select>
+      </label>
+      <label class="query-field">
+        <span id="label-time">V kolik</span>
+        <select id="query-time"></select>
+      </label>
+    </div>
+    <div id="recommendations" class="recommendations"></div>
+    <ol id="results-list" class="results-list"></ol>
+  </section>
+
+  <h2 class="section-title" id="detail-title">Podrobný přehled</h2>
   <nav class="date-tabs" id="date-tabs" aria-label="Výběr dne"></nav>
 
   <main id="venues" class="venues"></main>
 
   <footer class="page-footer">
-    <p>Data jsou stahována automaticky z veřejných stránek jednotlivých bazénů a nemusí být 100% přesná – pro rezervaci vždy použijte odkaz na daný bazén.</p>
+    <p id="disclaimer">Data jsou stahována automaticky z veřejných stránek jednotlivých bazénů a nemusí být 100% přesná – pro rezervaci vždy použijte odkaz na daný bazén.</p>
     <p class="legend">
-      <span class="legend-item"><span class="swatch available"></span> volno</span>
-      <span class="legend-item"><span class="swatch reservable"></span> lze rezervovat</span>
-      <span class="legend-item"><span class="swatch reserved"></span> obsazeno</span>
-      <span class="legend-item"><span class="swatch closed"></span> zavřeno</span>
-      <span class="legend-item"><span class="swatch unknown"></span> neznámé</span>
+      <span class="legend-item"><span class="swatch available"></span> <span data-i18n="legend.available">volno</span></span>
+      <span class="legend-item"><span class="swatch reservable"></span> <span data-i18n="legend.reservable">lze rezervovat</span></span>
+      <span class="legend-item"><span class="swatch reserved"></span> <span data-i18n="legend.reserved">obsazeno</span></span>
+      <span class="legend-item"><span class="swatch closed"></span> <span data-i18n="legend.closed">zavřeno</span></span>
+      <span class="legend-item"><span class="swatch unknown"></span> <span data-i18n="legend.unknown">neznámé</span></span>
     </p>
   </footer>
 

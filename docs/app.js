@@ -2,27 +2,293 @@ const TIMELINE_START_MIN = 6 * 60; // 06:00
 const TIMELINE_END_MIN = 22 * 60; // 22:00
 const TIMELINE_COLS = (TIMELINE_END_MIN - TIMELINE_START_MIN) / 30; // 32
 
-const DOW = ['Ne', 'Po', 'Út', 'St', 'Čt', 'Pá', 'So'];
+const I18N = {
+  cs: {
+    'site.title': '🏊 Bazény v Brně – dostupnost',
+    'site.subtitle': 'Souhrn otevřených drah napříč brněnskými bazény. Data se aktualizují automaticky několikrát denně.',
+    'query.title': 'Chci jít plavat',
+    'query.day': 'Kdy',
+    'query.time': 'V kolik',
+    'day.today': 'Dnes',
+    'day.tomorrow': 'Zítra',
+    'detail.title': 'Podrobný přehled',
+    'venue.openPage': 'Otevřít stránku bazénu →',
+    'venue.noDataForDate': 'Pro vybraný den nejsou k dispozici žádná data z tohoto bazénu.',
+    'venue.loadError': 'Nepodařilo se načíst data',
+    'venue.nowFree': 'teď volno',
+    'recommend.badge': 'Doporučujeme',
+    'tier.available': 'Volno',
+    'tier.reservable': 'Lze rezervovat',
+    'tier.unavailable': 'Obsazeno / zavřeno',
+    'tier.noData': 'Bez dat',
+    'result.lanesFree': (free, total) => `${free} z ${total} volných`,
+    'result.reservableCount': (n, total) => `${n} z ${total} lze rezervovat`,
+    'legend.available': 'volno',
+    'legend.reservable': 'lze rezervovat',
+    'legend.reserved': 'obsazeno',
+    'legend.closed': 'zavřeno',
+    'legend.unknown': 'neznámé',
+    'status.available': 'volno',
+    'status.reservable': 'lze rezervovat',
+    'status.reserved': 'obsazeno',
+    'status.closed': 'zavřeno',
+    'status.unknown': 'neznámé',
+    'disclaimer': 'Data jsou stahována automaticky z veřejných stránek jednotlivých bazénů a nemusí být 100% přesná – pro rezervaci vždy použijte odkaz na daný bazén.',
+    'updatedAt': (d) => `Naposledy aktualizováno: ${d}`,
+    'noResults': 'Pro tento čas nemáme u žádného bazénu data.',
+  },
+  en: {
+    'site.title': '🏊 Brno Pools – availability',
+    'site.subtitle': 'A combined view of open swim lanes across Brno pools. Data refreshes automatically several times a day.',
+    'query.title': "I'd like to go swimming",
+    'query.day': 'When',
+    'query.time': 'At what time',
+    'day.today': 'Today',
+    'day.tomorrow': 'Tomorrow',
+    'detail.title': 'Detailed overview',
+    'venue.openPage': 'Open pool website →',
+    'venue.noDataForDate': 'No data available for this pool on the selected date.',
+    'venue.loadError': 'Failed to load data',
+    'venue.nowFree': 'free now',
+    'recommend.badge': 'Recommended',
+    'tier.available': 'Open',
+    'tier.reservable': 'Bookable',
+    'tier.unavailable': 'Full / closed',
+    'tier.noData': 'No data',
+    'result.lanesFree': (free, total) => `${free} of ${total} free`,
+    'result.reservableCount': (n, total) => `${n} of ${total} bookable`,
+    'legend.available': 'open',
+    'legend.reservable': 'bookable',
+    'legend.reserved': 'occupied',
+    'legend.closed': 'closed',
+    'legend.unknown': 'unknown',
+    'status.available': 'open',
+    'status.reservable': 'bookable',
+    'status.reserved': 'occupied',
+    'status.closed': 'closed',
+    'status.unknown': 'unknown',
+    'disclaimer': 'Data is scraped automatically from each pool’s public website and may not be 100% accurate — always use the link to the venue itself before relying on it.',
+    'updatedAt': (d) => `Last updated: ${d}`,
+    'noResults': 'No data available for any pool at this time.',
+  },
+};
 
-function parseTimeToMinutes(t) {
-  const [h, m] = t.split(':').map(Number);
+// Translate a handful of recurring Czech labels that come straight from the
+// source venues (e.g. druzstevni's per-slot text), regardless of UI language.
+const SOURCE_LABEL_TRANSLATIONS = {
+  en: {
+    'otevřeno pro veřejnost': 'open to public',
+    zavřeno: 'closed',
+    rezervováno: 'reserved',
+    'není k dispozici': 'not available',
+  },
+};
+
+let lang = 'cs';
+function t(key, ...args) {
+  const entry = I18N[lang][key] ?? I18N.cs[key];
+  return typeof entry === 'function' ? entry(...args) : entry;
+}
+function translateSourceLabel(label) {
+  if (!label || lang === 'cs') return label;
+  const map = SOURCE_LABEL_TRANSLATIONS[lang] || {};
+  return map[label.trim().toLowerCase()] || label;
+}
+
+const DOW = {
+  cs: ['Ne', 'Po', 'Út', 'St', 'Čt', 'Pá', 'So'],
+  en: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+};
+
+let DATA = null;
+let queryDate = null; // ISO
+let queryTime = '17:00';
+let timelineDate = null; // ISO, for the detailed section
+
+// Deliberately local-time based throughout (not UTC/toISOString) since this
+// site is about "today" for someone standing in Brno right now, and mixing
+// local parsing with UTC formatting previously caused tomorrow's date to
+// collide with today's under Brno's UTC+2 offset.
+function isoFromDateParts(d) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+function todayISO() {
+  return isoFromDateParts(new Date());
+}
+function addDaysISO(baseISO, days) {
+  const [y, m, d] = baseISO.split('-').map(Number);
+  const date = new Date(y, m - 1, d);
+  date.setDate(date.getDate() + days);
+  return isoFromDateParts(date);
+}
+function parseTimeToMinutes(tstr) {
+  const [h, m] = tstr.split(':').map(Number);
   return h * 60 + m;
 }
-
 function fmtDateLabel(iso) {
   const d = new Date(iso + 'T00:00:00');
-  return { dow: DOW[d.getDay()], md: `${d.getDate()}.${d.getMonth() + 1}.` };
+  return { dow: DOW[lang][d.getDay()], md: `${d.getDate()}.${d.getMonth() + 1}.` };
 }
 
-function nowInPrague() {
-  // Render "now" using the viewer's local clock; venues are all in Brno (CET/CEST)
-  // so this is accurate for anyone actually checking from the area.
-  return new Date();
+// ---------- Recommendation / query logic ----------
+
+function statusCountsAt(day, timeStr) {
+  if (!day) return null;
+  const t0 = parseTimeToMinutes(timeStr);
+  const counts = { available: 0, reservable: 0, reserved: 0, closed: 0, unknown: 0 };
+  let total = 0;
+  for (const resource of day.resources) {
+    const slot = resource.slots.find((s) => {
+      const s0 = parseTimeToMinutes(s.start);
+      const s1 = parseTimeToMinutes(s.end);
+      return t0 >= s0 && t0 < s1;
+    });
+    if (slot) {
+      counts[slot.status] = (counts[slot.status] || 0) + 1;
+      total++;
+    }
+  }
+  return total ? { ...counts, total } : null;
 }
 
-function statusLabel(status) {
-  return { available: 'volno', reservable: 'lze rezervovat', reserved: 'obsazeno', closed: 'zavřeno', unknown: 'neznámé' }[status] || status;
+function tierFor(counts) {
+  if (!counts) return 'noData';
+  if (counts.available > 0) return 'available';
+  if (counts.reservable > 0) return 'reservable';
+  return 'unavailable';
 }
+
+const TIER_RANK = { available: 0, reservable: 1, unavailable: 2, noData: 3 };
+
+function buildRanking(date, time) {
+  return DATA.venues
+    .map((venue) => {
+      const day = venue.days.find((d) => d.date === date);
+      const counts = statusCountsAt(day, time);
+      const tier = tierFor(counts);
+      const score = tier === 'available' ? counts.available : tier === 'reservable' ? counts.reservable : 0;
+      return { venue, day, counts, tier, score };
+    })
+    .sort((a, b) => TIER_RANK[a.tier] - TIER_RANK[b.tier] || b.score - a.score);
+}
+
+function tierBadgeClass(tier) {
+  return { available: 'free', reservable: 'limited', unavailable: 'none', noData: 'na' }[tier];
+}
+
+function renderResultLine(entry) {
+  const { venue, counts, tier } = entry;
+  const li = document.createElement('li');
+  li.className = 'result-row';
+
+  const name = document.createElement('span');
+  name.className = 'result-name';
+  name.textContent = venue.name;
+  li.appendChild(name);
+
+  const badge = document.createElement('span');
+  badge.className = `venue-badge ${tierBadgeClass(tier)}`;
+  if (tier === 'available') badge.textContent = t('result.lanesFree', counts.available, counts.total);
+  else if (tier === 'reservable') badge.textContent = t('result.reservableCount', counts.reservable, counts.total);
+  else badge.textContent = t(`tier.${tier}`);
+  li.appendChild(badge);
+
+  const link = document.createElement('a');
+  link.href = venue.url;
+  link.target = '_blank';
+  link.rel = 'noopener';
+  link.textContent = t('venue.openPage');
+  li.appendChild(link);
+
+  return li;
+}
+
+function renderRecommendationCard(entry, index) {
+  const card = document.createElement('div');
+  card.className = 'recommend-card';
+
+  const badge = document.createElement('div');
+  badge.className = 'recommend-flag';
+  badge.textContent = `${t('recommend.badge')} #${index + 1}`;
+  card.appendChild(badge);
+
+  const name = document.createElement('h3');
+  name.textContent = entry.venue.name;
+  card.appendChild(name);
+
+  const detail = document.createElement('p');
+  detail.className = 'recommend-detail';
+  if (entry.tier === 'available') detail.textContent = t('result.lanesFree', entry.counts.available, entry.counts.total);
+  else if (entry.tier === 'reservable') detail.textContent = t('result.reservableCount', entry.counts.reservable, entry.counts.total);
+  card.appendChild(detail);
+
+  const link = document.createElement('a');
+  link.href = entry.venue.url;
+  link.target = '_blank';
+  link.rel = 'noopener';
+  link.className = 'recommend-link';
+  link.textContent = t('venue.openPage');
+  card.appendChild(link);
+
+  return card;
+}
+
+function renderQueryResults() {
+  const ranking = buildRanking(queryDate, queryTime);
+  const recoContainer = document.getElementById('recommendations');
+  const listContainer = document.getElementById('results-list');
+  recoContainer.innerHTML = '';
+  listContainer.innerHTML = '';
+
+  const usable = ranking.filter((e) => e.tier === 'available' || e.tier === 'reservable');
+  if (!usable.length) {
+    const p = document.createElement('p');
+    p.className = 'no-data';
+    p.textContent = t('noResults');
+    recoContainer.appendChild(p);
+  } else {
+    usable.slice(0, 2).forEach((entry, i) => recoContainer.appendChild(renderRecommendationCard(entry, i)));
+  }
+
+  for (const entry of ranking) listContainer.appendChild(renderResultLine(entry));
+}
+
+function populateQueryControls() {
+  const daySelect = document.getElementById('query-day');
+  const timeSelect = document.getElementById('query-time');
+
+  daySelect.innerHTML = '';
+  const today = todayISO();
+  const tomorrow = addDaysISO(today, 1);
+  if (!queryDate) queryDate = today;
+  for (const [value, labelKey] of [[today, 'day.today'], [tomorrow, 'day.tomorrow']]) {
+    const opt = document.createElement('option');
+    opt.value = value;
+    opt.textContent = t(labelKey);
+    if (value === queryDate) opt.selected = true;
+    daySelect.appendChild(opt);
+  }
+  daySelect.onchange = () => {
+    queryDate = daySelect.value;
+    renderQueryResults();
+  };
+
+  timeSelect.innerHTML = '';
+  for (let m = TIMELINE_START_MIN; m < TIMELINE_END_MIN; m += 30) {
+    const val = `${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
+    const opt = document.createElement('option');
+    opt.value = val;
+    opt.textContent = val;
+    if (val === queryTime) opt.selected = true;
+    timeSelect.appendChild(opt);
+  }
+  timeSelect.onchange = () => {
+    queryTime = timeSelect.value;
+    renderQueryResults();
+  };
+}
+
+// ---------- Detailed timeline section (existing behaviour) ----------
 
 function renderTimeline(resources) {
   const wrap = document.createElement('div');
@@ -30,8 +296,7 @@ function renderTimeline(resources) {
 
   const hoursRow = document.createElement('div');
   hoursRow.className = 'timeline-hours';
-  const spacer = document.createElement('div');
-  hoursRow.appendChild(spacer);
+  hoursRow.appendChild(document.createElement('div'));
   for (let m = TIMELINE_START_MIN; m < TIMELINE_END_MIN; m += 60) {
     const label = document.createElement('div');
     label.className = 'hour-label';
@@ -49,63 +314,31 @@ function renderTimeline(resources) {
     name.title = resource.name;
     row.appendChild(name);
 
-    // build a 32-slot grid, default 'unknown' (not covered by any scraped slot)
     const cellStatus = new Array(TIMELINE_COLS).fill(null);
     for (const slot of resource.slots) {
-      let start = parseTimeToMinutes(slot.start);
-      let end = parseTimeToMinutes(slot.end);
-      start = Math.max(start, TIMELINE_START_MIN);
-      end = Math.min(end, TIMELINE_END_MIN);
+      let start = Math.max(parseTimeToMinutes(slot.start), TIMELINE_START_MIN);
+      let end = Math.min(parseTimeToMinutes(slot.end), TIMELINE_END_MIN);
       const colStart = Math.round((start - TIMELINE_START_MIN) / 30);
       const colEnd = Math.round((end - TIMELINE_START_MIN) / 30);
       for (let c = colStart; c < colEnd && c < TIMELINE_COLS; c++) {
-        if (c >= 0) cellStatus[c] = { status: slot.status, label: slot.label, start: slot.start, end: slot.end };
+        if (c >= 0) cellStatus[c] = slot;
       }
     }
 
     for (let c = 0; c < TIMELINE_COLS; c++) {
       const cell = document.createElement('div');
       const info = cellStatus[c];
-      // Venues simply don't render a column for hours they're not operating -
-      // absence of scraped data outside a venue's published range means
-      // "closed", not "unknown".
       const status = info ? info.status : 'closed';
       cell.className = `slot ${status}`;
-      const t = TIMELINE_START_MIN + c * 30;
-      const timeStr = `${String(Math.floor(t / 60)).padStart(2, '0')}:${String(t % 60).padStart(2, '0')}`;
-      cell.title = info ? `${timeStr} – ${statusLabel(info.status)}${info.label ? ' (' + info.label + ')' : ''}` : `${timeStr} – zavřeno`;
+      const tmin = TIMELINE_START_MIN + c * 30;
+      const timeStr = `${String(Math.floor(tmin / 60)).padStart(2, '0')}:${String(tmin % 60).padStart(2, '0')}`;
+      const label = info ? translateSourceLabel(info.label) : null;
+      cell.title = info ? `${timeStr} – ${t('status.' + info.status)}${label ? ' (' + label + ')' : ''}` : `${timeStr} – ${t('status.closed')}`;
       row.appendChild(cell);
     }
     wrap.appendChild(row);
   }
   return wrap;
-}
-
-function computeNowBadge(dayData, selectedDate) {
-  const today = new Date().toISOString().slice(0, 10);
-  if (selectedDate !== today || !dayData) return null;
-  const nowMin = nowInPrague().getHours() * 60 + nowInPrague().getMinutes();
-  let free = 0;
-  let total = 0;
-  for (const resource of dayData.resources) {
-    for (const slot of resource.slots) {
-      const s = parseTimeToMinutes(slot.start);
-      const e = parseTimeToMinutes(slot.end);
-      if (nowMin >= s && nowMin < e) {
-        total++;
-        if (slot.status === 'available' || slot.status === 'reservable') free++;
-      }
-    }
-  }
-  if (total === 0) return null;
-  return { free, total };
-}
-
-function badgeClass(free, total) {
-  if (total === 0) return 'na';
-  if (free === 0) return 'none';
-  if (free === total) return 'free';
-  return 'limited';
 }
 
 function renderVenue(venue, selectedDate) {
@@ -119,11 +352,12 @@ function renderVenue(venue, selectedDate) {
   head.appendChild(h2);
 
   const dayData = venue.days.find((d) => d.date === selectedDate);
-  const nowBadge = computeNowBadge(dayData, selectedDate);
-  if (nowBadge) {
+  const counts = statusCountsAt(dayData, new Date().toTimeString().slice(0, 5));
+  if (counts && selectedDate === todayISO()) {
     const badge = document.createElement('span');
-    badge.className = `venue-badge ${badgeClass(nowBadge.free, nowBadge.total)}`;
-    badge.textContent = `teď volno: ${nowBadge.free}/${nowBadge.total}`;
+    const tier = tierFor(counts);
+    badge.className = `venue-badge ${tierBadgeClass(tier)}`;
+    badge.textContent = `${t('venue.nowFree')}: ${counts.available}/${counts.total}`;
     head.appendChild(badge);
   }
 
@@ -131,7 +365,7 @@ function renderVenue(venue, selectedDate) {
   link.href = venue.url;
   link.target = '_blank';
   link.rel = 'noopener';
-  link.textContent = 'Otevřít stránku bazénu →';
+  link.textContent = t('venue.openPage');
   head.appendChild(link);
 
   card.appendChild(head);
@@ -139,14 +373,14 @@ function renderVenue(venue, selectedDate) {
   if (venue.ok === false) {
     const err = document.createElement('p');
     err.className = 'venue-note';
-    err.textContent = `Nepodařilo se načíst data (${venue.error || 'neznámá chyba'}).`;
+    err.textContent = `${t('venue.loadError')} (${venue.error || '?'}).`;
     card.appendChild(err);
   }
 
   if (!dayData) {
     const note = document.createElement('p');
     note.className = 'no-data';
-    note.textContent = 'Pro vybraný den nejsou k dispozici žádná data z tohoto bazénu.';
+    note.textContent = t('venue.noDataForDate');
     card.appendChild(note);
   } else {
     if (dayData.note) {
@@ -161,48 +395,73 @@ function renderVenue(venue, selectedDate) {
   return card;
 }
 
-function renderDateTabs(dates, selectedDate, onSelect) {
+function renderDateTabs(dates) {
   const nav = document.getElementById('date-tabs');
   nav.innerHTML = '';
   for (const date of dates) {
     const { dow, md } = fmtDateLabel(date);
     const btn = document.createElement('button');
-    btn.className = 'date-tab' + (date === selectedDate ? ' active' : '');
+    btn.className = 'date-tab' + (date === timelineDate ? ' active' : '');
     btn.innerHTML = `<span class="dow">${dow}</span>${md}`;
-    btn.addEventListener('click', () => onSelect(date));
+    btn.addEventListener('click', () => {
+      timelineDate = date;
+      renderAll();
+    });
     nav.appendChild(btn);
   }
 }
 
-async function main() {
-  const res = await fetch('data/latest.json', { cache: 'no-store' });
-  const data = await res.json();
+function renderStaticText() {
+  document.getElementById('site-title').textContent = t('site.title');
+  document.getElementById('site-subtitle').textContent = t('site.subtitle');
+  document.getElementById('query-title').textContent = t('query.title');
+  document.getElementById('label-day').textContent = t('query.day');
+  document.getElementById('label-time').textContent = t('query.time');
+  document.getElementById('detail-title').textContent = t('detail.title');
+  document.getElementById('disclaimer').textContent = t('disclaimer');
+  document.querySelectorAll('[data-i18n]').forEach((el) => {
+    el.textContent = t(el.getAttribute('data-i18n'));
+  });
+  if (DATA) {
+    document.getElementById('updated-at').textContent = t('updatedAt', new Date(DATA.generatedAt).toLocaleString(lang === 'cs' ? 'cs-CZ' : 'en-GB'));
+  }
+}
 
-  document.getElementById('updated-at').textContent = `Naposledy aktualizováno: ${new Date(data.generatedAt).toLocaleString('cs-CZ')}`;
+function renderAll() {
+  renderStaticText();
+  populateQueryControls();
+  renderQueryResults();
 
   const allDates = new Set();
-  for (const venue of data.venues) for (const day of venue.days) allDates.add(day.date);
+  for (const venue of DATA.venues) for (const day of venue.days) allDates.add(day.date);
   const dates = Array.from(allDates).sort();
+  if (!timelineDate || !dates.includes(timelineDate)) timelineDate = dates.includes(todayISO()) ? todayISO() : dates[0];
 
-  const today = new Date().toISOString().slice(0, 10);
-  let selectedDate = dates.includes(today) ? today : dates[0];
+  renderDateTabs(dates);
+  const container = document.getElementById('venues');
+  container.innerHTML = '';
+  for (const venue of DATA.venues) container.appendChild(renderVenue(venue, timelineDate));
+}
 
-  function render() {
-    renderDateTabs(dates, selectedDate, (date) => {
-      selectedDate = date;
-      render();
+function setupLangSwitch() {
+  document.querySelectorAll('.lang-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      lang = btn.getAttribute('data-lang');
+      document.documentElement.lang = lang;
+      document.querySelectorAll('.lang-btn').forEach((b) => b.classList.toggle('active', b === btn));
+      renderAll();
     });
-    const container = document.getElementById('venues');
-    container.innerHTML = '';
-    for (const venue of data.venues) {
-      container.appendChild(renderVenue(venue, selectedDate));
-    }
-  }
+  });
+}
 
-  render();
+async function main() {
+  setupLangSwitch();
+  const res = await fetch('data/latest.json', { cache: 'no-store' });
+  DATA = await res.json();
+  renderAll();
 }
 
 main().catch((err) => {
-  document.getElementById('venues').textContent = `Chyba při načítání dat: ${err.message}`;
+  document.getElementById('venues').textContent = `Error: ${err.message}`;
   console.error(err);
 });

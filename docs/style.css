@@ -27,9 +27,38 @@ body {
   padding: 2rem 0 1rem;
 }
 
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
 .page-header h1 {
   margin: 0 0 0.25rem;
   font-size: 1.6rem;
+}
+
+.lang-switch {
+  flex: 0 0 auto;
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.lang-btn {
+  border: none;
+  background: var(--card-bg);
+  color: var(--muted);
+  padding: 0.35rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.lang-btn.active {
+  background: var(--ink);
+  color: white;
 }
 
 .subtitle {
@@ -42,6 +71,127 @@ body {
   font-size: 0.85rem;
   color: var(--muted);
 }
+
+.section-title {
+  max-width: 960px;
+  margin: 2rem auto 0.75rem;
+  font-size: 1.1rem;
+}
+
+.query-card {
+  max-width: 960px;
+  margin: 0 auto 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.query-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.15rem;
+}
+
+.query-controls {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.query-field {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  color: var(--muted);
+  gap: 0.3rem;
+}
+
+.query-field select {
+  font-size: 1rem;
+  padding: 0.45rem 0.6rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--ink);
+  min-width: 140px;
+}
+
+.recommendations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.recommend-card {
+  background: linear-gradient(160deg, #eefaf0, #ffffff);
+  border: 1px solid #cdeed4;
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+}
+
+.recommend-flag {
+  display: inline-block;
+  background: #227a34;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.recommend-card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+}
+
+.recommend-detail {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.recommend-link {
+  font-size: 0.8rem;
+  color: var(--reservable);
+  text-decoration: none;
+}
+.recommend-link:hover { text-decoration: underline; }
+
+.results-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.result-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.result-name {
+  flex: 1 1 auto;
+  font-weight: 600;
+}
+
+.result-row a {
+  font-size: 0.78rem;
+  color: var(--reservable);
+  text-decoration: none;
+}
+.result-row a:hover { text-decoration: underline; }
 
 .date-tabs {
   max-width: 960px;
