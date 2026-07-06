@@ -50,15 +50,15 @@ const I18N = {
     'venue.loadError': 'Failed to load data',
     'venue.nowFree': 'free now',
     'recommend.badge': 'Recommended',
-    'tier.available': 'Open',
-    'tier.unavailable': 'Full / closed',
+    'tier.available': 'Free',
+    'tier.unavailable': 'Occupied / closed',
     'tier.noData': 'No data',
     'result.lanesFree': (free, total) => `${free} of ${total} free`,
-    'legend.available': 'open',
+    'legend.available': 'free',
     'legend.reserved': 'occupied',
     'legend.closed': 'closed',
     'legend.unknown': 'unknown',
-    'status.available': 'open',
+    'status.available': 'free',
     'status.reserved': 'occupied',
     'status.closed': 'closed',
     'status.unknown': 'unknown',
@@ -72,13 +72,16 @@ const I18N = {
 };
 
 // Translate a handful of recurring Czech labels that come straight from the
-// source venues (e.g. druzstevni's per-slot text), regardless of UI language.
+// source venues (e.g. druzstevni's per-slot text, or Lužánky's width-swim
+// mode labels), regardless of UI language.
 const SOURCE_LABEL_TRANSLATIONS = {
   en: {
     'otevřeno pro veřejnost': 'open to public',
     zavřeno: 'closed',
     rezervováno: 'reserved',
     'není k dispozici': 'not available',
+    'volná šířka': 'free width lane',
+    'rezervovaná šířka': 'reserved width lane',
   },
 };
 
@@ -90,7 +93,16 @@ function t(key, ...args) {
 function translateSourceLabel(label) {
   if (!label || lang === 'cs') return label;
   const map = SOURCE_LABEL_TRANSLATIONS[lang] || {};
-  return map[label.trim().toLowerCase()] || label;
+  const trimmed = label.trim();
+  const exact = map[trimmed.toLowerCase()];
+  if (exact) return exact;
+  // Prefix match so e.g. "rezervovaná šířka KPSP 50" translates the known
+  // Czech phrase while leaving the club/renter name after it untouched -
+  // those are proper nouns, not something to translate.
+  for (const [cz, en] of Object.entries(map)) {
+    if (trimmed.toLowerCase().startsWith(cz)) return en + trimmed.slice(cz.length);
+  }
+  return label;
 }
 
 const DOW = {

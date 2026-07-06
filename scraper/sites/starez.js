@@ -1,6 +1,7 @@
 import * as cheerio from 'cheerio';
 import { statusFromStarezColor } from '../lib/status.js';
 import { downloadWebcams } from '../lib/webcam.js';
+import { unifyLaneName } from '../lib/laneName.js';
 
 const MONTHS = { 1: '01', 2: '02', 3: '03', 4: '04', 5: '05', 6: '06', 7: '07', 8: '08', 9: '09', 10: '10', 11: '11', 12: '12' };
 
@@ -120,8 +121,10 @@ export async function scrapeStarezVenue(browser, { venue, name, url, webcams }) 
             // `category` is the pool/section as published by the venue itself
             // (e.g. "Dráhy v 50m bazénu" vs "Dráhy v 25m bazénu" at Lužánky) -
             // needed because lumping different pool sizes/types into one
-            // "lanes free" number would be misleading.
-            resources.push({ name: `${category} - ${laneName}`, category, slots });
+            // "lanes free" number would be misleading. The category check
+            // above uses the raw label (so "šířka" is still detected); the
+            // displayed lane name itself is unified to "Dráha N".
+            resources.push({ name: `${category} - ${unifyLaneName(laneName)}`, category, slots });
           }
         });
         dayMap.set(currentDate, resources);

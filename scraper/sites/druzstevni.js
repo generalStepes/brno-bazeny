@@ -1,6 +1,7 @@
 import * as cheerio from 'cheerio';
 import { statusFromDruzstevniLabel } from '../lib/status.js';
 import { nextNDates } from '../lib/dates.js';
+import { unifyLaneName } from '../lib/laneName.js';
 
 const BASE_URL = 'https://www.druzstevni.cz/rozvrh-hodin-bazeny/';
 const DAYS_AHEAD = 7;
@@ -38,7 +39,7 @@ export async function scrapeDruzstevni(browser) {
 
       const resources = Array.from(resourceSlots.entries())
         .filter(([, slots]) => slots.length)
-        .map(([name, slots]) => ({ name, category: /dráha/i.test(name) ? 'Dráhy' : name, slots }));
+        .map(([name, slots]) => ({ name: unifyLaneName(name), category: /dráha/i.test(name) ? 'Dráhy' : name, slots }));
       if (resources.length) days.push({ date, resources });
     }
 
