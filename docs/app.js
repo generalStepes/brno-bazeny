@@ -34,7 +34,7 @@ const I18N = {
     'noResults': 'Pro tento čas nemáme u žádného bazénu data.',
     'occupancy.now': 'aktuální obsazenost',
     'occupancy.people': (current, max) => `${current} z ${max} osob`,
-    'occupancy.typical': (pct) => `obvykle bývá plno na ${pct} %`,
+    'occupancy.typical': (pct, samples) => `obvykle bývá plno na ${pct} % (${samples}× měřeno)`,
   },
   en: {
     'site.title': '🏊 Brno Pools – availability',
@@ -67,7 +67,7 @@ const I18N = {
     'noResults': 'No data available for any pool at this time.',
     'occupancy.now': 'current headcount',
     'occupancy.people': (current, max) => `${current} of ${max} people`,
-    'occupancy.typical': (pct) => `typically about ${pct}% full`,
+    'occupancy.typical': (pct, samples) => `typically about ${pct}% full (based on ${samples} reading${samples === 1 ? '' : 's'})`,
   },
 };
 
@@ -279,9 +279,12 @@ function renderOccupancyNote(venue, forDate) {
 // Built from our own hourly headcount scrapes (Google's "popular times" isn't
 // available through any real API), bucketed by weekday+hour rather than a
 // live snapshot - so unlike renderOccupancyNote this works for *any* date,
-// including tomorrow, and gets more useful the longer the scraper has run.
-// Needs a few samples before it means anything.
-const MIN_HISTORY_SAMPLES = 3;
+// including tomorrow. Each (weekday, hour) bucket only gets a new sample
+// once a week (we only pass through "Monday at 3pm" every seven days), so
+// requiring several samples before showing anything would keep this looking
+// "inactive" for a month. Show from the very first sample instead, but
+// always say how many readings it's based on so a single early data point
+// doesn't read as a confident average.
 function historyAverageFor(venueId, dateISO, timeStr) {
   if (!HISTORY || !HISTORY[venueId]) return [];
   const weekday = new Date(dateISO + 'T00:00:00').getDay();
@@ -289,7 +292,7 @@ function historyAverageFor(venueId, dateISO, timeStr) {
   const results = [];
   for (const [label, byWeekday] of Object.entries(HISTORY[venueId])) {
     const cell = byWeekday?.[weekday]?.[hour];
-    if (cell && cell.count >= MIN_HISTORY_SAMPLES) {
+    if (cell && cell.count >= 1) {
       results.push({ label, percent: Math.round(cell.sum / cell.count), samples: cell.count });
     }
   }
@@ -301,7 +304,9 @@ function renderHistoryNote(venue, dateISO, timeStr) {
   if (!entries.length) return null;
   const p = document.createElement('p');
   p.className = 'occupancy-note';
-  p.textContent = entries.map((e) => (entries.length > 1 ? `${e.label}: ${t('occupancy.typical', e.percent)}` : t('occupancy.typical', e.percent))).join(' · ');
+  p.textContent = entries
+    .map((e) => (entries.length > 1 ? `${e.label}: ${t('occupancy.typical', e.percent, e.samples)}` : t('occupancy.typical', e.percent, e.samples)))
+    .join(' · ');
   return p;
 }
 
