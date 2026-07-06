@@ -8,6 +8,7 @@ import { scrapeDruzstevni } from './sites/druzstevni.js';
 import { scrapeKravihora } from './sites/kravihora.js';
 import { scrapeTesla } from './sites/tesla.js';
 import { loadOccupancyHistory, updateHistoryWithResults, saveOccupancyHistory } from './lib/occupancyHistory.js';
+import { applyLaneDisplayNames } from './lib/laneName.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = join(__dirname, '..', 'docs', 'data', 'latest.json');
@@ -43,6 +44,14 @@ async function main() {
     results.push(await scrapeTesla(browser));
   } finally {
     await browser.close();
+  }
+
+  // Whether a lane needs its category prefixed onto its display name
+  // depends on whether *this venue* has more than one lane category to
+  // disambiguate between - apply uniformly across all venues here rather
+  // than duplicating that decision in each site scraper.
+  for (const venue of results) {
+    for (const day of venue.days) applyLaneDisplayNames(day.resources);
   }
 
   const output = {

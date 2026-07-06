@@ -520,6 +520,33 @@ function renderTimeline(resources, highlightCol = null) {
   return wrap;
 }
 
+// Single reusable overlay for webcam thumbnails - click a thumbnail to see
+// it full-size, click anywhere on the overlay (or press Escape) to close it.
+let lightboxEl = null;
+function getLightbox() {
+  if (lightboxEl) return lightboxEl;
+  lightboxEl = document.createElement('div');
+  lightboxEl.className = 'lightbox-overlay';
+  const img = document.createElement('img');
+  lightboxEl.appendChild(img);
+  lightboxEl.addEventListener('click', closeLightbox);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+  document.body.appendChild(lightboxEl);
+  return lightboxEl;
+}
+function openLightbox(src, alt) {
+  const el = getLightbox();
+  const img = el.querySelector('img');
+  img.src = src;
+  img.alt = alt;
+  el.classList.add('open');
+}
+function closeLightbox() {
+  if (lightboxEl) lightboxEl.classList.remove('open');
+}
+
 function renderVenue(venue, selectedDate) {
   const card = document.createElement('section');
   card.className = 'venue-card' + (venue.ok === false ? ' errored' : '');
@@ -559,12 +586,14 @@ function renderVenue(venue, selectedDate) {
     camWrap.className = 'webcam-wrap';
     const cacheBust = DATA.generatedAt ? new Date(DATA.generatedAt).getTime() : Date.now();
     for (const cam of venue.webcams) {
+      const src = `${cam.path}?t=${cacheBust}`;
       const figure = document.createElement('figure');
       figure.className = 'webcam-figure';
       const img = document.createElement('img');
-      img.src = `${cam.path}?t=${cacheBust}`;
+      img.src = src;
       img.alt = cam.label;
       img.loading = 'lazy';
+      img.addEventListener('click', () => openLightbox(src, cam.label));
       figure.appendChild(img);
       const caption = document.createElement('figcaption');
       caption.textContent = cam.label;
