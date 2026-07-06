@@ -7,9 +7,11 @@ import { scrapeStarezVenue } from './sites/starez.js';
 import { scrapeDruzstevni } from './sites/druzstevni.js';
 import { scrapeKravihora } from './sites/kravihora.js';
 import { scrapeTesla } from './sites/tesla.js';
+import { loadOccupancyHistory, updateHistoryWithResults, saveOccupancyHistory } from './lib/occupancyHistory.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = join(__dirname, '..', 'docs', 'data', 'latest.json');
+const HISTORY_PATH = join(__dirname, '..', 'docs', 'data', 'occupancy-history.json');
 
 const STAREZ_VENUES = [
   { venue: 'aquapark', name: 'Aquapark Kohoutovice', url: 'https://aquapark.starez.cz/vstupenky-rezervace' },
@@ -43,10 +45,15 @@ async function main() {
   await mkdir(dirname(OUT_PATH), { recursive: true });
   await writeFile(OUT_PATH, JSON.stringify(output, null, 2), 'utf-8');
 
+  const history = await loadOccupancyHistory(HISTORY_PATH);
+  updateHistoryWithResults(history, results);
+  await saveOccupancyHistory(HISTORY_PATH, history);
+
   for (const r of results) {
     console.log(`${r.ok ? 'OK  ' : 'FAIL'} ${r.venue}: ${r.days.length} day(s)${r.error ? ' - ' + r.error : ''}`);
   }
   console.log(`Wrote ${OUT_PATH}`);
+  console.log(`Wrote ${HISTORY_PATH}`);
 }
 
 main().catch((err) => {
