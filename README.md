@@ -6,14 +6,14 @@ Venues covered: Aquapark Kohoutovice, Bazén Ponávka, Bazény Lužánky (all ST
 
 ## How it works
 
-- `scraper/` – a Node + Playwright script (`npm run scrape`) that visits each venue's site, parses its reservation grid, and writes a normalized snapshot to `docs/data/latest.json`.
-- `docs/` – a static site (vanilla HTML/CSS/JS, no build step) that reads `data/latest.json` and renders a per-venue timeline for the selected day. This folder is served directly by GitHub Pages.
-- `.github/workflows/scrape.yml` – runs the scraper every hour on GitHub Actions and commits the refreshed `latest.json`, which redeploys the Pages site automatically.
+- `scraper/` – a Node + Playwright script (`npm run scrape`) that visits each venue's site, parses its reservation grid, and writes a normalized snapshot to `docs/data/latest.json`. It also scrapes live headcount ("X/Y people") where a venue publishes it (Aquapark, Lužánky, Kraví hora), and appends each reading to `docs/data/occupancy-history.json`, bucketed by weekday + hour (not raw timestamp) so the file stays a small, fixed size. After a few weeks of hourly runs this becomes a genuinely useful "typically X% full at this hour" figure — including for future dates a live snapshot can't say anything about. There's no official API for this kind of data (Google's "popular times" isn't exposed through any documented API either), so it's built entirely from these venues' own numbers.
+- `docs/` – a static site (vanilla HTML/CSS/JS, no build step) that reads `data/latest.json` (and `data/occupancy-history.json`) and renders a per-venue timeline for the selected day. This folder is served directly by GitHub Pages.
+- `.github/workflows/scrape.yml` – runs the scraper hourly (at :17, not :00 — GitHub Actions queues top-of-hour runs heavily) on GitHub Actions and commits the refreshed data files, which redeploys the Pages site automatically.
 
 ## Known limitations (site-imposed, not scraper bugs)
 
-- **Kraví hora** only ever publishes *today's* schedule online — there's no way to see future days from their site, so only a single day of data is available for that venue at any time.
-- **TJ Tesla Brno** doesn't publish real-time public lane occupancy anywhere. Its only dynamic system (Reenio) is a lane/pool *rental* calendar for clubs, not a public occupancy display, so Tesla's row shows standard opening hours plus any rental bookings found, not live lane counts.
+- **Kraví hora**'s main page only shows *today*, but its "Týdenní rozpis" sub-page paginates further out, so we pull ~2 weeks from there instead.
+- **TJ Tesla Brno** doesn't publish availability as text/API at all — only as a monthly schedule image uploaded to their site. The scraper OCRs it (Playwright locates the current month's image, sharp crops each date/hour cell, tesseract.js reads the digit).
 - Slot colors/labels are inferred from each site's own legend (e.g. STAREZ's green/grey/light-grey scheme). Always double check on the venue's own page before relying on it for anything important — this is a best-effort aggregator, not an official source.
 
 ## Local development

@@ -34,6 +34,7 @@ const I18N = {
     'noResults': 'Pro tento čas nemáme u žádného bazénu data.',
     'occupancy.now': 'aktuální obsazenost',
     'occupancy.people': (current, max) => `${current} z ${max} osob`,
+    'occupancy.typical': (pct) => `obvykle bývá plno na ${pct} %`,
   },
   en: {
     'site.title': '🏊 Brno Pools – availability',
@@ -66,6 +67,7 @@ const I18N = {
     'noResults': 'No data available for any pool at this time.',
     'occupancy.now': 'current headcount',
     'occupancy.people': (current, max) => `${current} of ${max} people`,
+    'occupancy.typical': (pct) => `typically about ${pct}% full`,
   },
 };
 
@@ -97,6 +99,7 @@ const DOW = {
 };
 
 let DATA = null;
+let HISTORY = null;
 let queryDate = null; // ISO
 let queryTime = null;
 let timelineDate = null; // ISO, for the detailed section
@@ -271,6 +274,35 @@ function renderOccupancyNote(venue, forDate) {
   return p;
 }
 
+// Built from our own hourly headcount scrapes (Google's "popular times" isn't
+// available through any real API), bucketed by weekday+hour rather than a
+// live snapshot - so unlike renderOccupancyNote this works for *any* date,
+// including tomorrow, and gets more useful the longer the scraper has run.
+// Needs a few samples before it means anything.
+const MIN_HISTORY_SAMPLES = 3;
+function historyAverageFor(venueId, dateISO, timeStr) {
+  if (!HISTORY || !HISTORY[venueId]) return [];
+  const weekday = new Date(dateISO + 'T00:00:00').getDay();
+  const hour = parseInt(timeStr.split(':')[0], 10);
+  const results = [];
+  for (const [label, byWeekday] of Object.entries(HISTORY[venueId])) {
+    const cell = byWeekday?.[weekday]?.[hour];
+    if (cell && cell.count >= MIN_HISTORY_SAMPLES) {
+      results.push({ label, percent: Math.round(cell.sum / cell.count), samples: cell.count });
+    }
+  }
+  return results;
+}
+
+function renderHistoryNote(venue, dateISO, timeStr) {
+  const entries = historyAverageFor(venue.venue, dateISO, timeStr);
+  if (!entries.length) return null;
+  const p = document.createElement('p');
+  p.className = 'occupancy-note';
+  p.textContent = entries.map((e) => (entries.length > 1 ? `${e.label}: ${t('occupancy.typical', e.percent)}` : t('occupancy.typical', e.percent))).join(' · ');
+  return p;
+}
+
 function renderResultLine(entry) {
   const { venue, counts, categories, tier } = entry;
   const li = document.createElement('li');
@@ -284,7 +316,9 @@ function renderResultLine(entry) {
   info.appendChild(name);
   const breakdown = counts ? renderCategoryBreakdown(categories) : null;
   if (breakdown) info.appendChild(breakdown);
-  const occNote = renderOccupancyNote(venue, queryDate);
+  // Prefer the live snapshot when it applies (today only); otherwise fall
+  // back to our own historical average for that weekday/hour, if we have one.
+  const occNote = renderOccupancyNote(venue, queryDate) || renderHistoryNote(venue, queryDate, queryTime);
   if (occNote) info.appendChild(occNote);
   li.appendChild(info);
 
@@ -324,7 +358,7 @@ function renderRecommendationCard(entry, index) {
   const breakdown = renderCategoryBreakdown(entry.categories);
   if (breakdown) card.appendChild(breakdown);
 
-  const occNote = renderOccupancyNote(entry.venue, queryDate);
+  const occNote = renderOccupancyNote(entry.venue, queryDate) || renderHistoryNote(entry.venue, queryDate, queryTime);
   if (occNote) card.appendChild(occNote);
 
   const link = document.createElement('a');
@@ -568,6 +602,12 @@ async function main() {
   setupLangSwitch();
   const res = await fetch('data/latest.json', { cache: 'no-store' });
   DATA = await res.json();
+  try {
+    const histRes = await fetch('data/occupancy-history.json', { cache: 'no-store' });
+    HISTORY = histRes.ok ? await histRes.json() : {};
+  } catch {
+    HISTORY = {};
+  }
   renderAll();
 }
 
