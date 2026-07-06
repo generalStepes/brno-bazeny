@@ -138,11 +138,13 @@ function fmtDateLabel(iso) {
 
 // ---------- Recommendation / query logic ----------
 
-// Whirlpools, saunas, VIP zones and relaxation pools aren't lap-swimming
-// lanes - they shouldn't count toward (or dilute) a venue's "free to swim"
-// score, even though the scraper reports them as resources too. These are
-// *always* excluded, regardless of status.
-const AUXILIARY_ALWAYS_PATTERN = /vířiv|saun|\bvip\b|relaxa/i;
+// Whirlpools, saunas, VIP zones, relaxation pools and small/kids' pools
+// (Malý bazének) aren't normal swimming lanes - they shouldn't count toward
+// (or dilute) a venue's "free to swim" score, even though the scraper
+// reports them as resources too. These are *always* excluded, regardless of
+// status. (Note: "bazének" only matches the diminutive "small pool" form,
+// not "bazén" categories in general like Aquapark's own lap pool.)
+const AUXILIARY_ALWAYS_PATTERN = /vířiv|saun|\bvip\b|relaxa|bazének/i;
 function isAuxiliaryCategory(category) {
   return AUXILIARY_ALWAYS_PATTERN.test(category || '') || SIRKA_CATEGORY_PATTERN.test(category || '');
 }
