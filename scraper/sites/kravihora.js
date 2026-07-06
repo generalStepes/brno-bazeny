@@ -95,9 +95,9 @@ export async function scrapeKravihora(browser) {
 
     days.sort((a, b) => a.date.localeCompare(b.date));
 
-    return { venue: 'kravihora', name: 'Krytá plavecká hala Kraví hora', url: MAIN_URL, ok: true, error: null, days, occupancy };
+    return { venue: 'kravihora', name: 'Krytá plavecká hala Kraví hora', url: MAIN_URL, ok: true, error: null, days, occupancy, webcams: [] };
   } catch (err) {
-    return { venue: 'kravihora', name: 'Krytá plavecká hala Kraví hora', url: MAIN_URL, ok: days.length > 0, error: err.message, days, occupancy };
+    return { venue: 'kravihora', name: 'Krytá plavecká hala Kraví hora', url: MAIN_URL, ok: days.length > 0, error: err.message, days, occupancy, webcams: [] };
   } finally {
     await page.close();
   }

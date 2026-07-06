@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 import { statusFromStarezColor } from '../lib/status.js';
+import { downloadWebcams } from '../lib/webcam.js';
 
 const MONTHS = { 1: '01', 2: '02', 3: '03', 4: '04', 5: '05', 6: '06', 7: '07', 8: '08', 9: '09', 10: '10', 11: '11', 12: '12' };
 
@@ -43,8 +44,9 @@ async function scrapeOccupancy(browser, homeUrl) {
 // reservation grid template. All days (a full week) live inside a single
 // .s-reservation__body wrapper as a flat, repeating sequence of
 // h3 (date heading) -> h4 (pool/resource name) -> .s-reservation-table blocks.
-export async function scrapeStarezVenue(browser, { venue, name, url }) {
+export async function scrapeStarezVenue(browser, { venue, name, url, webcams }) {
   const occupancy = await scrapeOccupancy(browser, new URL('/', url).toString());
+  const webcamImages = webcams ? await downloadWebcams(webcams) : [];
   const page = await browser.newPage();
   try {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
@@ -129,9 +131,9 @@ export async function scrapeStarezVenue(browser, { venue, name, url }) {
       .filter(([, resources]) => resources.length)
       .map(([date, resources]) => ({ date, resources }));
 
-    return { venue, name, url, ok: true, error: null, days, occupancy };
+    return { venue, name, url, ok: true, error: null, days, occupancy, webcams: webcamImages };
   } catch (err) {
-    return { venue, name, url, ok: false, error: err.message, days: [], occupancy };
+    return { venue, name, url, ok: false, error: err.message, days: [], occupancy, webcams: webcamImages };
   } finally {
     await page.close();
   }

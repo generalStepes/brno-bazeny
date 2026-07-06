@@ -39,10 +39,25 @@ jobs:
         run: |
           git config user.name "pool-availability-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/data/latest.json docs/data/occupancy-history.json
+          git add docs/data/latest.json docs/data/occupancy-history.json docs/images/
           if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "Update pool availability data"
-            git push
+            exit 0
           fi
+          git commit -m "Update pool availability data"
+          # Now that runs can be triggered every ~30min from an external cron
+          # (GitHub's own schedule trigger is unreliable) as well as manual
+          # dispatches, overlapping runs can race to push. Retry with rebase,
+          # preferring our just-scraped data over whatever else touched the
+          # same files, since it's the freshest snapshot either way.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt), rebasing onto latest and retrying..."
+            git fetch origin main
+            git rebase -X ours origin/main
+            sleep $((RANDOM % 10 + 1))
+          done
+          echo "::error::Failed to push after retries"
+          exit 1
