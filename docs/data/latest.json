@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T14:07:36.913Z",
+  "generatedAt": "2026-07-06T14:20:27.625Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4246,7 +4246,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 116,
+          "current": 102,
           "max": 220
         },
         {
@@ -4303,7 +4303,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
         },
         {
           "date": "2026-07-07",
@@ -4344,7 +4345,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
         },
         {
           "date": "2026-07-08",
@@ -4385,7 +4387,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
         },
         {
           "date": "2026-07-09",
@@ -4426,7 +4429,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
         },
         {
           "date": "2026-07-10",
@@ -4467,7 +4471,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
         },
         {
           "date": "2026-07-11",
@@ -4508,7 +4513,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
         },
         {
           "date": "2026-07-12",
@@ -4520,62 +4526,62 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -4586,62 +4592,62 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -4652,66 +4658,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             }
-          ]
+          ],
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
         }
       ],
       "occupancy": [],
@@ -24388,7 +24395,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 82,
+          "current": 81,
           "max": 634
         },
         {
@@ -44065,7 +44072,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 46,
+          "current": 39,
           "max": 135
         }
       ],

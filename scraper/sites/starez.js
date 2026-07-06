@@ -13,10 +13,38 @@ function parseCzechDateHeading(text) {
   return `${y}-${MONTHS[Number(mo)]}-${String(d).padStart(2, '0')}`;
 }
 
-// The homepage (not the reservation page) shows live headcount boxes like
-// <div class="box"><div class="text"><p>BAZÉNY A POSILOVNA</p><h5>11/220</h5>
-// Lužánky has two separate gates (BAZÉNY, WELLNESS); Ponávka has none.
-async function scrapeOccupancy(browser, homeUrl) {
+// The homepage carries two independent bits of live context the reservation
+// grid itself doesn't reliably reflect:
+//  - live headcount boxes, e.g. <div class="box"><div class="text">
+//    <p>BAZÉNY A POSILOVNA</p><h5>11/220</h5> (Lužánky has two gates -
+//    BAZÉNY, WELLNESS - Ponávka has none)
+//  - a site-wide #alert-danger banner. This is used for both genuine
+//    closures ("bude bazén zcela uzavřen ... 31. 12. 2026") *and* completely
+//    benign notices (Aquapark: "otevřeno od 8:00 hod STÁTNÍ SVÁTEK" - open
+//    early for a holiday) - so presence alone isn't a signal, only specific
+//    closure wording is. Ponávka's reservation grid can keep showing normal
+//    open slots during a long-term closure like this, so this is the only
+//    reliable source of truth for "is the venue actually closed".
+const CLOSURE_KEYWORDS = /uzavřen|mimo provoz|odstávka/i;
+
+function findClosureNotice($) {
+  const alertText = $('#alert-danger').first().text().replace(/\s+/g, ' ').trim();
+  if (!alertText || !CLOSURE_KEYWORDS.test(alertText)) return null;
+
+  // Take the last full dd.mm.yyyy date in the message as the "closed until"
+  // boundary (these notices are phrased "closed from X to Y"); if no full
+  // date is found, treat the closure as indefinite and close everything we
+  // scrape rather than risk showing available slots during a real closure.
+  const dateMatches = [...alertText.matchAll(/(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})/g)];
+  let closedUntil = null;
+  if (dateMatches.length) {
+    const [, d, mo, y] = dateMatches[dateMatches.length - 1];
+    closedUntil = `${y}-${MONTHS[Number(mo)]}-${String(d).padStart(2, '0')}`;
+  }
+  return { message: alertText, closedUntil };
+}
+
+async function scrapeHomepageInfo(browser, homeUrl) {
   const page = await browser.newPage();
   try {
     await page.goto(homeUrl, { waitUntil: 'domcontentloaded', timeout: 45000 });
@@ -33,9 +61,9 @@ async function scrapeOccupancy(browser, homeUrl) {
         seen.set(label, { label, current: parseInt(m[1], 10), max: parseInt(m[2], 10) });
       }
     });
-    return [...seen.values()];
+    return { occupancy: [...seen.values()], closure: findClosureNotice($) };
   } catch {
-    return [];
+    return { occupancy: [], closure: null };
   } finally {
     await page.close();
   }
@@ -46,7 +74,7 @@ async function scrapeOccupancy(browser, homeUrl) {
 // .s-reservation__body wrapper as a flat, repeating sequence of
 // h3 (date heading) -> h4 (pool/resource name) -> .s-reservation-table blocks.
 export async function scrapeStarezVenue(browser, { venue, name, url, webcams }) {
-  const occupancy = await scrapeOccupancy(browser, new URL('/', url).toString());
+  const { occupancy, closure } = await scrapeHomepageInfo(browser, new URL('/', url).toString());
   const webcamImages = webcams ? await downloadWebcams(webcams) : [];
   const page = await browser.newPage();
   try {
@@ -133,6 +161,19 @@ export async function scrapeStarezVenue(browser, { venue, name, url, webcams }) 
     const days = Array.from(dayMap.entries())
       .filter(([, resources]) => resources.length)
       .map(([date, resources]) => ({ date, resources }));
+
+    // The reservation grid can keep showing normal open slots during a
+    // long-term closure (Ponávka does exactly this) - if the homepage says
+    // otherwise, that overrides whatever the grid shows for the affected days.
+    if (closure) {
+      for (const day of days) {
+        if (closure.closedUntil && day.date > closure.closedUntil) continue;
+        for (const resource of day.resources) {
+          for (const slot of resource.slots) slot.status = 'closed';
+        }
+        day.note = closure.message;
+      }
+    }
 
     return { venue, name, url, ok: true, error: null, days, occupancy, webcams: webcamImages };
   } catch (err) {
