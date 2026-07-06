@@ -186,24 +186,28 @@ function sumCounts(countsList) {
   return sum;
 }
 
-// Primary counts = only real swim-lane categories (excludes whirlpool/sauna/
-// VIP/relaxation, and idle šířka lanes), used for ranking and headline
-// numbers. Computed per-slot (not from the category aggregate) because
-// whether a šířka lane counts depends on that specific slot's own status.
+// Primary counts = the *best* real swim-lane category at this moment
+// (excludes whirlpool/sauna/VIP/relaxation, and idle šířka lanes). A venue
+// with several pool sizes (Lužánky: 50m/25m/16m) shouldn't be scored by
+// blending them into one average - if the 25m pool is wide open, that's a
+// genuinely good option even while the 50m pool is half-booked, and
+// blending would hide it behind a middling combined percentage instead of
+// surfacing it. So we rank by whichever category is doing best, and name it
+// in the headline when a venue actually has more than one to choose from.
 function primaryCountsAt(day, timeStr) {
   if (!day) return null;
-  const t0 = parseTimeToMinutes(timeStr);
-  const counts = emptyCounts();
-  for (const resource of day.resources) {
-    const category = resource.category || day.name || 'Bazén';
-    const slot = resource.slots.find((s) => t0 >= parseTimeToMinutes(s.start) && t0 < parseTimeToMinutes(s.end));
-    if (!slot) continue;
-    const isIdleSirka = SIRKA_CATEGORY_PATTERN.test(category) && slot.status === 'closed';
-    const isAlwaysAuxiliary = AUXILIARY_ALWAYS_PATTERN.test(category);
-    if (isAlwaysAuxiliary || isIdleSirka) continue;
-    addSlotToCounts(counts, slot.status);
+  const categories = categoryCountsAt(day, timeStr);
+  const candidates = [];
+  for (const [category, counts] of categories) {
+    if (!counts.total || AUXILIARY_ALWAYS_PATTERN.test(category)) continue;
+    const isIdleSirka = SIRKA_CATEGORY_PATTERN.test(category) && counts.available + counts.reserved === 0;
+    if (isIdleSirka) continue;
+    candidates.push({ category, counts, pct: counts.available / counts.total });
   }
-  return counts.total ? counts : null;
+  if (!candidates.length) return null;
+  candidates.sort((a, b) => b.pct - a.pct);
+  const best = candidates[0];
+  return { ...best.counts, bestCategory: candidates.length > 1 ? best.category : null };
 }
 
 function tierFor(counts) {
@@ -235,7 +239,10 @@ function tierBadgeClass(tier) {
 }
 
 function summaryText(counts, tier) {
-  if (tier === 'available') return `${Math.round((counts.available / counts.total) * 100)} % ${t('legend.available')} (${t('result.lanesFree', counts.available, counts.total)})`;
+  if (tier === 'available') {
+    const prefix = counts.bestCategory ? `${counts.bestCategory} – ` : '';
+    return `${prefix}${Math.round((counts.available / counts.total) * 100)} % ${t('legend.available')} (${t('result.lanesFree', counts.available, counts.total)})`;
+  }
   return t(`tier.${tier}`);
 }
 

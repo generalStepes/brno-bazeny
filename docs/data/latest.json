@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T05:11:17.364Z",
+  "generatedAt": "2026-07-06T06:08:45.519Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4246,7 +4246,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 0,
+          "current": 10,
           "max": 220
         },
         {
@@ -24386,7 +24386,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 0,
+          "current": 33,
           "max": 634
         },
         {
@@ -24413,14 +24413,14 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "8:00",
@@ -24497,8 +24497,8 @@
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "21:00",
@@ -24515,14 +24515,14 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "8:00",
@@ -24599,8 +24599,8 @@
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "21:00",
@@ -24617,14 +24617,14 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "8:00",
@@ -24701,8 +24701,8 @@
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "21:00",
@@ -24719,14 +24719,14 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "8:00",
@@ -24803,8 +24803,8 @@
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "21:00",
@@ -24821,14 +24821,14 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "reserved",
-                  "label": "BRNO TRIATLON TEAM"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "8:00",
@@ -24839,8 +24839,8 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
                 },
                 {
                   "start": "10:00",
@@ -24905,8 +24905,8 @@
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "21:00",
@@ -24923,14 +24923,14 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "reserved",
-                  "label": "BRNO TRIATLON TEAM"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "8:00",
@@ -24941,8 +24941,8 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
                 },
                 {
                   "start": "10:00",
@@ -25007,8 +25007,8 @@
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "21:00",
@@ -25025,14 +25025,14 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "8:00",
@@ -25109,8 +25109,8 @@
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "closed",
+                  "label": "Zavřeno"
                 },
                 {
                   "start": "21:00",
