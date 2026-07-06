@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T14:34:04.708Z",
+  "generatedAt": "2026-07-06T14:36:50.513Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -12,7 +12,7 @@
           "date": "2026-07-06",
           "resources": [
             {
-              "name": "Bazén pro plavce - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -93,7 +93,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -174,7 +174,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -255,91 +255,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 4",
-              "category": "Bazén pro plavce",
-              "slots": [
-                {
-                  "start": "6:00",
-                  "end": "7:00",
-                  "status": "available"
-                },
-                {
-                  "start": "7:00",
-                  "end": "8:00",
-                  "status": "available"
-                },
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "available"
-                }
-              ]
-            },
-            {
-              "name": "Bazén pro plavce - Dráha 5",
+              "name": "Dráha 4",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -423,7 +339,91 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 6",
+              "name": "Dráha 5",
+              "category": "Bazén pro plavce",
+              "slots": [
+                {
+                  "start": "6:00",
+                  "end": "7:00",
+                  "status": "available"
+                },
+                {
+                  "start": "7:00",
+                  "end": "8:00",
+                  "status": "available"
+                },
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "available"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "available"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "available"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "21:00",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 6",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -638,7 +638,7 @@
           "date": "2026-07-07",
           "resources": [
             {
-              "name": "Bazén pro plavce - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -719,7 +719,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -800,7 +800,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -881,91 +881,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 4",
-              "category": "Bazén pro plavce",
-              "slots": [
-                {
-                  "start": "6:00",
-                  "end": "7:00",
-                  "status": "available"
-                },
-                {
-                  "start": "7:00",
-                  "end": "8:00",
-                  "status": "available"
-                },
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "available"
-                }
-              ]
-            },
-            {
-              "name": "Bazén pro plavce - Dráha 5",
+              "name": "Dráha 4",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -1049,7 +965,91 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 6",
+              "name": "Dráha 5",
+              "category": "Bazén pro plavce",
+              "slots": [
+                {
+                  "start": "6:00",
+                  "end": "7:00",
+                  "status": "available"
+                },
+                {
+                  "start": "7:00",
+                  "end": "8:00",
+                  "status": "available"
+                },
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "available"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "available"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "available"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "21:00",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 6",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -1264,7 +1264,7 @@
           "date": "2026-07-08",
           "resources": [
             {
-              "name": "Bazén pro plavce - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -1345,7 +1345,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -1426,7 +1426,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -1507,7 +1507,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 4",
+              "name": "Dráha 4",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -1590,7 +1590,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 5",
+              "name": "Dráha 5",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -1674,7 +1674,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 6",
+              "name": "Dráha 6",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -1889,7 +1889,7 @@
           "date": "2026-07-09",
           "resources": [
             {
-              "name": "Bazén pro plavce - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -1970,7 +1970,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -2051,7 +2051,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -2132,90 +2132,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 4",
-              "category": "Bazén pro plavce",
-              "slots": [
-                {
-                  "start": "6:00",
-                  "end": "7:00",
-                  "status": "available"
-                },
-                {
-                  "start": "7:00",
-                  "end": "8:00",
-                  "status": "available"
-                },
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "available"
-                }
-              ]
-            },
-            {
-              "name": "Bazén pro plavce - Dráha 5",
+              "name": "Dráha 4",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -2298,7 +2215,90 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 6",
+              "name": "Dráha 5",
+              "category": "Bazén pro plavce",
+              "slots": [
+                {
+                  "start": "6:00",
+                  "end": "7:00",
+                  "status": "available"
+                },
+                {
+                  "start": "7:00",
+                  "end": "8:00",
+                  "status": "available"
+                },
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "available"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "available"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "available"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "21:00",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 6",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -2512,7 +2512,7 @@
           "date": "2026-07-10",
           "resources": [
             {
-              "name": "Bazén pro plavce - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -2593,7 +2593,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -2674,7 +2674,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -2755,89 +2755,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 4",
-              "category": "Bazén pro plavce",
-              "slots": [
-                {
-                  "start": "6:00",
-                  "end": "7:00",
-                  "status": "available"
-                },
-                {
-                  "start": "7:00",
-                  "end": "8:00",
-                  "status": "available"
-                },
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "available"
-                }
-              ]
-            },
-            {
-              "name": "Bazén pro plavce - Dráha 5",
+              "name": "Dráha 4",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -2919,7 +2837,89 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 6",
+              "name": "Dráha 5",
+              "category": "Bazén pro plavce",
+              "slots": [
+                {
+                  "start": "6:00",
+                  "end": "7:00",
+                  "status": "available"
+                },
+                {
+                  "start": "7:00",
+                  "end": "8:00",
+                  "status": "available"
+                },
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "available"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "available"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "available"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "21:00",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 6",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -3130,7 +3130,7 @@
           "date": "2026-07-11",
           "resources": [
             {
-              "name": "Bazén pro plavce - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -3201,7 +3201,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -3272,7 +3272,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -3343,7 +3343,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 4",
+              "name": "Dráha 4",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -3414,7 +3414,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 5",
+              "name": "Dráha 5",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -3485,7 +3485,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 6",
+              "name": "Dráha 6",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -3688,7 +3688,7 @@
           "date": "2026-07-12",
           "resources": [
             {
-              "name": "Bazén pro plavce - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -3759,7 +3759,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -3830,7 +3830,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -3901,7 +3901,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 4",
+              "name": "Dráha 4",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -3972,7 +3972,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 5",
+              "name": "Dráha 5",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -4043,7 +4043,7 @@
               ]
             },
             {
-              "name": "Bazén pro plavce - Dráha 6",
+              "name": "Dráha 6",
               "category": "Bazén pro plavce",
               "slots": [
                 {
@@ -4246,7 +4246,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 98,
+          "current": 100,
           "max": 220
         },
         {
@@ -4268,7 +4268,7 @@
           "date": "2026-07-06",
           "resources": [
             {
-              "name": "Bazén - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén",
               "slots": [
                 {
@@ -4280,7 +4280,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén",
               "slots": [
                 {
@@ -4292,7 +4292,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén",
               "slots": [
                 {
@@ -4310,7 +4310,7 @@
           "date": "2026-07-07",
           "resources": [
             {
-              "name": "Bazén - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén",
               "slots": [
                 {
@@ -4322,7 +4322,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén",
               "slots": [
                 {
@@ -4334,7 +4334,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén",
               "slots": [
                 {
@@ -4352,7 +4352,7 @@
           "date": "2026-07-08",
           "resources": [
             {
-              "name": "Bazén - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén",
               "slots": [
                 {
@@ -4364,7 +4364,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén",
               "slots": [
                 {
@@ -4376,7 +4376,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén",
               "slots": [
                 {
@@ -4394,7 +4394,7 @@
           "date": "2026-07-09",
           "resources": [
             {
-              "name": "Bazén - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén",
               "slots": [
                 {
@@ -4406,7 +4406,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén",
               "slots": [
                 {
@@ -4418,7 +4418,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén",
               "slots": [
                 {
@@ -4436,7 +4436,7 @@
           "date": "2026-07-10",
           "resources": [
             {
-              "name": "Bazén - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén",
               "slots": [
                 {
@@ -4448,7 +4448,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén",
               "slots": [
                 {
@@ -4460,7 +4460,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén",
               "slots": [
                 {
@@ -4478,7 +4478,7 @@
           "date": "2026-07-11",
           "resources": [
             {
-              "name": "Bazén - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén",
               "slots": [
                 {
@@ -4490,7 +4490,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén",
               "slots": [
                 {
@@ -4502,7 +4502,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén",
               "slots": [
                 {
@@ -4520,7 +4520,7 @@
           "date": "2026-07-12",
           "resources": [
             {
-              "name": "Bazén - Dráha 1",
+              "name": "Dráha 1",
               "category": "Bazén",
               "slots": [
                 {
@@ -4586,7 +4586,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 2",
+              "name": "Dráha 2",
               "category": "Bazén",
               "slots": [
                 {
@@ -4652,7 +4652,7 @@
               ]
             },
             {
-              "name": "Bazén - Dráha 3",
+              "name": "Dráha 3",
               "category": "Bazén",
               "slots": [
                 {
@@ -4735,7 +4735,7 @@
           "date": "2026-07-06",
           "resources": [
             {
-              "name": "Dráhy v 50m bazénu - Dráha 1",
+              "name": "50m - Dráha 1",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -4888,7 +4888,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 2",
+              "name": "50m - Dráha 2",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -5041,7 +5041,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 3",
+              "name": "50m - Dráha 3",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -5194,7 +5194,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 4",
+              "name": "50m - Dráha 4",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -5347,7 +5347,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 5",
+              "name": "50m - Dráha 5",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -5500,7 +5500,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 6",
+              "name": "50m - Dráha 6",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -5653,7 +5653,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 7",
+              "name": "50m - Dráha 7",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -5806,7 +5806,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 8",
+              "name": "50m - Dráha 8",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -5947,7 +5947,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 9",
+              "name": "50m (šířka) - Dráha 9",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -6104,7 +6104,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 10",
+              "name": "50m (šířka) - Dráha 10",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -6426,7 +6426,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 1",
+              "name": "25m - Dráha 1",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -6541,7 +6541,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 2",
+              "name": "25m - Dráha 2",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -6668,7 +6668,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 3",
+              "name": "25m - Dráha 3",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -6795,7 +6795,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 4",
+              "name": "25m - Dráha 4",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -6922,7 +6922,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 5",
+              "name": "25m - Dráha 5",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -7049,7 +7049,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 6",
+              "name": "25m - Dráha 6",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -7168,7 +7168,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 7",
+              "name": "25m - Dráha 7",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -7287,7 +7287,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 8",
+              "name": "25m - Dráha 8",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -7501,7 +7501,7 @@
           "date": "2026-07-07",
           "resources": [
             {
-              "name": "Dráhy v 50m bazénu - Dráha 1",
+              "name": "50m - Dráha 1",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -7658,7 +7658,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 2",
+              "name": "50m - Dráha 2",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -7815,7 +7815,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 3",
+              "name": "50m - Dráha 3",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -7976,7 +7976,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 4",
+              "name": "50m - Dráha 4",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -8137,7 +8137,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 5",
+              "name": "50m - Dráha 5",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -8298,7 +8298,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 6",
+              "name": "50m - Dráha 6",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -8459,7 +8459,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 7",
+              "name": "50m - Dráha 7",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -8612,7 +8612,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 8",
+              "name": "50m - Dráha 8",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -8769,7 +8769,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 9",
+              "name": "50m (šířka) - Dráha 9",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -8930,7 +8930,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 10",
+              "name": "50m (šířka) - Dráha 10",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -9252,7 +9252,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 1",
+              "name": "25m - Dráha 1",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -9363,7 +9363,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 2",
+              "name": "25m - Dráha 2",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -9490,7 +9490,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 3",
+              "name": "25m - Dráha 3",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -9617,7 +9617,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 4",
+              "name": "25m - Dráha 4",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -9744,7 +9744,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 5",
+              "name": "25m - Dráha 5",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -9871,7 +9871,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 6",
+              "name": "25m - Dráha 6",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -9990,7 +9990,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 7",
+              "name": "25m - Dráha 7",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -10109,7 +10109,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 8",
+              "name": "25m - Dráha 8",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -10323,7 +10323,7 @@
           "date": "2026-07-08",
           "resources": [
             {
-              "name": "Dráhy v 50m bazénu - Dráha 1",
+              "name": "50m - Dráha 1",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -10484,7 +10484,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 2",
+              "name": "50m - Dráha 2",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -10645,7 +10645,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 3",
+              "name": "50m - Dráha 3",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -10806,7 +10806,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 4",
+              "name": "50m - Dráha 4",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -10967,7 +10967,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 5",
+              "name": "50m - Dráha 5",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -11128,7 +11128,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 6",
+              "name": "50m - Dráha 6",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -11289,7 +11289,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 7",
+              "name": "50m - Dráha 7",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -11450,7 +11450,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 8",
+              "name": "50m - Dráha 8",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -11595,7 +11595,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 9",
+              "name": "50m (šířka) - Dráha 9",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -11756,7 +11756,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 10",
+              "name": "50m (šířka) - Dráha 10",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -12078,7 +12078,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 1",
+              "name": "25m - Dráha 1",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -12197,7 +12197,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 2",
+              "name": "25m - Dráha 2",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -12324,7 +12324,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 3",
+              "name": "25m - Dráha 3",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -12451,7 +12451,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 4",
+              "name": "25m - Dráha 4",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -12578,7 +12578,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 5",
+              "name": "25m - Dráha 5",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -12705,7 +12705,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 6",
+              "name": "25m - Dráha 6",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -12824,7 +12824,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 7",
+              "name": "25m - Dráha 7",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -12943,7 +12943,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 8",
+              "name": "25m - Dráha 8",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -13161,7 +13161,7 @@
           "date": "2026-07-09",
           "resources": [
             {
-              "name": "Dráhy v 50m bazénu - Dráha 1",
+              "name": "50m - Dráha 1",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -13322,7 +13322,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 2",
+              "name": "50m - Dráha 2",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -13483,7 +13483,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 3",
+              "name": "50m - Dráha 3",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -13644,7 +13644,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 4",
+              "name": "50m - Dráha 4",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -13805,7 +13805,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 5",
+              "name": "50m - Dráha 5",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -13966,7 +13966,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 6",
+              "name": "50m - Dráha 6",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -14127,7 +14127,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 7",
+              "name": "50m - Dráha 7",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -14288,7 +14288,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 8",
+              "name": "50m - Dráha 8",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -14449,7 +14449,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 9",
+              "name": "50m (šířka) - Dráha 9",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -14610,7 +14610,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 10",
+              "name": "50m (šířka) - Dráha 10",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -14932,7 +14932,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 1",
+              "name": "25m - Dráha 1",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -15047,7 +15047,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 2",
+              "name": "25m - Dráha 2",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -15174,7 +15174,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 3",
+              "name": "25m - Dráha 3",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -15301,7 +15301,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 4",
+              "name": "25m - Dráha 4",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -15428,7 +15428,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 5",
+              "name": "25m - Dráha 5",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -15555,7 +15555,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 6",
+              "name": "25m - Dráha 6",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -15674,7 +15674,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 7",
+              "name": "25m - Dráha 7",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -15793,7 +15793,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 8",
+              "name": "25m - Dráha 8",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -16007,7 +16007,7 @@
           "date": "2026-07-10",
           "resources": [
             {
-              "name": "Dráhy v 50m bazénu - Dráha 1",
+              "name": "50m - Dráha 1",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -16168,7 +16168,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 2",
+              "name": "50m - Dráha 2",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -16329,7 +16329,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 3",
+              "name": "50m - Dráha 3",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -16490,7 +16490,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 4",
+              "name": "50m - Dráha 4",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -16651,7 +16651,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 5",
+              "name": "50m - Dráha 5",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -16812,7 +16812,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 6",
+              "name": "50m - Dráha 6",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -16973,7 +16973,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 7",
+              "name": "50m - Dráha 7",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -17134,7 +17134,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 8",
+              "name": "50m - Dráha 8",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -17267,7 +17267,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 9",
+              "name": "50m (šířka) - Dráha 9",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -17408,7 +17408,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 10",
+              "name": "50m (šířka) - Dráha 10",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -17710,7 +17710,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 1",
+              "name": "25m - Dráha 1",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -17829,7 +17829,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 2",
+              "name": "25m - Dráha 2",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -17956,7 +17956,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 3",
+              "name": "25m - Dráha 3",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -18083,7 +18083,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 4",
+              "name": "25m - Dráha 4",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -18210,7 +18210,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 5",
+              "name": "25m - Dráha 5",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -18337,7 +18337,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 6",
+              "name": "25m - Dráha 6",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -18456,7 +18456,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 7",
+              "name": "25m - Dráha 7",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -18575,7 +18575,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 8",
+              "name": "25m - Dráha 8",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -18809,7 +18809,7 @@
           "date": "2026-07-11",
           "resources": [
             {
-              "name": "Dráhy v 50m bazénu - Dráha 1",
+              "name": "50m - Dráha 1",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -18962,7 +18962,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 2",
+              "name": "50m - Dráha 2",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -19115,7 +19115,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 3",
+              "name": "50m - Dráha 3",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -19268,7 +19268,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 4",
+              "name": "50m - Dráha 4",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -19421,7 +19421,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 5",
+              "name": "50m - Dráha 5",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -19574,7 +19574,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 6",
+              "name": "50m - Dráha 6",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -19727,7 +19727,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 7",
+              "name": "50m - Dráha 7",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -19880,7 +19880,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 8",
+              "name": "50m - Dráha 8",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -20013,7 +20013,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 9",
+              "name": "50m (šířka) - Dráha 9",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -20154,7 +20154,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 10",
+              "name": "50m (šířka) - Dráha 10",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -20460,7 +20460,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 1",
+              "name": "25m - Dráha 1",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -20587,7 +20587,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 2",
+              "name": "25m - Dráha 2",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -20714,7 +20714,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 3",
+              "name": "25m - Dráha 3",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -20841,7 +20841,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 4",
+              "name": "25m - Dráha 4",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -20968,7 +20968,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 5",
+              "name": "25m - Dráha 5",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -21095,7 +21095,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 6",
+              "name": "25m - Dráha 6",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -21222,7 +21222,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 7",
+              "name": "25m - Dráha 7",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -21349,7 +21349,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 8",
+              "name": "25m - Dráha 8",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -21602,7 +21602,7 @@
           "date": "2026-07-12",
           "resources": [
             {
-              "name": "Dráhy v 50m bazénu - Dráha 1",
+              "name": "50m - Dráha 1",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -21755,7 +21755,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 2",
+              "name": "50m - Dráha 2",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -21908,7 +21908,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 3",
+              "name": "50m - Dráha 3",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -22061,7 +22061,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 4",
+              "name": "50m - Dráha 4",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -22214,7 +22214,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 5",
+              "name": "50m - Dráha 5",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -22367,7 +22367,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 6",
+              "name": "50m - Dráha 6",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -22520,7 +22520,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 7",
+              "name": "50m - Dráha 7",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -22673,7 +22673,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu - Dráha 8",
+              "name": "50m - Dráha 8",
               "category": "Dráhy v 50m bazénu",
               "slots": [
                 {
@@ -22806,7 +22806,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 9",
+              "name": "50m (šířka) - Dráha 9",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -22947,7 +22947,7 @@
               ]
             },
             {
-              "name": "Dráhy v 50m bazénu (šířka) - Dráha 10",
+              "name": "50m (šířka) - Dráha 10",
               "category": "Dráhy v 50m bazénu (šířka)",
               "slots": [
                 {
@@ -23253,7 +23253,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 1",
+              "name": "25m - Dráha 1",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -23380,7 +23380,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 2",
+              "name": "25m - Dráha 2",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -23507,7 +23507,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 3",
+              "name": "25m - Dráha 3",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -23634,7 +23634,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 4",
+              "name": "25m - Dráha 4",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -23761,7 +23761,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 5",
+              "name": "25m - Dráha 5",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -23888,7 +23888,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 6",
+              "name": "25m - Dráha 6",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -24015,7 +24015,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 7",
+              "name": "25m - Dráha 7",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -24142,7 +24142,7 @@
               ]
             },
             {
-              "name": "Dráhy v 25m bazénu - Dráha 8",
+              "name": "25m - Dráha 8",
               "category": "Dráhy v 25m bazénu",
               "slots": [
                 {
@@ -24395,7 +24395,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 76,
+          "current": 70,
           "max": 634
         },
         {

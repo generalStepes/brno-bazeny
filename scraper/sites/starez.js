@@ -150,9 +150,16 @@ export async function scrapeStarezVenue(browser, { venue, name, url, webcams }) 
             // (e.g. "Dráhy v 50m bazénu" vs "Dráhy v 25m bazénu" at Lužánky) -
             // needed because lumping different pool sizes/types into one
             // "lanes free" number would be misleading. The category check
-            // above uses the raw label (so "šířka" is still detected); the
-            // displayed lane name itself is unified to "Dráha N".
-            resources.push({ name: `${category} - ${unifyLaneName(laneName)}`, category, slots });
+            // above uses the raw label (so "šířka" is still detected).
+            // A numbered lane's display name is left bare here ("Dráha N") -
+            // whether it needs a category prefix is decided later, once we
+            // know if this venue actually has more than one lane category to
+            // distinguish (see applyLaneDisplayNames in index.js). Non-lane
+            // resources (e.g. "část", "celý bazén", "sauna") aren't
+            // self-descriptive alone, so they always keep their category.
+            const unifiedName = unifyLaneName(laneName);
+            const isNumberedLane = /^Dráha \d+$/.test(unifiedName);
+            resources.push({ name: isNumberedLane ? unifiedName : `${category} - ${laneName}`, category, slots });
           }
         });
         dayMap.set(currentDate, resources);
