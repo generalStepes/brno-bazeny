@@ -16,7 +16,15 @@ const HISTORY_PATH = join(__dirname, '..', 'docs', 'data', 'occupancy-history.js
 const STAREZ_VENUES = [
   { venue: 'aquapark', name: 'Aquapark Kohoutovice', url: 'https://aquapark.starez.cz/vstupenky-rezervace' },
   { venue: 'ponavka', name: 'Bazén Ponávka', url: 'https://ponavka.starez.cz/vstupenky-rezervace' },
-  { venue: 'luzanky', name: 'Bazény Lužánky', url: 'https://bazenyluzanky.starez.cz/vstupenky-rezervace' },
+  {
+    venue: 'luzanky',
+    name: 'Bazény Lužánky',
+    url: 'https://bazenyluzanky.starez.cz/vstupenky-rezervace',
+    webcams: [
+      { label: '25m bazén', url: 'https://bazenyluzanky.starez.cz/_files/kamery/mpsl_25.jpg', filename: 'luzanky-25m.jpg' },
+      { label: '50m bazén', url: 'https://bazenyluzanky.starez.cz/_files/kamery/mpsl_50.jpg', filename: 'luzanky-50m.jpg' },
+    ],
+  },
 ];
 
 async function main() {

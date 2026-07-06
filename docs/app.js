@@ -516,6 +516,28 @@ function renderVenue(venue, selectedDate) {
   const occNote = renderOccupancyNote(venue, selectedDate);
   if (occNote) card.appendChild(occNote);
 
+  // Live camera stills only mean something for "right now", same reasoning
+  // as the live occupancy note - not shown for other dates.
+  if (venue.webcams && venue.webcams.length && selectedDate === todayISO()) {
+    const camWrap = document.createElement('div');
+    camWrap.className = 'webcam-wrap';
+    const cacheBust = DATA.generatedAt ? new Date(DATA.generatedAt).getTime() : Date.now();
+    for (const cam of venue.webcams) {
+      const figure = document.createElement('figure');
+      figure.className = 'webcam-figure';
+      const img = document.createElement('img');
+      img.src = `${cam.path}?t=${cacheBust}`;
+      img.alt = cam.label;
+      img.loading = 'lazy';
+      figure.appendChild(img);
+      const caption = document.createElement('figcaption');
+      caption.textContent = cam.label;
+      figure.appendChild(caption);
+      camWrap.appendChild(figure);
+    }
+    card.appendChild(camWrap);
+  }
+
   if (venue.ok === false) {
     const err = document.createElement('p');
     err.className = 'venue-note';
