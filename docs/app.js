@@ -310,6 +310,22 @@ function renderHistoryNote(venue, dateISO, timeStr) {
   return p;
 }
 
+// Show both the live snapshot and the historical typical for the picked
+// hour when today (they answer different questions - "right now" vs
+// "usually at this hour" - and early on, the historical note otherwise has
+// nowhere it could ever appear: it's suppressed for today in favor of the
+// live note, but "tomorrow" always lands on a weekday we haven't scraped
+// before until a full week has passed). For any other date, only history
+// applies since there's no live snapshot for a day that hasn't happened yet.
+function renderOccupancyNotes(venue, dateISO, timeStr) {
+  const notes = [];
+  const live = renderOccupancyNote(venue, dateISO);
+  if (live) notes.push(live);
+  const history = renderHistoryNote(venue, dateISO, timeStr);
+  if (history) notes.push(history);
+  return notes;
+}
+
 function renderResultLine(entry) {
   const { venue, counts, categories, tier } = entry;
   const li = document.createElement('li');
@@ -323,10 +339,7 @@ function renderResultLine(entry) {
   info.appendChild(name);
   const breakdown = counts ? renderCategoryBreakdown(categories) : null;
   if (breakdown) info.appendChild(breakdown);
-  // Prefer the live snapshot when it applies (today only); otherwise fall
-  // back to our own historical average for that weekday/hour, if we have one.
-  const occNote = renderOccupancyNote(venue, queryDate) || renderHistoryNote(venue, queryDate, queryTime);
-  if (occNote) info.appendChild(occNote);
+  for (const note of renderOccupancyNotes(venue, queryDate, queryTime)) info.appendChild(note);
   li.appendChild(info);
 
   const badge = document.createElement('span');
@@ -365,8 +378,7 @@ function renderRecommendationCard(entry, index) {
   const breakdown = renderCategoryBreakdown(entry.categories);
   if (breakdown) card.appendChild(breakdown);
 
-  const occNote = renderOccupancyNote(entry.venue, queryDate) || renderHistoryNote(entry.venue, queryDate, queryTime);
-  if (occNote) card.appendChild(occNote);
+  for (const note of renderOccupancyNotes(entry.venue, queryDate, queryTime)) card.appendChild(note);
 
   const link = document.createElement('a');
   link.href = entry.venue.url;
@@ -416,7 +428,10 @@ function populateQueryControls() {
   }
   daySelect.onchange = () => {
     queryDate = daySelect.value;
-    renderQueryResults();
+    // Jump the detailed schedule below to the same day so the highlighted
+    // slot is visible without an extra manual click on the date tabs.
+    timelineDate = queryDate;
+    renderAll();
   };
 
   if (!queryTime) queryTime = nearestHalfHour(new Date());
@@ -432,13 +447,17 @@ function populateQueryControls() {
   }
   timeSelect.onchange = () => {
     queryTime = timeSelect.value;
-    renderQueryResults();
+    timelineDate = queryDate;
+    renderAll();
   };
 }
 
 // ---------- Detailed timeline section (existing behaviour) ----------
 
-function renderTimeline(resources) {
+// highlightCol marks which half-hour column matches the time picked in
+// "Chci jít plavat", so a user can see at a glance where that slot falls in
+// every venue's own schedule grid, not just in the ranked summary above.
+function renderTimeline(resources, highlightCol = null) {
   const wrap = document.createElement('div');
   wrap.className = 'timeline-wrap';
 
@@ -477,7 +496,7 @@ function renderTimeline(resources) {
       const cell = document.createElement('div');
       const info = cellStatus[c];
       const status = info ? info.status : 'closed';
-      cell.className = `slot ${status}`;
+      cell.className = `slot ${status}${c === highlightCol ? ' slot-highlight' : ''}`;
       const tmin = TIMELINE_START_MIN + c * 30;
       const timeStr = `${String(Math.floor(tmin / 60)).padStart(2, '0')}:${String(tmin % 60).padStart(2, '0')}`;
       const label = info ? translateSourceLabel(info.label) : null;
@@ -562,7 +581,10 @@ function renderVenue(venue, selectedDate) {
       note.textContent = dayData.note;
       card.appendChild(note);
     }
-    card.appendChild(renderTimeline(dayData.resources));
+    // Only meaningful when this card's day matches the picked query date -
+    // otherwise the picked time doesn't correspond to anything shown here.
+    const highlightCol = selectedDate === queryDate && queryTime ? Math.round((parseTimeToMinutes(queryTime) - TIMELINE_START_MIN) / 30) : null;
+    card.appendChild(renderTimeline(dayData.resources, highlightCol));
   }
 
   return card;
