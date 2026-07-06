@@ -112,6 +112,7 @@ export async function scrapeStarezVenue(browser, { venue, name, url, webcams }) 
         const resources = dayMap.get(currentDate) || [];
         rows.each((laneIdx, rowEl) => {
           const laneName = laneNames[laneIdx] || `${currentResourceName || 'Bazén'} #${laneIdx + 1}`;
+          const isSirkaLane = /šířka/i.test(laneName);
           const slots = [];
           $(rowEl)
             .find('td span[data-date]')
@@ -119,14 +120,24 @@ export async function scrapeStarezVenue(browser, { venue, name, url, webcams }) 
               const $span = $(spanEl);
               const style = $span.attr('style') || '';
               const colorMatch = style.match(/background-color:\s*(#[0-9a-fA-F]{6})/);
-              const status = statusFromStarezColor(colorMatch ? colorMatch[1] : null);
+              let status = statusFromStarezColor(colorMatch ? colorMatch[1] : null);
+              // Width-swim mode (volná/rezervovaná šířka) means the opposite
+              // of its literal color on a normal length lane (délka) vs. on
+              // a dedicated width lane (šířka) - confirmed directly by a
+              // regular swimmer there. When a délka lane gets painted with
+              // either width-mode color, its length is no longer usable for
+              // normal swimming (blocked), even though the color alone reads
+              // "free". A šířka lane normally just sits closed and isn't
+              // offered at all - either width-mode color appearing on it
+              // means an organized width-swim session is actually open to
+              // the public right now, regardless of which of the two colors.
+              if (colorMatch && /^#(f9d993|e19e0d)$/i.test(colorMatch[1])) {
+                status = isSirkaLane ? 'available' : 'reserved';
+              }
               const timeText = $span.find('.table-time').text().trim(); // e.g. "8:00-9:00"
               const [start, end] = timeText.split('-').map((t) => t.trim());
               // The <small> text carries context that the color alone
-              // doesn't, e.g. "volná šířka" / "rezervovaná šířka: KPSP 50" -
-              // important because *any* lane (délka or šířka-numbered) can
-              // switch into width-swim mode when something else (water polo,
-              // diving practice) blocks normal length-swimming that day.
+              // doesn't, e.g. "volná šířka" / "rezervovaná šířka: KPSP 50".
               const label = $span.find('small').text().replace(/\s+/g, ' ').trim();
               if (start && end) slots.push({ start, end, status, label: label || undefined });
             });

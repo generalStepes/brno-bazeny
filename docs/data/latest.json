@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T14:36:50.513Z",
+  "generatedAt": "2026-07-06T14:52:03.651Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4246,12 +4246,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 100,
+          "current": 121,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 1,
+          "current": 2,
           "max": 12
         }
       ],
@@ -4863,12 +4863,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -5016,12 +5016,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -5169,12 +5169,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -5322,12 +5322,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -5475,12 +5475,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -5628,12 +5628,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -5781,12 +5781,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -5922,12 +5922,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -6083,7 +6083,7 @@
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka KPSP 50"
                 },
                 {
@@ -6240,7 +6240,7 @@
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka KPSP 50"
                 },
                 {
@@ -7941,12 +7941,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -8102,12 +8102,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -8263,12 +8263,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -8424,12 +8424,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -8577,12 +8577,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -8734,12 +8734,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -16063,32 +16063,32 @@
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
                   "end": "12:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:30",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
                   "end": "13:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:30",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "14:00",
@@ -16113,22 +16113,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -16224,32 +16224,32 @@
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
                   "end": "12:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:30",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
                   "end": "13:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:30",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "14:00",
@@ -16274,22 +16274,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -16385,32 +16385,32 @@
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
                   "end": "12:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:30",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
                   "end": "13:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:30",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "14:00",
@@ -16435,22 +16435,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -16546,32 +16546,32 @@
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
                   "end": "12:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:30",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
                   "end": "13:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:30",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "14:00",
@@ -16596,22 +16596,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -16707,32 +16707,32 @@
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
                   "end": "12:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:30",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
                   "end": "13:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:30",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "14:00",
@@ -16757,22 +16757,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -16868,32 +16868,32 @@
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
                   "end": "12:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:30",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
                   "end": "13:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:30",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "14:00",
@@ -16918,22 +16918,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -17029,32 +17029,32 @@
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
                   "end": "12:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:30",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
                   "end": "13:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:30",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "14:00",
@@ -17079,22 +17079,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -17323,19 +17323,19 @@
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -17361,13 +17361,13 @@
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -17464,19 +17464,19 @@
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -17502,13 +17502,13 @@
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -18837,32 +18837,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -18907,22 +18907,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -18990,32 +18990,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -19060,22 +19060,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -19143,32 +19143,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -19213,22 +19213,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -19296,32 +19296,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -19366,22 +19366,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -19449,32 +19449,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -19519,22 +19519,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -19602,32 +19602,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -19672,22 +19672,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -19755,32 +19755,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -19825,22 +19825,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -20049,19 +20049,19 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -20107,13 +20107,13 @@
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -20190,19 +20190,19 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -20248,13 +20248,13 @@
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -21630,32 +21630,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -21700,22 +21700,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -21783,32 +21783,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -21853,22 +21853,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -21936,32 +21936,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -22006,22 +22006,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -22089,32 +22089,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -22159,22 +22159,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -22242,32 +22242,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -22312,22 +22312,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -22395,32 +22395,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -22465,22 +22465,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -22548,32 +22548,32 @@
                 {
                   "start": "9:00",
                   "end": "9:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -22618,22 +22618,22 @@
                 {
                   "start": "16:00",
                   "end": "16:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:00",
                   "end": "17:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -22842,19 +22842,19 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -22900,13 +22900,13 @@
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -22983,19 +22983,19 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -23041,13 +23041,13 @@
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "reserved",
+                  "status": "available",
                   "label": "rezervovaná šířka ČSPS"
                 },
                 {
@@ -24395,7 +24395,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 70,
+          "current": 80,
           "max": 634
         },
         {
@@ -44072,7 +44072,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 46,
+          "current": 48,
           "max": 135
         }
       ],
