@@ -16,6 +16,7 @@ Venues covered: Aquapark Kohoutovice, Bazén Ponávka, Bazény Lužánky (all ST
 - **Kraví hora**'s main page only shows *today*, but its "Týdenní rozpis" sub-page paginates further out, so we pull ~2 weeks from there instead.
 - **TJ Tesla Brno** doesn't publish availability as text/API at all — only as a monthly schedule image uploaded to their site. The scraper OCRs it (Playwright locates the current month's image, sharp crops each date/hour cell, tesseract.js reads the digit).
 - Slot colors/labels are inferred from each site's own legend (e.g. STAREZ's green/grey/light-grey scheme). Always double check on the venue's own page before relying on it for anything important — this is a best-effort aggregator, not an official source.
+- STAREZ venues' reservation grids can go stale during a long-term closure (Ponávka's did — some future days kept showing open slots during a closure running through 31 Dec 2026). The scraper also checks each venue's homepage alert banner for closure wording ("uzavřen"/"mimo provoz"/"odstávka") and forces every slot closed through the announced end date when found, regardless of what the grid itself says. Benign banners (e.g. holiday hours notices) are left alone.
 
 ## Local development
 
