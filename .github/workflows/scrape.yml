@@ -2,8 +2,11 @@ name: Scrape pool availability
 
 on:
   schedule:
-    # Every hour, on the hour
-    - cron: '0 * * * *'
+    # Every hour, at :17 rather than :00 - GitHub Actions heavily queues/
+    # delays runs scheduled for the top of the hour since that's the most
+    # congested cron time across all of GitHub; off-the-hour minutes get
+    # scheduled much more reliably.
+    - cron: '17 * * * *'
   workflow_dispatch: {}
 
 permissions:
