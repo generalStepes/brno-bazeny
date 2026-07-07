@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T07:04:23.600Z",
+  "generatedAt": "2026-07-07T07:33:47.162Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4248,7 +4248,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 39,
+          "current": 52,
           "max": 220
         }
       ],
@@ -6510,20 +6510,20 @@
                 },
                 {
                   "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 25"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 25"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
+                  "end": "10:30",
                   "status": "available"
+                },
+                {
+                  "start": "10:30",
+                  "end": "11:30",
+                  "status": "reserved",
+                  "label": "rezervováno KPSP 25"
+                },
+                {
+                  "start": "11:30",
+                  "end": "12:30",
+                  "status": "reserved",
+                  "label": "rezervováno KPSP 25"
                 },
                 {
                   "start": "12:30",
@@ -9324,14 +9324,14 @@
                 },
                 {
                   "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 25"
+                  "end": "10:30",
+                  "status": "available"
                 },
                 {
-                  "start": "11:00",
+                  "start": "10:30",
                   "end": "11:30",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno KPSP 25"
                 },
                 {
                   "start": "11:30",
@@ -12178,20 +12178,20 @@
                 },
                 {
                   "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 25"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 25"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
+                  "end": "10:30",
                   "status": "available"
+                },
+                {
+                  "start": "10:30",
+                  "end": "11:30",
+                  "status": "reserved",
+                  "label": "rezervováno KPSP 25"
+                },
+                {
+                  "start": "11:30",
+                  "end": "12:30",
+                  "status": "reserved",
+                  "label": "rezervováno KPSP 25"
                 },
                 {
                   "start": "12:30",
@@ -14956,20 +14956,20 @@
                 },
                 {
                   "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 25"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 25"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
+                  "end": "10:30",
                   "status": "available"
+                },
+                {
+                  "start": "10:30",
+                  "end": "11:30",
+                  "status": "reserved",
+                  "label": "rezervováno KPSP 25"
+                },
+                {
+                  "start": "11:30",
+                  "end": "12:30",
+                  "status": "reserved",
+                  "label": "rezervováno KPSP 25"
                 },
                 {
                   "start": "12:30",
@@ -23340,20 +23340,20 @@
                 },
                 {
                   "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 25"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 25"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
+                  "end": "10:30",
                   "status": "available"
+                },
+                {
+                  "start": "10:30",
+                  "end": "11:30",
+                  "status": "reserved",
+                  "label": "rezervováno KPSP 25"
+                },
+                {
+                  "start": "11:30",
+                  "end": "12:30",
+                  "status": "reserved",
+                  "label": "rezervováno KPSP 25"
                 },
                 {
                   "start": "12:30",
@@ -24384,7 +24384,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 54,
+          "current": 40,
           "max": 634
         },
         {
@@ -44013,7 +44013,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 1,
+          "current": 16,
           "max": 135
         }
       ],
