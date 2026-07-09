@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T10:39:15.676Z",
+  "generatedAt": "2026-07-09T11:43:51.908Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -2183,7 +2183,8 @@
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Max Dives"
                 },
                 {
                   "start": "11:00",
@@ -4249,7 +4250,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 112,
+          "current": 60,
           "max": 220
         }
       ],
@@ -24393,7 +24394,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 62,
+          "current": 44,
           "max": 634
         }
       ],
@@ -43945,7 +43946,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 17,
+          "current": 21,
           "max": 135
         }
       ],
