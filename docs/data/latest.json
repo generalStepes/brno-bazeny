@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T11:43:51.908Z",
+  "generatedAt": "2026-07-09T12:03:57.963Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4250,7 +4250,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 60,
+          "current": 59,
           "max": 220
         }
       ],
@@ -11550,13 +11550,9 @@
                 },
                 {
                   "start": "18:00",
-                  "end": "18:30",
-                  "status": "available"
-                },
-                {
-                  "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Bielena"
                 },
                 {
                   "start": "19:00",
@@ -24394,7 +24390,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 44,
+          "current": 40,
           "max": 634
         }
       ],
@@ -43946,7 +43942,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 21,
+          "current": 17,
           "max": 135
         }
       ],
