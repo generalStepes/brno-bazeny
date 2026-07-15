@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T04:34:01.968Z",
+  "generatedAt": "2026-07-15T05:04:51.145Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4252,7 +4252,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 31,
+          "current": 33,
           "max": 220
         }
       ],
@@ -24250,7 +24250,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 28,
+          "current": 53,
           "max": 634
         },
         {
@@ -24260,10 +24260,6 @@
         }
       ],
       "webcams": [
-        {
-          "label": "25m bazén",
-          "path": "images/luzanky-25m.jpg"
-        },
         {
           "label": "50m bazén",
           "path": "images/luzanky-50m.jpg"
