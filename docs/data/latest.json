@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T07:04:11.022Z",
+  "generatedAt": "2026-07-16T07:33:57.799Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -18,77 +18,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -99,77 +99,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -180,77 +180,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -261,79 +261,79 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -344,79 +344,79 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -427,80 +427,80 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -511,81 +511,81 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -596,41 +596,42 @@
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             }
-          ]
+          ],
+          "note": "Z technických důvodů tobogán mimo provoz"
         },
         {
           "date": "2026-07-17",
@@ -642,77 +643,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -723,77 +724,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -804,77 +805,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -885,78 +886,78 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -967,78 +968,78 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1049,78 +1050,78 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1131,79 +1132,79 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1214,41 +1215,42 @@
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             }
-          ]
+          ],
+          "note": "Z technických důvodů tobogán mimo provoz"
         },
         {
           "date": "2026-07-18",
@@ -1260,67 +1262,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1331,67 +1333,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1402,67 +1404,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1473,67 +1475,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1544,67 +1546,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1615,67 +1617,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1686,67 +1688,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1757,56 +1759,57 @@
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             }
-          ]
+          ],
+          "note": "Z technických důvodů tobogán mimo provoz"
         },
         {
           "date": "2026-07-19",
@@ -1818,67 +1821,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1889,67 +1892,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -1960,67 +1963,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2031,67 +2034,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2102,67 +2105,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2173,67 +2176,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2244,67 +2247,67 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2315,56 +2318,57 @@
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             }
-          ]
+          ],
+          "note": "Z technických důvodů tobogán mimo provoz"
         },
         {
           "date": "2026-07-20",
@@ -2376,77 +2380,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2457,77 +2461,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2538,77 +2542,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2619,80 +2623,80 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2703,81 +2707,81 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno Sunfit"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2788,82 +2792,82 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno Sunfit"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2874,81 +2878,81 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -2959,41 +2963,42 @@
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             }
-          ]
+          ],
+          "note": "Z technických důvodů tobogán mimo provoz"
         },
         {
           "date": "2026-07-21",
@@ -3005,77 +3010,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -3086,77 +3091,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -3167,77 +3172,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -3248,80 +3253,80 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -3332,80 +3337,80 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -3416,81 +3421,81 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -3501,81 +3506,81 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -3586,41 +3591,42 @@
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             }
-          ]
+          ],
+          "note": "Z technických důvodů tobogán mimo provoz"
         },
         {
           "date": "2026-07-22",
@@ -3632,77 +3638,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -3713,77 +3719,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -3794,77 +3800,77 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -3875,79 +3881,79 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -3958,80 +3964,80 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno Sunfit"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -4042,81 +4048,81 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno Sunfit"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -4127,81 +4133,81 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "reserved",
+                  "status": "closed",
                   "label": "rezervováno PŠB"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             },
@@ -4212,47 +4218,48 @@
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "closed"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "closed"
                 }
               ]
             }
-          ]
+          ],
+          "note": "Z technických důvodů tobogán mimo provoz"
         }
       ],
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 48,
+          "current": 54,
           "max": 220
         }
       ],
@@ -23244,13 +23251,9 @@
                 },
                 {
                   "start": "15:00",
-                  "end": "15:30",
-                  "status": "available"
-                },
-                {
-                  "start": "15:30",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Monsta"
                 },
                 {
                   "start": "16:00",
@@ -24254,7 +24257,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 49,
+          "current": 56,
           "max": 634
         }
       ],
@@ -43710,7 +43713,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 0,
+          "current": 15,
           "max": 135
         }
       ],
