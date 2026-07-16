@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T05:33:50.544Z",
+  "generatedAt": "2026-07-16T06:03:53.913Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4252,7 +4252,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 42,
+          "current": 57,
           "max": 220
         }
       ],
@@ -24254,7 +24254,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 46,
+          "current": 40,
           "max": 634
         }
       ],
@@ -24694,14 +24694,14 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Vodárenská, a.s."
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Vodárenská, a.s."
                 },
                 {
                   "start": "8:00",
