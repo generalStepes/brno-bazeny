@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T11:03:34.483Z",
+  "generatedAt": "2026-07-17T11:34:05.207Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4259,7 +4259,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 102,
+          "current": 91,
           "max": 220
         }
       ],
@@ -4707,12 +4707,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "19:00",
@@ -4868,12 +4868,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "19:00",
@@ -5029,12 +5029,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "19:00",
@@ -5190,12 +5190,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "19:00",
@@ -5351,12 +5351,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "19:00",
@@ -5512,12 +5512,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "19:00",
@@ -5665,12 +5665,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "19:00",
@@ -5797,33 +5797,25 @@
                 },
                 {
                   "start": "16:00",
-                  "end": "16:30",
-                  "status": "reserved"
-                },
-                {
-                  "start": "16:30",
                   "end": "17:00",
-                  "status": "reserved"
+                  "status": "reserved",
+                  "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "17:00",
-                  "end": "17:30",
-                  "status": "reserved"
-                },
-                {
-                  "start": "17:30",
                   "end": "18:00",
-                  "status": "reserved"
+                  "status": "reserved",
+                  "label": "rezervovaná šířka ČSPS"
                 },
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "19:00",
@@ -5962,9 +5954,13 @@
                 },
                 {
                   "start": "18:00",
+                  "end": "18:30",
+                  "status": "closed"
+                },
+                {
+                  "start": "18:30",
                   "end": "19:00",
-                  "status": "available",
-                  "label": "rezervovaná šířka ČSPS"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
@@ -6103,9 +6099,13 @@
                 },
                 {
                   "start": "18:00",
+                  "end": "18:30",
+                  "status": "closed"
+                },
+                {
+                  "start": "18:30",
                   "end": "19:00",
-                  "status": "available",
-                  "label": "rezervovaná šířka ČSPS"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
