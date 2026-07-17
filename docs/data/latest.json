@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T13:03:51.515Z",
+  "generatedAt": "2026-07-17T13:33:48.735Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -625,7 +625,7 @@
               ]
             }
           ],
-          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky. Z technických důvodů tobogán mimo provoz"
+          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky."
         },
         {
           "date": "2026-07-18",
@@ -1184,7 +1184,7 @@
               ]
             }
           ],
-          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky. Z technických důvodů tobogán mimo provoz"
+          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky."
         },
         {
           "date": "2026-07-19",
@@ -1743,7 +1743,7 @@
               ]
             }
           ],
-          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky. Z technických důvodů tobogán mimo provoz"
+          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky."
         },
         {
           "date": "2026-07-20",
@@ -2373,7 +2373,7 @@
               ]
             }
           ],
-          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky. Z technických důvodů tobogán mimo provoz"
+          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky."
         },
         {
           "date": "2026-07-21",
@@ -3001,7 +3001,7 @@
               ]
             }
           ],
-          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky. Z technických důvodů tobogán mimo provoz"
+          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky."
         },
         {
           "date": "2026-07-22",
@@ -3628,7 +3628,7 @@
               ]
             }
           ],
-          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky. Z technických důvodů tobogán mimo provoz"
+          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky."
         },
         {
           "date": "2026-07-23",
@@ -4253,13 +4253,13 @@
               ]
             }
           ],
-          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky. Z technických důvodů tobogán mimo provoz"
+          "note": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky."
         }
       ],
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 96,
+          "current": 117,
           "max": 220
         }
       ],
@@ -24855,7 +24855,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 65,
+          "current": 56,
           "max": 634
         }
       ],
@@ -44303,7 +44303,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 24,
+          "current": 26,
           "max": 135
         }
       ],
