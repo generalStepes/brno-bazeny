@@ -34,7 +34,7 @@ const I18N = {
     'noResults': 'Pro tento čas nemáme u žádného bazénu data.',
     'occupancy.now': 'aktuální obsazenost',
     'occupancy.people': (current, max) => `${current} z ${max} osob`,
-    'occupancy.typical': (pct, samples) => `obvykle bývá plno na ${pct} % (${samples}× měřeno)`,
+    'occupancy.typical': (pct, samples, lowConfidence) => `obvykle bývá plno na ${pct} % (${samples}× měřeno${lowConfidence ? ', předběžný odhad' : ''})`,
   },
   en: {
     'site.title': '🏊 Brno Pools – availability',
@@ -67,7 +67,8 @@ const I18N = {
     'noResults': 'No data available for any pool at this time.',
     'occupancy.now': 'current headcount',
     'occupancy.people': (current, max) => `${current} of ${max} people`,
-    'occupancy.typical': (pct, samples) => `typically about ${pct}% full (based on ${samples} reading${samples === 1 ? '' : 's'})`,
+    'occupancy.typical': (pct, samples, lowConfidence) =>
+      `typically about ${pct}% full (based on ${samples} reading${samples === 1 ? '' : 's'}${lowConfidence ? ' - early estimate' : ''})`,
   },
 };
 
@@ -295,8 +296,12 @@ function renderOccupancyNote(venue, forDate) {
 // once a week (we only pass through "Monday at 3pm" every seven days), so
 // requiring several samples before showing anything would keep this looking
 // "inactive" for a month. Show from the very first sample instead, but
-// always say how many readings it's based on so a single early data point
-// doesn't read as a confident average.
+// always say how many readings it's based on - and below LOW_CONFIDENCE_
+// SAMPLES, flag it explicitly as an early estimate, since 1-2 readings can
+// easily land on an unrepresentative moment (confirmed live: a 2-sample
+// average once read "0% full" for a slot that had 48 people in it that
+// same evening - technically correct, but misleading without the caveat).
+const LOW_CONFIDENCE_SAMPLES = 3;
 function historyAverageFor(venueId, dateISO, timeStr) {
   if (!HISTORY || !HISTORY[venueId]) return [];
   const weekday = new Date(dateISO + 'T00:00:00').getDay();
@@ -305,7 +310,7 @@ function historyAverageFor(venueId, dateISO, timeStr) {
   for (const [label, byWeekday] of Object.entries(HISTORY[venueId])) {
     const cell = byWeekday?.[weekday]?.[hour];
     if (cell && cell.count >= 1) {
-      results.push({ label, percent: Math.round(cell.sum / cell.count), samples: cell.count });
+      results.push({ label, percent: Math.round(cell.sum / cell.count), samples: cell.count, lowConfidence: cell.count < LOW_CONFIDENCE_SAMPLES });
     }
   }
   return results;
@@ -316,8 +321,9 @@ function renderHistoryNote(venue, dateISO, timeStr) {
   if (!entries.length) return null;
   const p = document.createElement('p');
   p.className = 'occupancy-note';
+  const typicalText = (e) => t('occupancy.typical', e.percent, e.samples, e.lowConfidence);
   p.textContent = entries
-    .map((e) => (entries.length > 1 ? `${e.label}: ${t('occupancy.typical', e.percent, e.samples)}` : t('occupancy.typical', e.percent, e.samples)))
+    .map((e) => (entries.length > 1 ? `${e.label}: ${typicalText(e)}` : typicalText(e)))
     .join(' · ');
   return p;
 }
