@@ -31,17 +31,31 @@ function findClosureNotice($) {
   const alertText = $('#alert-danger').first().text().replace(/\s+/g, ' ').trim();
   if (!alertText || !CLOSURE_KEYWORDS.test(alertText)) return null;
 
-  // Take the last full dd.mm.yyyy date in the message as the "closed until"
-  // boundary (these notices are phrased "closed from X to Y"); if no full
-  // date is found, treat the closure as indefinite and close everything we
-  // scrape rather than risk showing available slots during a real closure.
-  const dateMatches = [...alertText.matchAll(/(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})/g)];
-  let closedUntil = null;
-  if (dateMatches.length) {
-    const [, d, mo, y] = dateMatches[dateMatches.length - 1];
-    closedUntil = `${y}-${MONTHS[Number(mo)]}-${String(d).padStart(2, '0')}`;
+  // These notices are phrased "closed from START to END", e.g.
+  // "17. 8.-20. 9. 2026" or "14. 6. od 13:00 - 31. 12. 2026" - the start
+  // date very often omits the year. Matching only full dd.mm.yyyy dates and
+  // treating the last one as "closed until" (with no lower bound) silently
+  // dropped the start date, which made a closure that hasn't started yet
+  // (e.g. one beginning next month) look like it was already in effect.
+  // So: match dates with or without a year, then backfill missing years
+  // from the nearest later date that does have one.
+  const rawMatches = [...alertText.matchAll(/(\d{1,2})\.\s*(\d{1,2})\.(?:\s*(\d{4}))?/g)].map((m) => ({
+    d: m[1],
+    mo: m[2],
+    y: m[3],
+  }));
+  let nextYear = null;
+  for (let i = rawMatches.length - 1; i >= 0; i--) {
+    if (rawMatches[i].y) nextYear = rawMatches[i].y;
+    else rawMatches[i].y = nextYear;
   }
-  return { message: alertText, closedUntil };
+  const isoDates = rawMatches.filter((p) => p.y).map((p) => `${p.y}-${MONTHS[Number(p.mo)]}-${String(p.d).padStart(2, '0')}`);
+
+  // No parseable date at all -> treat as an indefinite closure in effect
+  // right now and close everything we scrape, rather than risk showing
+  // available slots during a real closure.
+  if (!isoDates.length) return { message: alertText, closedFrom: null, closedUntil: null };
+  return { message: alertText, closedFrom: isoDates[0], closedUntil: isoDates[isoDates.length - 1] };
 }
 
 async function scrapeHomepageInfo(browser, homeUrl) {
@@ -185,6 +199,7 @@ export async function scrapeStarezVenue(browser, { venue, name, url, webcams }) 
     // otherwise, that overrides whatever the grid shows for the affected days.
     if (closure) {
       for (const day of days) {
+        if (closure.closedFrom && day.date < closure.closedFrom) continue;
         if (closure.closedUntil && day.date > closure.closedUntil) continue;
         for (const resource of day.resources) {
           for (const slot of resource.slots) slot.status = 'closed';
