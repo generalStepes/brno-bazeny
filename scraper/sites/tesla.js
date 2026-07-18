@@ -19,16 +19,20 @@ const HOUR_COLUMNS = [
   ['18:00', '19:00'], ['19:00', '20:00'], ['20:00', '21:00'], ['21:00', '21:45'],
 ];
 
-// Calibrated against the July 2026 export (1306x2231px), expressed as
-// fractions of image size so it keeps working if a future month's image is
-// rendered at a slightly different resolution from the same template.
+// Calibrated against the July 2026 export (1306x2231px, 31 data rows).
+// These are *absolute* pixel offsets, not fractions of image size - the
+// header height and per-row height are fixed by the template regardless of
+// row count, so a half-month export (e.g. 15 rows, 1306x1239px) has a
+// shorter total image but the same header/row geometry. Using fractions of
+// total height here previously broke on exactly that case (a half-month
+// image reads as if every row were squeezed into a much shorter grid).
 const GRID = {
-  row0Top: 237 / 2231,
-  rowHeight: 62.0 / 2231,
-  col0Left: 287 / 1306,
-  colWidth: 57 / 1306,
-  cellW: 40 / 1306,
-  cellH: 40 / 2231,
+  row0Top: 237,
+  rowHeight: 62.0,
+  col0Left: 287,
+  colWidth: 57,
+  cellW: 40,
+  cellH: 40,
 };
 
 function stripDiacritics(s) {
@@ -44,21 +48,43 @@ async function findScheduleImageUrl(page) {
   });
 }
 
-function parseMonthYearFromUrl(url) {
+// TJ Tesla normally uploads one image per whole month ("Bazén Červenec
+// 2026.jpg" -> rows are day 1..daysInMonth), but sometimes splits a month
+// mid-way into two half-month images instead ("Bazén 17.-31.. 2026.jpg" -
+// rows are day 17..31, and the month name is dropped from the filename
+// entirely). Returns { year, month, startDay, dayCount } either way.
+function parseScheduleImageInfo(url, now = new Date()) {
   const decoded = decodeURIComponent(url);
-  const m = decoded.match(/Bazén\s+(\S+)\s+(\d{4})/i);
-  if (!m) return null;
-  const monthKey = stripDiacritics(m[1].toLowerCase());
-  const month = CZECH_MONTHS[monthKey];
-  if (!month) return null;
-  return { month, year: parseInt(m[2], 10) };
+
+  const monthMatch = decoded.match(/Bazén\s+(\D+?)\s+(\d{4})/i);
+  if (monthMatch) {
+    const monthKey = stripDiacritics(monthMatch[1].toLowerCase());
+    const month = CZECH_MONTHS[monthKey];
+    if (month) {
+      const year = parseInt(monthMatch[2], 10);
+      return { year, month, startDay: 1, dayCount: new Date(year, month, 0).getDate() };
+    }
+  }
+
+  const rangeMatch = decoded.match(/Bazén\s+(\d{1,2})\.-(\d{1,2})\.+\s*(\d{4})/i);
+  if (rangeMatch) {
+    const startDay = parseInt(rangeMatch[1], 10);
+    const endDay = parseInt(rangeMatch[2], 10);
+    const year = parseInt(rangeMatch[3], 10);
+    // No month name in this format at all - trust the month we're actually
+    // scraping in, since these are always near-term schedules.
+    const month = now.getMonth() + 1;
+    return { year, month, startDay, dayCount: endDay - startDay + 1 };
+  }
+
+  return null;
 }
 
-async function ocrCell(worker, imageBuffer, meta, rowIdx, colIdx) {
-  const top = meta.height * GRID.row0Top + rowIdx * meta.height * GRID.rowHeight - meta.height * GRID.cellH * 0.3;
-  const left = meta.width * GRID.col0Left + colIdx * meta.width * GRID.colWidth - meta.width * GRID.cellW * 0.25;
-  const width = meta.width * GRID.cellW;
-  const height = meta.height * GRID.cellH;
+async function ocrCell(worker, imageBuffer, rowIdx, colIdx) {
+  const top = GRID.row0Top + rowIdx * GRID.rowHeight - GRID.cellH * 0.3;
+  const left = GRID.col0Left + colIdx * GRID.colWidth - GRID.cellW * 0.25;
+  const width = GRID.cellW;
+  const height = GRID.cellH;
   const cropped = await sharp(imageBuffer)
     .extract({ left: Math.round(left), top: Math.round(top), width: Math.round(width), height: Math.round(height) })
     .greyscale()
@@ -75,25 +101,23 @@ const OCR_NOTE_CS =
 async function scrapeFromImage(page) {
   const imgUrl = await findScheduleImageUrl(page);
   if (!imgUrl) throw new Error('schedule image not found on page');
-  const monthYear = parseMonthYearFromUrl(imgUrl);
-  if (!monthYear) throw new Error(`could not parse month/year from image URL: ${imgUrl}`);
+  const scheduleInfo = parseScheduleImageInfo(imgUrl);
+  if (!scheduleInfo) throw new Error(`could not parse schedule date range from image URL: ${imgUrl}`);
+  const { year, month, startDay, dayCount } = scheduleInfo;
 
   const imgResp = await fetch(imgUrl);
   if (!imgResp.ok) throw new Error(`failed to download schedule image: HTTP ${imgResp.status}`);
   const imgBuffer = Buffer.from(await imgResp.arrayBuffer());
-  const meta = await sharp(imgBuffer).metadata();
-
-  const daysInMonth = new Date(monthYear.year, monthYear.month, 0).getDate();
 
   const worker = await createWorker('eng');
   await worker.setParameters({ tessedit_char_whitelist: '0123456789', tessedit_pageseg_mode: '10' });
 
   const rawGrid = [];
   try {
-    for (let d = 0; d < daysInMonth; d++) {
+    for (let d = 0; d < dayCount; d++) {
       const row = [];
       for (let c = 0; c < HOUR_COLUMNS.length; c++) {
-        row.push(await ocrCell(worker, imgBuffer, meta, d, c));
+        row.push(await ocrCell(worker, imgBuffer, d, c));
       }
       rawGrid.push(row);
     }
@@ -104,7 +128,7 @@ async function scrapeFromImage(page) {
   const totalLanes = Math.max(6, ...rawGrid.flat().filter((v) => v !== null && v >= 0 && v <= 20));
 
   const days = rawGrid.map((row, d) => {
-    const date = `${monthYear.year}-${String(monthYear.month).padStart(2, '0')}-${String(d + 1).padStart(2, '0')}`;
+    const date = `${year}-${String(month).padStart(2, '0')}-${String(startDay + d).padStart(2, '0')}`;
     const resources = [];
     for (let lane = 1; lane <= totalLanes; lane++) {
       const slots = HOUR_COLUMNS.map(([start, end], c) => {
