@@ -43,9 +43,9 @@ export async function scrapeDruzstevni(browser) {
       if (resources.length) days.push({ date, resources });
     }
 
-    return { venue: 'druzstevni', name: 'Bazén Družstevní', url: BASE_URL, ok: true, error: null, days, occupancy: [], webcams: [] };
+    return { venue: 'druzstevni', name: 'Bazén Družstevní', url: BASE_URL, ok: true, error: null, days, occupancy: [], webcams: [], closureNotice: null };
   } catch (err) {
-    return { venue: 'druzstevni', name: 'Bazén Družstevní', url: BASE_URL, ok: false, error: err.message, days, occupancy: [], webcams: [] };
+    return { venue: 'druzstevni', name: 'Bazén Družstevní', url: BASE_URL, ok: false, error: err.message, days, occupancy: [], webcams: [], closureNotice: null };
   } finally {
     await page.close();
   }

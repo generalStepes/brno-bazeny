@@ -78,6 +78,34 @@ body {
   font-size: 1.1rem;
 }
 
+.closure-summary {
+  max-width: 960px;
+  margin: 0 auto 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.closure-item {
+  background: #fdecea;
+  border: 1px solid #f3b7ae;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.closure-item strong {
+  color: #8a2f2f;
+  font-size: 0.9rem;
+}
+
+.closure-detail {
+  font-size: 0.8rem;
+  color: #7a4a44;
+}
+
 .query-card {
   max-width: 960px;
   margin: 0 auto 1.5rem;

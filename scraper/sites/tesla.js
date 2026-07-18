@@ -148,9 +148,9 @@ export async function scrapeTesla(browser) {
   const page = await browser.newPage();
   try {
     const days = await scrapeFromImage(page);
-    return { venue: 'tesla', name: 'TJ Tesla Brno - Bazén 25m', url: PAGE_URL, ok: true, error: null, days, occupancy: [], webcams: [] };
+    return { venue: 'tesla', name: 'TJ Tesla Brno - Bazén 25m', url: PAGE_URL, ok: true, error: null, days, occupancy: [], webcams: [], closureNotice: null };
   } catch (err) {
-    return { venue: 'tesla', name: 'TJ Tesla Brno - Bazén 25m', url: PAGE_URL, ok: false, error: err.message, days: [], occupancy: [], webcams: [] };
+    return { venue: 'tesla', name: 'TJ Tesla Brno - Bazén 25m', url: PAGE_URL, ok: false, error: err.message, days: [], occupancy: [], webcams: [], closureNotice: null };
   } finally {
     await page.close();
   }

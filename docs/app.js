@@ -6,6 +6,8 @@ const I18N = {
   cs: {
     'site.title': '🏊 Bazény v Brně – dostupnost',
     'site.subtitle': 'Souhrn otevřených drah napříč brněnskými bazény. Data se aktualizují automaticky několikrát denně.',
+    'closure.now': (venue) => `${venue} je momentálně zavřený`,
+    'closure.upcoming': (venue, date) => `${venue} bude od ${date} zavřený`,
     'query.title': 'Chci jít plavat',
     'query.day': 'Kdy',
     'query.time': 'V kolik',
@@ -39,6 +41,8 @@ const I18N = {
   en: {
     'site.title': '🏊 Brno Pools – availability',
     'site.subtitle': 'A combined view of open swim lanes across Brno pools. Data refreshes automatically several times a day.',
+    'closure.now': (venue) => `${venue} is currently closed`,
+    'closure.upcoming': (venue, date) => `${venue} will be closed from ${date}`,
     'query.title': "I'd like to go swimming",
     'query.day': 'When',
     'query.time': 'At what time',
@@ -669,8 +673,46 @@ function renderStaticText() {
   }
 }
 
+// Surfaces STAREZ closure notices (see closureNotice in starez.js) right at
+// the top of the page instead of leaving someone to discover "oh, this
+// venue is closed" only after scrolling down to its card.
+function renderClosureSummary() {
+  const container = document.getElementById('closure-summary');
+  container.innerHTML = '';
+  const today = todayISO();
+  const notices = DATA.venues.filter((v) => v.closureNotice);
+  if (!notices.length) return;
+
+  for (const venue of notices) {
+    const { closedFrom, closedUntil } = venue.closureNotice;
+    // A closure whose window has already fully passed shouldn't still show -
+    // in practice the venue removes the banner itself once resolved, but
+    // guard anyway rather than trust that.
+    if (closedUntil && closedUntil < today) continue;
+    const isCurrent = !closedFrom || closedFrom <= today;
+
+    const item = document.createElement('div');
+    item.className = 'closure-item';
+    const headline = document.createElement('strong');
+    const fromLabel = closedFrom ? new Date(closedFrom + 'T00:00:00').toLocaleDateString(lang === 'cs' ? 'cs-CZ' : 'en-GB') : '';
+    headline.textContent = isCurrent ? t('closure.now', venue.name) : t('closure.upcoming', venue.name, fromLabel);
+    item.appendChild(headline);
+    // The scraper already trims the banner to just the closure sentence
+    // (drops unrelated logistics like FKSP chip pickup info) - shown as-is
+    // since it's the venue's own wording, in whatever language they wrote it.
+    if (venue.closureNotice.message) {
+      const detail = document.createElement('span');
+      detail.className = 'closure-detail';
+      detail.textContent = venue.closureNotice.message;
+      item.appendChild(detail);
+    }
+    container.appendChild(item);
+  }
+}
+
 function renderAll() {
   renderStaticText();
+  renderClosureSummary();
   populateQueryControls();
   renderQueryResults();
 
