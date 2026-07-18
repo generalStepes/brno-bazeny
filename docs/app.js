@@ -193,9 +193,18 @@ function categoryCountsAt(day, timeStr) {
   for (const resource of day.resources) {
     const category = resource.category || day.name || 'Bazén';
     const slot = resource.slots.find((s) => t0 >= parseTimeToMinutes(s.start) && t0 < parseTimeToMinutes(s.end));
-    if (!slot) continue;
+    // No slot published for this exact time almost always means outside
+    // operating hours - every venue's grid only lists slots while actually
+    // open (e.g. Aquapark/Ponávka/Družstevní's grids start at 8:00, so 7:00
+    // simply isn't in the data at all). Since we did successfully scrape
+    // *this resource* for the day, treat the gap as closed rather than
+    // "no data" - "no data" should mean we don't know, not "we know it's
+    // outside hours". A resource scraped with zero slots at all (should be
+    // rare/shouldn't happen) still falls through as genuinely unknown.
+    if (!slot && !resource.slots.length) continue;
+    const status = slot ? slot.status : 'closed';
     if (!byCategory.has(category)) byCategory.set(category, emptyCounts());
-    addSlotToCounts(byCategory.get(category), slot.status);
+    addSlotToCounts(byCategory.get(category), status);
   }
   return byCategory;
 }
