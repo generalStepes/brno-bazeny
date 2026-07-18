@@ -27,9 +27,23 @@ function parseCzechDateHeading(text) {
 //    reliable source of truth for "is the venue actually closed".
 const CLOSURE_KEYWORDS = /uzavřen|mimo provoz|odstávka/i;
 
+// The banner often bundles unrelated logistics onto the same line as the
+// actual closure statement, e.g. Ponávka: "...bude bazén zcela uzavřen.
+// Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní
+// Rašínova." - only the first sentence is about the closure itself. Keep
+// everything up to and including the sentence containing the closure
+// keyword, drop whatever comes after.
+function extractClosureSummary(alertText) {
+  const keywordMatch = alertText.match(CLOSURE_KEYWORDS);
+  if (!keywordMatch) return alertText;
+  const periodIdx = alertText.indexOf('.', keywordMatch.index + keywordMatch[0].length);
+  return periodIdx === -1 ? alertText : alertText.slice(0, periodIdx + 1).trim();
+}
+
 function findClosureNotice($) {
-  const alertText = $('#alert-danger').first().text().replace(/\s+/g, ' ').trim();
-  if (!alertText || !CLOSURE_KEYWORDS.test(alertText)) return null;
+  const rawAlertText = $('#alert-danger').first().text().replace(/\s+/g, ' ').trim();
+  if (!rawAlertText || !CLOSURE_KEYWORDS.test(rawAlertText)) return null;
+  const alertText = extractClosureSummary(rawAlertText);
 
   // These notices are phrased "closed from START to END", e.g.
   // "17. 8.-20. 9. 2026" or "14. 6. od 13:00 - 31. 12. 2026" - the start
@@ -208,9 +222,9 @@ export async function scrapeStarezVenue(browser, { venue, name, url, webcams }) 
       }
     }
 
-    return { venue, name, url, ok: true, error: null, days, occupancy, webcams: webcamImages };
+    return { venue, name, url, ok: true, error: null, days, occupancy, webcams: webcamImages, closureNotice: closure };
   } catch (err) {
-    return { venue, name, url, ok: false, error: err.message, days: [], occupancy, webcams: webcamImages };
+    return { venue, name, url, ok: false, error: err.message, days: [], occupancy, webcams: webcamImages, closureNotice: closure };
   } finally {
     await page.close();
   }

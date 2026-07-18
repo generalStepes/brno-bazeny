@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T19:03:33.264Z",
+  "generatedAt": "2026-07-18T19:08:01.826Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4252,16 +4252,21 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 37,
+          "current": 36,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 6,
+          "current": 7,
           "max": 12
         }
       ],
-      "webcams": []
+      "webcams": [],
+      "closureNotice": {
+        "message": "17. 8.-20. 9. 2026 aquapark uzavřen z důvodu odstávky.",
+        "closedFrom": "2026-08-17",
+        "closedUntil": "2026-09-20"
+      }
     },
     {
       "venue": "ponavka",
@@ -4310,7 +4315,7 @@
               ]
             }
           ],
-          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen."
         },
         {
           "date": "2026-07-19",
@@ -4352,7 +4357,7 @@
               ]
             }
           ],
-          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen."
         },
         {
           "date": "2026-07-20",
@@ -4394,7 +4399,7 @@
               ]
             }
           ],
-          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen."
         },
         {
           "date": "2026-07-21",
@@ -4436,7 +4441,7 @@
               ]
             }
           ],
-          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen."
         },
         {
           "date": "2026-07-22",
@@ -4478,7 +4483,7 @@
               ]
             }
           ],
-          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen."
         },
         {
           "date": "2026-07-23",
@@ -4520,7 +4525,7 @@
               ]
             }
           ],
-          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen."
         },
         {
           "date": "2026-07-24",
@@ -4562,11 +4567,16 @@
               ]
             }
           ],
-          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen. Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní Rašínova."
+          "note": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen."
         }
       ],
       "occupancy": [],
-      "webcams": []
+      "webcams": [],
+      "closureNotice": {
+        "message": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen.",
+        "closedFrom": "2026-06-14",
+        "closedUntil": "2026-12-31"
+      }
     },
     {
       "venue": "luzanky",
@@ -24877,7 +24887,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 29,
+          "current": 27,
           "max": 634
         }
       ],
@@ -24890,7 +24900,8 @@
           "label": "50m bazén",
           "path": "images/luzanky-50m.jpg"
         }
-      ]
+      ],
+      "closureNotice": null
     },
     {
       "venue": "druzstevni",
@@ -29598,7 +29609,8 @@
         }
       ],
       "occupancy": [],
-      "webcams": []
+      "webcams": [],
+      "closureNotice": null
     },
     {
       "venue": "kravihora",
@@ -44329,7 +44341,8 @@
           "max": 135
         }
       ],
-      "webcams": []
+      "webcams": [],
+      "closureNotice": null
     },
     {
       "venue": "tesla",
@@ -52170,7 +52183,8 @@
         }
       ],
       "occupancy": [],
-      "webcams": []
+      "webcams": [],
+      "closureNotice": null
     }
   ]
 }
