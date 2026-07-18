@@ -201,7 +201,11 @@ body {
 
 .result-row {
   display: flex;
-  align-items: center;
+  /* flex-start, not center: rows vary a lot in height (Aquapark's info
+     column can run to 4 lines with both occupancy notes), and centering
+     against the full row height made the badge/link drift down further for
+     taller rows instead of lining up with the venue name at the top. */
+  align-items: flex-start;
   gap: 0.75rem;
   flex-wrap: wrap;
   font-size: 0.85rem;
