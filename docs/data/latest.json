@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T04:33:33.361Z",
+  "generatedAt": "2026-07-21T05:04:04.360Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4252,7 +4252,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 27,
+          "current": 31,
           "max": 220
         }
       ],
@@ -8398,13 +8398,9 @@
                 },
                 {
                   "start": "18:00",
-                  "end": "18:30",
-                  "status": "available"
-                },
-                {
-                  "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno TESLA"
                 },
                 {
                   "start": "19:00",
@@ -8551,13 +8547,9 @@
                 },
                 {
                   "start": "18:00",
-                  "end": "18:30",
-                  "status": "available"
-                },
-                {
-                  "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno TESLA"
                 },
                 {
                   "start": "19:00",
@@ -10494,12 +10486,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -10655,12 +10647,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -10816,12 +10808,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -10977,12 +10969,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -11138,12 +11130,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -11299,12 +11291,12 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
@@ -11460,22 +11452,18 @@
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
-                  "end": "19:30",
-                  "status": "reserved"
-                },
-                {
-                  "start": "19:30",
                   "end": "20:00",
-                  "status": "reserved"
+                  "status": "reserved",
+                  "label": "rezervovaná šířka TESLA"
                 },
                 {
                   "start": "20:00",
@@ -11598,33 +11586,25 @@
                 },
                 {
                   "start": "17:00",
-                  "end": "17:30",
-                  "status": "available"
-                },
-                {
-                  "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno TESLA"
                 },
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:00",
-                  "end": "19:30",
-                  "status": "reserved"
-                },
-                {
-                  "start": "19:30",
                   "end": "20:00",
-                  "status": "reserved"
+                  "status": "reserved",
+                  "label": "rezervovaná šířka TESLA"
                 },
                 {
                   "start": "20:00",
@@ -11769,13 +11749,9 @@
                 },
                 {
                   "start": "18:00",
-                  "end": "18:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "18:30",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "available",
+                  "label": "rezervovaná šířka TESLA"
                 },
                 {
                   "start": "19:00",
@@ -11922,13 +11898,9 @@
                 },
                 {
                   "start": "18:00",
-                  "end": "18:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "18:30",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "available",
+                  "label": "rezervovaná šířka TESLA"
                 },
                 {
                   "start": "19:00",
@@ -15168,9 +15140,13 @@
                 },
                 {
                   "start": "10:30",
+                  "end": "11:00",
+                  "status": "available"
+                },
+                {
+                  "start": "11:00",
                   "end": "11:30",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 25"
+                  "status": "available"
                 },
                 {
                   "start": "11:30",
@@ -24984,7 +24960,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 25,
+          "current": 42,
           "max": 634
         }
       ],
