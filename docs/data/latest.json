@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T08:03:46.209Z",
+  "generatedAt": "2026-07-23T08:34:04.366Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4252,7 +4252,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 62,
+          "current": 74,
           "max": 220
         }
       ],
@@ -22884,13 +22884,9 @@
                 },
                 {
                   "start": "7:00",
-                  "end": "7:30",
-                  "status": "available"
-                },
-                {
-                  "start": "7:30",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno KPSP 50"
                 },
                 {
                   "start": "8:00",
@@ -23206,9 +23202,13 @@
                 },
                 {
                   "start": "9:00",
+                  "end": "9:30",
+                  "status": "available"
+                },
+                {
+                  "start": "9:30",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 50"
+                  "status": "available"
                 },
                 {
                   "start": "10:00",
@@ -24972,7 +24972,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 61,
+          "current": 70,
           "max": 634
         }
       ],
