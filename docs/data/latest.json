@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T05:03:31.774Z",
+  "generatedAt": "2026-07-24T05:33:28.844Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4252,7 +4252,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 39,
+          "current": 43,
           "max": 220
         }
       ],
@@ -14614,13 +14614,9 @@
                 },
                 {
                   "start": "17:00",
-                  "end": "17:30",
-                  "status": "available"
-                },
-                {
-                  "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Monsta"
                 },
                 {
                   "start": "18:00",
@@ -17518,13 +17514,9 @@
                 },
                 {
                   "start": "17:00",
-                  "end": "17:30",
-                  "status": "available"
-                },
-                {
-                  "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Monsta"
                 },
                 {
                   "start": "18:00",
@@ -20402,13 +20394,9 @@
                 },
                 {
                   "start": "17:00",
-                  "end": "17:30",
-                  "status": "available"
-                },
-                {
-                  "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Monsta"
                 },
                 {
                   "start": "18:00",
@@ -23326,13 +23314,9 @@
                 },
                 {
                   "start": "17:00",
-                  "end": "17:30",
-                  "status": "available"
-                },
-                {
-                  "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Monsta"
                 },
                 {
                   "start": "18:00",
@@ -25004,7 +24988,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 50,
+          "current": 55,
           "max": 634
         }
       ],
