@@ -20,22 +20,61 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
+      # Explicit ref, not the default (the SHA at trigger time) - with the
+      # concurrency group below, a queued run can sit for several minutes
+      # before actually starting, during which an earlier run may have
+      # already pushed a fresh update. Checking out main fresh here (rather
+      # than the stale triggering SHA) is what lets the recency check below
+      # actually see that update and skip the redundant work.
       - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Check time since last update
+        id: recency
+        run: |
+          # The native hourly schedule and the external ~30min cron-job.org
+          # trigger sometimes land within seconds of each other (GitHub
+          # delays/queues schedule triggers unpredictably, per the comment
+          # above). Every successful run pushes a commit regardless of
+          # whether pool data actually changed, since latest.json embeds a
+          # generatedAt timestamp - so back-to-back runs each push, and each
+          # push kicks off its own GitHub Pages deployment. Overlapping
+          # deployments fail outright ("in progress deployment") rather than
+          # queuing, which can leave the live site stuck on stale data until
+          # someone notices and manually retries. Skip the (expensive)
+          # scrape+push entirely if another run just updated things, so
+          # near-duplicate triggers collapse into one.
+          last=$(node -pe "require('./docs/data/latest.json').generatedAt")
+          last_epoch=$(date -d "$last" +%s)
+          now_epoch=$(date -u +%s)
+          age=$((now_epoch - last_epoch))
+          echo "last update was ${age}s ago"
+          if [ "$age" -lt 600 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - uses: actions/setup-node@v4
+        if: steps.recency.outputs.skip != 'true'
         with:
           node-version: 22
 
       - name: Install dependencies
+        if: steps.recency.outputs.skip != 'true'
         run: npm ci --ignore-scripts
 
       - name: Install Playwright Chromium
+        if: steps.recency.outputs.skip != 'true'
         run: npx playwright install --with-deps chromium
 
       - name: Run scraper
+        if: steps.recency.outputs.skip != 'true'
         run: npm run scrape
 
       - name: Commit updated data
+        if: steps.recency.outputs.skip != 'true'
         run: |
           git config user.name "pool-availability-bot"
           git config user.email "actions@users.noreply.github.com"
