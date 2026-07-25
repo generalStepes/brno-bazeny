@@ -48,11 +48,19 @@ async function findScheduleImageUrl(page) {
   });
 }
 
-// TJ Tesla normally uploads one image per whole month ("Bazén Červenec
-// 2026.jpg" -> rows are day 1..daysInMonth), but sometimes splits a month
-// mid-way into two half-month images instead ("Bazén 17.-31.. 2026.jpg" -
-// rows are day 17..31, and the month name is dropped from the filename
-// entirely). Returns { year, month, startDay, dayCount } either way.
+// TJ Tesla's filename format keeps changing. Seen so far, in order of
+// discovery:
+//   "Bazén Červenec 2026.jpg"        - whole month, rows are day 1..daysInMonth
+//   "Bazén 17.-31.. 2026.jpg"        - half-month, day range within the
+//                                       *current* month (no month number at
+//                                       all - inferred from scrape time)
+//   "Bazén 22.7.-31.8. 2026.jpg"     - explicit day.month range that can
+//                                       itself span two different months
+// Returns { startDate: 'YYYY-MM-DD', dayCount } either way, so the caller
+// can compute each row's date via plain date arithmetic instead of
+// per-format month/day bookkeeping (which broke once a range started
+// crossing a month boundary - "day 31 of July" doesn't roll over on its own
+// with naive string concatenation).
 function parseScheduleImageInfo(url, now = new Date()) {
   const decoded = decodeURIComponent(url);
 
@@ -62,22 +70,41 @@ function parseScheduleImageInfo(url, now = new Date()) {
     const month = CZECH_MONTHS[monthKey];
     if (month) {
       const year = parseInt(monthMatch[2], 10);
-      return { year, month, startDay: 1, dayCount: new Date(year, month, 0).getDate() };
+      return { startDate: `${year}-${String(month).padStart(2, '0')}-01`, dayCount: new Date(year, month, 0).getDate() };
     }
   }
 
-  const rangeMatch = decoded.match(/Bazén\s+(\d{1,2})\.-(\d{1,2})\.+\s*(\d{4})/i);
-  if (rangeMatch) {
-    const startDay = parseInt(rangeMatch[1], 10);
-    const endDay = parseInt(rangeMatch[2], 10);
-    const year = parseInt(rangeMatch[3], 10);
-    // No month name in this format at all - trust the month we're actually
-    // scraping in, since these are always near-term schedules.
+  // Must be checked before the day-only pattern below - "22.7.-31.8." would
+  // otherwise partial-match as if "7.-31." were a day-only range (reading
+  // "7" as the start day and silently dropping "22." and ".8.").
+  const fullRangeMatch = decoded.match(/Bazén\s+(\d{1,2})\.(\d{1,2})\.-(\d{1,2})\.(\d{1,2})\.\s*(\d{4})/i);
+  if (fullRangeMatch) {
+    const [, sd, sm, ed, em, y] = fullRangeMatch.map(Number);
+    const start = new Date(y, sm - 1, sd);
+    const end = new Date(y, em - 1, ed);
+    const dayCount = Math.round((end - start) / 86400000) + 1;
+    return { startDate: `${y}-${String(sm).padStart(2, '0')}-${String(sd).padStart(2, '0')}`, dayCount };
+  }
+
+  const dayOnlyRangeMatch = decoded.match(/Bazén\s+(\d{1,2})\.-(\d{1,2})\.+\s*(\d{4})/i);
+  if (dayOnlyRangeMatch) {
+    const startDay = parseInt(dayOnlyRangeMatch[1], 10);
+    const endDay = parseInt(dayOnlyRangeMatch[2], 10);
+    const year = parseInt(dayOnlyRangeMatch[3], 10);
+    // No month number in this format at all - trust the month we're
+    // actually scraping in, since these are always near-term schedules.
     const month = now.getMonth() + 1;
-    return { year, month, startDay, dayCount: endDay - startDay + 1 };
+    return { startDate: `${year}-${String(month).padStart(2, '0')}-${String(startDay).padStart(2, '0')}`, dayCount: endDay - startDay + 1 };
   }
 
   return null;
+}
+
+function addDaysISO(startDateISO, days) {
+  const [y, m, d] = startDateISO.split('-').map(Number);
+  const date = new Date(y, m - 1, d);
+  date.setDate(date.getDate() + days);
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 }
 
 async function ocrCell(worker, imageBuffer, rowIdx, colIdx) {
@@ -98,12 +125,15 @@ async function ocrCell(worker, imageBuffer, rowIdx, colIdx) {
 const OCR_NOTE_CS =
   'Počet volných drah je získán automatickým rozpoznáním textu z měsíčního rozpisu (obrázku) na webu TJ Tesla. Konkrétní čísla drah (Dráha 1, 2, ...) jsou orientační - důležitý je jen celkový počet volných drah.';
 
-async function scrapeFromImage(page) {
-  const imgUrl = await findScheduleImageUrl(page);
-  if (!imgUrl) throw new Error('schedule image not found on page');
+// Takes the raw image URL, not a Playwright page - the Chromium page is only
+// needed to locate the URL. Keeping it open during the OCR loop below caused
+// scrapeTesla() to hang indefinitely on this machine even though the OCR
+// loop alone (against the same image, same coordinates) finishes in ~13s -
+// so the page must be closed before OCR starts, not after.
+async function scrapeFromImage(imgUrl) {
   const scheduleInfo = parseScheduleImageInfo(imgUrl);
   if (!scheduleInfo) throw new Error(`could not parse schedule date range from image URL: ${imgUrl}`);
-  const { year, month, startDay, dayCount } = scheduleInfo;
+  const { startDate, dayCount } = scheduleInfo;
 
   const imgResp = await fetch(imgUrl);
   if (!imgResp.ok) throw new Error(`failed to download schedule image: HTTP ${imgResp.status}`);
@@ -128,7 +158,7 @@ async function scrapeFromImage(page) {
   const totalLanes = Math.max(6, ...rawGrid.flat().filter((v) => v !== null && v >= 0 && v <= 20));
 
   const days = rawGrid.map((row, d) => {
-    const date = `${year}-${String(month).padStart(2, '0')}-${String(startDay + d).padStart(2, '0')}`;
+    const date = addDaysISO(startDate, d);
     const resources = [];
     for (let lane = 1; lane <= totalLanes; lane++) {
       const slots = HOUR_COLUMNS.map(([start, end], c) => {
@@ -146,12 +176,18 @@ async function scrapeFromImage(page) {
 
 export async function scrapeTesla(browser) {
   const page = await browser.newPage();
+  let imgUrl;
   try {
-    const days = await scrapeFromImage(page);
+    imgUrl = await findScheduleImageUrl(page);
+  } finally {
+    await page.close();
+  }
+
+  try {
+    if (!imgUrl) throw new Error('schedule image not found on page');
+    const days = await scrapeFromImage(imgUrl);
     return { venue: 'tesla', name: 'TJ Tesla Brno - Bazén 25m', url: PAGE_URL, ok: true, error: null, days, occupancy: [], webcams: [], closureNotice: null };
   } catch (err) {
     return { venue: 'tesla', name: 'TJ Tesla Brno - Bazén 25m', url: PAGE_URL, ok: false, error: err.message, days: [], occupancy: [], webcams: [], closureNotice: null };
-  } finally {
-    await page.close();
   }
 }
