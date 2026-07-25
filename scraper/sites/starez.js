@@ -27,6 +27,23 @@ function parseCzechDateHeading(text) {
 //    reliable source of truth for "is the venue actually closed".
 const CLOSURE_KEYWORDS = /uzavřen|mimo provoz|odstávka/i;
 
+// A venue with multiple named sections (Lužánky: 50m/25m/16m pools, relax
+// pool, wellness, sauna) can have a closure notice affecting only *some* of
+// them - e.g. "wellness uzavřeno" on two specific days, or a bigger one
+// closing the 50m/relax/sauna while the 25m pool stays open with *extended*
+// hours. Blindly closing every resource for the whole venue in cases like
+// that produces confidently wrong information (confirmed live: it showed
+// "Bazény Lužánky bude ... zavřený" for what was actually a wellness-only,
+// two-day closure, while completely missing a separate, larger notice about
+// the 50m pool). Ponávka/Aquapark only ever have one pool, so "bazén
+// uzavřen" there unambiguously means the whole venue - there's no such
+// ambiguity to guard against for them. Properly attributing a closure to
+// just the affected resource(s) would need real parsing of which named
+// section(s) each notice covers; until that exists, the safe choice is to
+// not auto-apply (or headline as "closed") anything that names a specific
+// section, rather than risk being wrong in either direction.
+const NAMED_SUBRESOURCE_PATTERN = /wellness|\b50m\b|\b25m\b|\b16m\b|relax|saun|pára|vířivk/i;
+
 // The banner often bundles unrelated logistics onto the same line as the
 // actual closure statement, e.g. Ponávka: "...bude bazén zcela uzavřen.
 // Čipové hodinky uhrazené v rámci FKSP vyzvedávejte na pokladně Lázní
@@ -41,8 +58,18 @@ function extractClosureSummary(alertText) {
 }
 
 function findClosureNotice($) {
-  const rawAlertText = $('#alert-danger').first().text().replace(/\s+/g, ' ').trim();
+  // Join each <p> separately (with a period) rather than the whole block's
+  // .text() - the banner can hold multiple <p> tags without their own
+  // trailing punctuation, which otherwise runs two unrelated sentences
+  // together with no separator at all (confirmed: "...14.00-21:30 3. 8. a
+  // 5. 8. 2026 je wellness uzavřeno." - two separate notices read as one).
+  const paragraphs = $('#alert-danger p')
+    .map((_, el) => $(el).text().replace(/\s+/g, ' ').trim())
+    .get()
+    .filter(Boolean);
+  const rawAlertText = paragraphs.map((p) => (/[.!?]$/.test(p) ? p : `${p}.`)).join(' ');
   if (!rawAlertText || !CLOSURE_KEYWORDS.test(rawAlertText)) return null;
+  if (NAMED_SUBRESOURCE_PATTERN.test(rawAlertText)) return null;
   const alertText = extractClosureSummary(rawAlertText);
 
   // These notices are phrased "closed from START to END", e.g.
