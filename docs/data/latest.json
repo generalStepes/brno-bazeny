@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T08:04:03.291Z",
+  "generatedAt": "2026-07-28T08:33:36.649Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4252,7 +4252,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 66,
+          "current": 73,
           "max": 220
         }
       ],
@@ -9077,14 +9077,14 @@
                 },
                 {
                   "start": "9:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "rezervováno Happy Nest"
+                  "end": "9:30",
+                  "status": "available"
                 },
                 {
-                  "start": "10:00",
+                  "start": "9:30",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Happy Nest"
                 },
                 {
                   "start": "10:30",
@@ -24506,7 +24506,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 49,
+          "current": 57,
           "max": 634
         }
       ],
@@ -44008,7 +44008,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 34,
+          "current": 26,
           "max": 135
         }
       ],
