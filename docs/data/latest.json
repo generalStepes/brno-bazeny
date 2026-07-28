@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T06:33:46.987Z",
+  "generatedAt": "2026-07-28T07:03:53.278Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4252,7 +4252,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 40,
+          "current": 51,
           "max": 220
         }
       ],
@@ -17902,23 +17902,9 @@
                 },
                 {
                   "start": "8:00",
-                  "end": "8:30",
-                  "status": "available"
-                },
-                {
-                  "start": "8:30",
-                  "end": "9:00",
-                  "status": "available"
-                },
-                {
-                  "start": "9:00",
-                  "end": "9:30",
-                  "status": "available"
-                },
-                {
-                  "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Victoria"
                 },
                 {
                   "start": "10:00",
@@ -23413,18 +23399,9 @@
                 },
                 {
                   "start": "9:00",
-                  "end": "9:30",
-                  "status": "available"
-                },
-                {
-                  "start": "9:30",
-                  "end": "10:00",
-                  "status": "available"
-                },
-                {
-                  "start": "10:00",
                   "end": "10:30",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Victorie"
                 },
                 {
                   "start": "10:30",
@@ -23589,23 +23566,9 @@
                 },
                 {
                   "start": "16:00",
-                  "end": "16:30",
-                  "status": "available"
-                },
-                {
-                  "start": "16:30",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "17:30",
-                  "status": "available"
-                },
-                {
-                  "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Victorie"
                 },
                 {
                   "start": "18:00",
@@ -24543,7 +24506,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 52,
+          "current": 53,
           "max": 634
         }
       ],
