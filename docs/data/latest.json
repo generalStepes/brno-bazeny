@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T04:33:25.460Z",
+  "generatedAt": "2026-07-29T05:03:54.488Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -3397,8 +3397,7 @@
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "reserved",
-                  "label": "rezervováno Sunfit"
+                  "status": "available"
                 },
                 {
                   "start": "20:00",
@@ -4252,7 +4251,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 22,
+          "current": 36,
           "max": 220
         }
       ],
@@ -24093,7 +24092,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 35,
+          "current": 66,
           "max": 634
         },
         {
