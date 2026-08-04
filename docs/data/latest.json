@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T11:04:18.752Z",
+  "generatedAt": "2026-08-04T11:34:02.078Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4252,7 +4252,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 126,
+          "current": 125,
           "max": 220
         }
       ],
@@ -23126,7 +23126,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 39,
+          "current": 32,
           "max": 634
         }
       ],
@@ -42660,7 +42660,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 35,
+          "current": 42,
           "max": 135
         }
       ],
@@ -42674,2094 +42674,6 @@
       "ok": true,
       "error": null,
       "days": [
-        {
-          "date": "2026-07-30",
-          "resources": [
-            {
-              "name": "Dráha 1",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 2",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 3",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 4",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 5",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 6",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            }
-          ],
-          "note": "Počet volných drah je získán automatickým rozpoznáním textu z měsíčního rozpisu (obrázku) na webu TJ Tesla. Konkrétní čísla drah (Dráha 1, 2, ...) jsou orientační - důležitý je jen celkový počet volných drah."
-        },
-        {
-          "date": "2026-07-31",
-          "resources": [
-            {
-              "name": "Dráha 1",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 2",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 3",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 4",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 5",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 6",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            }
-          ],
-          "note": "Počet volných drah je získán automatickým rozpoznáním textu z měsíčního rozpisu (obrázku) na webu TJ Tesla. Konkrétní čísla drah (Dráha 1, 2, ...) jsou orientační - důležitý je jen celkový počet volných drah."
-        },
-        {
-          "date": "2026-08-01",
-          "resources": [
-            {
-              "name": "Dráha 1",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 2",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 3",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 4",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 5",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 6",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            }
-          ],
-          "note": "Počet volných drah je získán automatickým rozpoznáním textu z měsíčního rozpisu (obrázku) na webu TJ Tesla. Konkrétní čísla drah (Dráha 1, 2, ...) jsou orientační - důležitý je jen celkový počet volných drah."
-        },
-        {
-          "date": "2026-08-02",
-          "resources": [
-            {
-              "name": "Dráha 1",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 2",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 3",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 4",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 5",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 6",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:45",
-                  "status": "reserved"
-                }
-              ]
-            }
-          ],
-          "note": "Počet volných drah je získán automatickým rozpoznáním textu z měsíčního rozpisu (obrázku) na webu TJ Tesla. Konkrétní čísla drah (Dráha 1, 2, ...) jsou orientační - důležitý je jen celkový počet volných drah."
-        },
         {
           "date": "2026-08-03",
           "resources": [
@@ -45607,7 +43519,7 @@
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -45693,7 +43605,7 @@
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "18:00",
@@ -45749,7 +43661,7 @@
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -46793,7 +44705,7 @@
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "12:00",
@@ -57320,7 +55232,7 @@
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "unknown"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -57330,7 +55242,7 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "unknown"
+                  "status": "available"
                 },
                 {
                   "start": "13:00",
@@ -57406,7 +55318,7 @@
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "unknown"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -57416,7 +55328,7 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
@@ -57492,7 +55404,7 @@
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "unknown"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -57502,7 +55414,7 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
@@ -57578,7 +55490,7 @@
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
@@ -57588,7 +55500,7 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
@@ -57664,7 +55576,7 @@
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
@@ -57674,7 +55586,7 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
@@ -57750,7 +55662,7 @@
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "11:00",
@@ -57760,7 +55672,7 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "13:00",
@@ -58349,17 +56261,17 @@
                 {
                   "start": "07:00",
                   "end": "08:00",
-                  "status": "available"
+                  "status": "unknown"
                 },
                 {
                   "start": "08:00",
                   "end": "09:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "09:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "unknown"
                 },
                 {
                   "start": "10:00",
@@ -58409,7 +56321,7 @@
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "unknown"
+                  "status": "available"
                 },
                 {
                   "start": "20:00",
@@ -58419,7 +56331,7 @@
                 {
                   "start": "21:00",
                   "end": "21:45",
-                  "status": "available"
+                  "status": "unknown"
                 }
               ]
             },
@@ -58435,17 +56347,17 @@
                 {
                   "start": "07:00",
                   "end": "08:00",
-                  "status": "available"
+                  "status": "unknown"
                 },
                 {
                   "start": "08:00",
                   "end": "09:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "09:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "unknown"
                 },
                 {
                   "start": "10:00",
@@ -58495,7 +56407,7 @@
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "unknown"
+                  "status": "available"
                 },
                 {
                   "start": "20:00",
@@ -58505,7 +56417,7 @@
                 {
                   "start": "21:00",
                   "end": "21:45",
-                  "status": "available"
+                  "status": "unknown"
                 }
               ]
             },
@@ -58521,17 +56433,17 @@
                 {
                   "start": "07:00",
                   "end": "08:00",
-                  "status": "reserved"
+                  "status": "unknown"
                 },
                 {
                   "start": "08:00",
                   "end": "09:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "09:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "unknown"
                 },
                 {
                   "start": "10:00",
@@ -58581,7 +56493,7 @@
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "unknown"
+                  "status": "available"
                 },
                 {
                   "start": "20:00",
@@ -58591,7 +56503,7 @@
                 {
                   "start": "21:00",
                   "end": "21:45",
-                  "status": "available"
+                  "status": "unknown"
                 }
               ]
             },
@@ -58607,17 +56519,17 @@
                 {
                   "start": "07:00",
                   "end": "08:00",
-                  "status": "reserved"
+                  "status": "unknown"
                 },
                 {
                   "start": "08:00",
                   "end": "09:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "09:00",
                   "end": "10:00",
-                  "status": "reserved"
+                  "status": "unknown"
                 },
                 {
                   "start": "10:00",
@@ -58667,7 +56579,7 @@
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "unknown"
+                  "status": "available"
                 },
                 {
                   "start": "20:00",
@@ -58677,7 +56589,7 @@
                 {
                   "start": "21:00",
                   "end": "21:45",
-                  "status": "reserved"
+                  "status": "unknown"
                 }
               ]
             },
@@ -58693,17 +56605,17 @@
                 {
                   "start": "07:00",
                   "end": "08:00",
-                  "status": "reserved"
+                  "status": "unknown"
                 },
                 {
                   "start": "08:00",
                   "end": "09:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "09:00",
                   "end": "10:00",
-                  "status": "reserved"
+                  "status": "unknown"
                 },
                 {
                   "start": "10:00",
@@ -58738,7 +56650,7 @@
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "17:00",
@@ -58753,7 +56665,7 @@
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -58763,7 +56675,7 @@
                 {
                   "start": "21:00",
                   "end": "21:45",
-                  "status": "reserved"
+                  "status": "unknown"
                 }
               ]
             },
@@ -58779,17 +56691,17 @@
                 {
                   "start": "07:00",
                   "end": "08:00",
-                  "status": "reserved"
+                  "status": "unknown"
                 },
                 {
                   "start": "08:00",
                   "end": "09:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "09:00",
                   "end": "10:00",
-                  "status": "reserved"
+                  "status": "unknown"
                 },
                 {
                   "start": "10:00",
@@ -58824,7 +56736,7 @@
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "reserved"
+                  "status": "available"
                 },
                 {
                   "start": "17:00",
@@ -58839,7 +56751,7 @@
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "unknown"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -58849,7 +56761,7 @@
                 {
                   "start": "21:00",
                   "end": "21:45",
-                  "status": "reserved"
+                  "status": "unknown"
                 }
               ]
             }
