@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T07:03:54.935Z",
+  "generatedAt": "2026-08-04T07:34:01.020Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4252,7 +4252,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 51,
+          "current": 48,
           "max": 220
         }
       ],
@@ -5927,7 +5927,7 @@
                   "start": "8:00",
                   "end": "9:00",
                   "status": "reserved",
-                  "label": "rezervováno Broža"
+                  "label": "rezervováno Minář"
                 },
                 {
                   "start": "9:00",
@@ -23126,7 +23126,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 45,
+          "current": 33,
           "max": 634
         }
       ],
@@ -42660,7 +42660,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 0,
+          "current": 12,
           "max": 135
         }
       ],
