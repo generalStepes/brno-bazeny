@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T09:33:55.010Z",
+  "generatedAt": "2026-08-05T10:01:07.367Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4250,7 +4250,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 173,
+          "current": 147,
           "max": 220
         }
       ],
@@ -20777,12 +20777,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -20934,12 +20934,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -21095,12 +21095,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -21256,12 +21256,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -21417,12 +21417,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -21578,12 +21578,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -21731,12 +21731,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -21872,12 +21872,12 @@
                 {
                   "start": "19:00",
                   "end": "19:30",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved"
                 },
                 {
                   "start": "20:00",
@@ -22016,13 +22016,9 @@
                 },
                 {
                   "start": "19:00",
-                  "end": "19:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "19:30",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "available",
+                  "label": "rezervovaná šířka VSK - SPM"
                 },
                 {
                   "start": "20:00",
@@ -22161,13 +22157,9 @@
                 },
                 {
                   "start": "19:00",
-                  "end": "19:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "19:30",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "available",
+                  "label": "rezervovaná šířka VSK - SPM"
                 },
                 {
                   "start": "20:00",
@@ -23501,7 +23493,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 28,
+          "current": 45,
           "max": 634
         }
       ],
@@ -43075,7 +43067,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 7,
+          "current": 16,
           "max": 135
         }
       ],
