@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T08:33:26.897Z",
+  "generatedAt": "2026-08-08T09:03:44.988Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4250,7 +4250,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 81,
+          "current": 97,
           "max": 220
         },
         {
@@ -24721,7 +24721,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 64,
+          "current": 62,
           "max": 634
         }
       ],
@@ -27109,14 +27109,14 @@
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PRONÁJEM"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PRONÁJEM"
                 },
                 {
                   "start": "12:00",
@@ -27211,14 +27211,14 @@
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PRONÁJEM"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PRONÁJEM"
                 },
                 {
                   "start": "12:00",
@@ -28553,8 +28553,8 @@
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PRONÁJEM"
                 },
                 {
                   "start": "12:00",
@@ -28649,14 +28649,14 @@
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PRONÁJEM"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PRONÁJEM"
                 },
                 {
                   "start": "12:00",
@@ -44439,7 +44439,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 28,
+          "current": 22,
           "max": 135
         }
       ],
