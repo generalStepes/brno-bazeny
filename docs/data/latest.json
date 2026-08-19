@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T02:38:41.464Z",
+  "generatedAt": "2026-08-19T15:05:50.141Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -6397,7 +6397,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -6534,7 +6535,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -6671,7 +6673,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -6808,7 +6811,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -6945,7 +6949,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -7074,7 +7079,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -7203,7 +7209,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -7324,7 +7331,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -9325,7 +9333,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -9462,7 +9471,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -9599,7 +9609,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -9736,7 +9747,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -9873,7 +9885,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -10002,7 +10015,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -10131,7 +10145,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -10252,7 +10267,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -12237,7 +12253,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -12374,7 +12391,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -12511,7 +12529,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -12648,7 +12667,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -12785,7 +12805,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -12914,7 +12935,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -13043,7 +13065,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -13172,7 +13195,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -15125,7 +15149,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -15262,7 +15287,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -15399,7 +15425,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -15536,7 +15563,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -15673,7 +15701,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -15810,7 +15839,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -15947,7 +15977,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -16084,7 +16115,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -18077,7 +18109,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -18214,7 +18247,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -18351,7 +18385,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -18488,7 +18523,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -18625,7 +18661,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -18762,7 +18799,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -18899,7 +18937,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -19036,7 +19075,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -20896,13 +20936,9 @@
                 },
                 {
                   "start": "8:00",
-                  "end": "8:30",
-                  "status": "available"
-                },
-                {
-                  "start": "8:30",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PKBr."
                 },
                 {
                   "start": "9:00",
@@ -21001,7 +21037,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -21017,23 +21054,15 @@
                 },
                 {
                   "start": "8:00",
-                  "end": "8:30",
-                  "status": "available"
-                },
-                {
-                  "start": "8:30",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PKBr."
                 },
                 {
                   "start": "9:00",
-                  "end": "9:30",
-                  "status": "available"
-                },
-                {
-                  "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PKBr."
                 },
                 {
                   "start": "10:00",
@@ -21097,13 +21126,9 @@
                 },
                 {
                   "start": "16:00",
-                  "end": "16:30",
-                  "status": "available"
-                },
-                {
-                  "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PKBr."
                 },
                 {
                   "start": "17:00",
@@ -21138,7 +21163,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -21234,13 +21260,9 @@
                 },
                 {
                   "start": "16:00",
-                  "end": "16:30",
-                  "status": "available"
-                },
-                {
-                  "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PKBr."
                 },
                 {
                   "start": "17:00",
@@ -21275,7 +21297,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -21412,7 +21435,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -21549,7 +21573,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -21678,7 +21703,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -21807,7 +21833,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -21928,7 +21955,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -23776,13 +23804,9 @@
                 },
                 {
                   "start": "16:00",
-                  "end": "16:30",
-                  "status": "available"
-                },
-                {
-                  "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PKBr."
                 },
                 {
                   "start": "17:00",
@@ -23809,7 +23833,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -23847,13 +23872,9 @@
                 },
                 {
                   "start": "11:00",
-                  "end": "11:30",
-                  "status": "available"
-                },
-                {
-                  "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PKBr."
                 },
                 {
                   "start": "12:00",
@@ -23897,13 +23918,9 @@
                 },
                 {
                   "start": "16:00",
-                  "end": "16:30",
-                  "status": "available"
-                },
-                {
-                  "start": "16:30",
                   "end": "17:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PKBr."
                 },
                 {
                   "start": "17:00",
@@ -23938,7 +23955,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -23976,13 +23994,9 @@
                 },
                 {
                   "start": "11:00",
-                  "end": "11:30",
-                  "status": "available"
-                },
-                {
-                  "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PKBr."
                 },
                 {
                   "start": "12:00",
@@ -24067,7 +24081,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -24196,7 +24211,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -24325,7 +24341,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -24454,7 +24471,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -24583,7 +24601,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -24704,7 +24723,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             },
@@ -24826,12 +24846,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 0,
+          "current": 141,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 0,
+          "current": 11,
           "max": 68
         }
       ],
@@ -43725,7 +43745,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 0,
+          "current": 46,
           "max": 135
         }
       ],
