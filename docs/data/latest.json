@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:03:46.979Z",
+  "generatedAt": "2026-08-20T07:33:51.206Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -24730,7 +24730,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 47,
+          "current": 45,
           "max": 634
         }
       ],
@@ -28861,14 +28861,14 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "TJ Sokol"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "TJ Sokol"
                 },
                 {
                   "start": "11:00",
@@ -29269,14 +29269,14 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "TJ Sokol"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "TJ Sokol"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "11:00",
@@ -42624,7 +42624,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 0,
+          "current": 23,
           "max": 135
         }
       ],
