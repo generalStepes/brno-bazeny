@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T06:33:37.661Z",
+  "generatedAt": "2026-08-24T07:04:00.879Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -10863,13 +10863,9 @@
                 },
                 {
                   "start": "15:00",
-                  "end": "15:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "15:30",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno KPSP 50"
                 },
                 {
                   "start": "16:00",
@@ -11173,15 +11169,23 @@
                 },
                 {
                   "start": "17:00",
+                  "end": "17:30",
+                  "status": "closed"
+                },
+                {
+                  "start": "17:30",
                   "end": "18:00",
-                  "status": "closed",
-                  "label": "rezervovaná šířka VSK - SPM"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
+                  "end": "18:30",
+                  "status": "closed"
+                },
+                {
+                  "start": "18:30",
                   "end": "19:00",
-                  "status": "closed",
-                  "label": "rezervovaná šířka VSK - SPM"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
@@ -11306,15 +11310,23 @@
                 },
                 {
                   "start": "17:00",
+                  "end": "17:30",
+                  "status": "closed"
+                },
+                {
+                  "start": "17:30",
                   "end": "18:00",
-                  "status": "closed",
-                  "label": "rezervovaná šířka VSK - SPM"
+                  "status": "closed"
                 },
                 {
                   "start": "18:00",
+                  "end": "18:30",
+                  "status": "closed"
+                },
+                {
+                  "start": "18:30",
                   "end": "19:00",
-                  "status": "closed",
-                  "label": "rezervovaná šířka VSK - SPM"
+                  "status": "closed"
                 },
                 {
                   "start": "19:00",
@@ -11421,13 +11433,9 @@
                 },
                 {
                   "start": "14:00",
-                  "end": "14:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "14:30",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervovaná šířka KPSP II"
                 },
                 {
                   "start": "15:00",
@@ -11453,13 +11461,13 @@
                   "start": "17:00",
                   "end": "18:00",
                   "status": "closed",
-                  "label": "rezervovaná šířka KPSP II"
+                  "label": "rezervovaná šířka VSK - SPM"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
                   "status": "closed",
-                  "label": "rezervovaná šířka KPSP II"
+                  "label": "rezervovaná šířka VSK - SPM"
                 },
                 {
                   "start": "19:00",
@@ -11566,13 +11574,9 @@
                 },
                 {
                   "start": "14:00",
-                  "end": "14:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "14:30",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervovaná šířka KPSP II"
                 },
                 {
                   "start": "15:00",
@@ -11598,13 +11602,13 @@
                   "start": "17:00",
                   "end": "18:00",
                   "status": "closed",
-                  "label": "rezervovaná šířka KPSP II"
+                  "label": "rezervovaná šířka VSK - SPM"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
                   "status": "closed",
-                  "label": "rezervovaná šířka KPSP II"
+                  "label": "rezervovaná šířka VSK - SPM"
                 },
                 {
                   "start": "19:00",
@@ -24397,7 +24401,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 93,
+          "current": 110,
           "max": 634
         },
         {
@@ -30351,9 +30355,13 @@
                 },
                 {
                   "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "TAB"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -30387,9 +30395,13 @@
                 },
                 {
                   "start": "14:00",
+                  "end": "14:30",
+                  "status": "available"
+                },
+                {
+                  "start": "14:30",
                   "end": "15:00",
-                  "status": "reserved",
-                  "label": "TAB"
+                  "status": "available"
                 },
                 {
                   "start": "15:00",
@@ -32513,9 +32525,13 @@
                 },
                 {
                   "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "TAB"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -32549,9 +32565,13 @@
                 },
                 {
                   "start": "14:00",
+                  "end": "14:30",
+                  "status": "available"
+                },
+                {
+                  "start": "14:30",
                   "end": "15:00",
-                  "status": "reserved",
-                  "label": "TAB"
+                  "status": "available"
                 },
                 {
                   "start": "15:00",
@@ -33586,9 +33606,13 @@
                 },
                 {
                   "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "TAB"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
