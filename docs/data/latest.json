@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T05:52:24.765Z",
+  "generatedAt": "2026-08-25T06:33:33.472Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -16946,23 +16946,15 @@
                 },
                 {
                   "start": "18:00",
-                  "end": "18:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "18:30",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno Dream Dive"
                 },
                 {
                   "start": "19:00",
-                  "end": "19:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "19:30",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno Dream Dive"
                 },
                 {
                   "start": "20:00",
@@ -19746,23 +19738,15 @@
                 },
                 {
                   "start": "10:00",
-                  "end": "10:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "10:30",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno Dream Dive"
                 },
                 {
                   "start": "11:00",
-                  "end": "11:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "11:30",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno Dream Dive"
                 },
                 {
                   "start": "12:00",
