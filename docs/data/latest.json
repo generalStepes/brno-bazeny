@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T07:33:30.489Z",
+  "generatedAt": "2026-08-27T08:04:07.667Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -24704,7 +24704,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 127,
+          "current": 120,
           "max": 634
         }
       ],
@@ -28480,14 +28480,14 @@
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PK Kuřim"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PK Kuřim"
                 },
                 {
                   "start": "20:00",
@@ -28582,14 +28582,14 @@
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PK Kuřim"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PK Kuřim"
                 },
                 {
                   "start": "20:00",
@@ -35710,7 +35710,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 18,
+          "current": 19,
           "max": 135
         }
       ],
