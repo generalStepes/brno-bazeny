@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T08:33:59.734Z",
+  "generatedAt": "2026-08-28T09:03:37.140Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -9099,13 +9099,9 @@
                 },
                 {
                   "start": "11:00",
-                  "end": "11:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "11:30",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno TESLA"
                 },
                 {
                   "start": "12:00",
@@ -9451,9 +9447,13 @@
                 },
                 {
                   "start": "8:00",
+                  "end": "8:30",
+                  "status": "closed"
+                },
+                {
+                  "start": "8:30",
                   "end": "9:00",
-                  "status": "closed",
-                  "label": "rezervováno TESLA"
+                  "status": "closed"
                 },
                 {
                   "start": "9:00",
@@ -24727,7 +24727,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 100,
+          "current": 106,
           "max": 634
         }
       ],
@@ -34749,7 +34749,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 18,
+          "current": 20,
           "max": 135
         }
       ],
