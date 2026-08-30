@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T23:33:26.556Z",
+  "generatedAt": "2026-08-30T00:03:47.423Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -24767,557 +24767,6 @@
       "error": null,
       "days": [
         {
-          "date": "2026-08-29",
-          "resources": [
-            {
-              "name": "Dráha 1",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 2",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 3",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 4",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "reserved",
-                  "label": "Plaveký klub Krokodýl Brno"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "Plaveký klub Krokodýl Brno"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 5",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "reserved",
-                  "label": "Plaveký klub Krokodýl Brno"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "Plaveký klub Krokodýl Brno"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "reserved",
-                  "label": "Plaveký klub Krokodýl Brno"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "Plaveký klub Krokodýl Brno"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 6",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "reserved",
-                  "label": "BRNO TRIATLON TEAM"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "BRNO TRIATLON TEAM"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "reserved",
-                  "label": "Plaveký klub Krokodýl Brno"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "Plaveký klub Krokodýl Brno"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                }
-              ]
-            },
-            {
-              "name": "Malý bazének",
-              "category": "Malý bazének",
-              "slots": [
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "date": "2026-08-30",
           "resources": [
             {
@@ -29458,6 +28907,557 @@
                   "end": "21:30",
                   "status": "closed",
                   "label": "Zavřeno"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-05",
+          "resources": [
+            {
+              "name": "Dráha 1",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 2",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 3",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 4",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 5",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 6",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                }
+              ]
+            },
+            {
+              "name": "Malý bazének",
+              "category": "Malý bazének",
+              "slots": [
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 }
               ]
             }
