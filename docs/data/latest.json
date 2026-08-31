@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T05:03:54.825Z",
+  "generatedAt": "2026-08-31T05:33:34.926Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -19520,13 +19520,9 @@
                 },
                 {
                   "start": "9:00",
-                  "end": "9:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "9:30",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno SKP 50"
                 },
                 {
                   "start": "10:00",
@@ -19663,23 +19659,15 @@
                 },
                 {
                   "start": "8:00",
-                  "end": "8:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "8:30",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno SKP 50"
                 },
                 {
                   "start": "9:00",
-                  "end": "9:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "9:30",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno SKP 50"
                 },
                 {
                   "start": "10:00",
@@ -19816,23 +19804,15 @@
                 },
                 {
                   "start": "8:00",
-                  "end": "8:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "8:30",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno SKP 50"
                 },
                 {
                   "start": "9:00",
-                  "end": "9:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "9:30",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno SKP 50"
                 },
                 {
                   "start": "10:00",
@@ -19969,13 +19949,9 @@
                 },
                 {
                   "start": "8:00",
-                  "end": "8:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "8:30",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno SKP 50"
                 },
                 {
                   "start": "9:00",
@@ -24709,7 +24685,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 63,
+          "current": 59,
           "max": 634
         },
         {
