@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T12:04:08.997Z",
+  "generatedAt": "2026-09-01T12:33:42.779Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -18,77 +18,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -99,77 +114,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -180,77 +210,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -261,77 +306,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -342,77 +402,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -423,77 +498,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -632,77 +722,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -713,77 +818,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -794,77 +914,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -875,77 +1010,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -956,77 +1106,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -1037,77 +1202,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -1246,77 +1426,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -1327,77 +1522,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -1408,77 +1618,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -1489,77 +1714,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -1570,77 +1810,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -1651,77 +1906,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -1860,77 +2130,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -1941,77 +2226,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -2022,77 +2322,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -2103,77 +2418,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -2184,77 +2514,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -2265,77 +2610,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -2474,67 +2834,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -2545,67 +2918,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -2616,67 +3002,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -2687,67 +3086,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -2758,67 +3170,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -2829,67 +3254,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3033,67 +3471,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3104,67 +3555,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3175,67 +3639,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3246,67 +3723,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3317,67 +3807,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3388,67 +3891,80 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3592,77 +4108,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3673,77 +4204,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3754,77 +4300,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3835,77 +4396,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3916,77 +4492,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -3997,77 +4588,92 @@
                 {
                   "start": "6:00",
                   "end": "7:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "7:00",
                   "end": "8:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "není k dispozici mimo provoz"
                 }
               ]
             },
@@ -24160,8 +24766,13 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 73,
+          "current": 90,
           "max": 634
+        },
+        {
+          "label": "WELLNESS",
+          "current": 5,
+          "max": 68
         }
       ],
       "webcams": [
