@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T18:34:19.067Z",
+  "generatedAt": "2026-09-02T19:04:06.568Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -24938,12 +24938,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 90,
+          "current": 78,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 25,
+          "current": 19,
           "max": 68
         }
       ],
@@ -26468,8 +26468,8 @@
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "TAK Hellas"
                 },
                 {
                   "start": "16:00",
