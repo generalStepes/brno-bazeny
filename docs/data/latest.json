@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T05:03:54.952Z",
+  "generatedAt": "2026-09-03T05:33:51.097Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -24902,7 +24902,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 67,
+          "current": 79,
           "max": 634
         },
         {
@@ -24952,20 +24952,20 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "11:00",
@@ -25054,20 +25054,20 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "11:00",
@@ -25156,20 +25156,20 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "11:00",
@@ -25258,20 +25258,20 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "11:00",
@@ -25360,20 +25360,20 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "11:00",
@@ -25462,20 +25462,20 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "11:00",
@@ -25564,20 +25564,20 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "11:00",
