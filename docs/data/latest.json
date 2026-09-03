@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T11:22:43.821Z",
+  "generatedAt": "2026-09-03T12:04:02.482Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -10124,13 +10124,9 @@
                 },
                 {
                   "start": "8:00",
-                  "end": "8:30",
-                  "status": "available"
-                },
-                {
-                  "start": "8:30",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno 2BWINNER"
                 },
                 {
                   "start": "9:00",
@@ -11566,23 +11562,15 @@
                 },
                 {
                   "start": "9:00",
-                  "end": "9:30",
-                  "status": "available"
-                },
-                {
-                  "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno 2BWINNER"
                 },
                 {
                   "start": "10:00",
-                  "end": "10:30",
-                  "status": "available"
-                },
-                {
-                  "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno 2BWINNER"
                 },
                 {
                   "start": "11:00",
@@ -18697,13 +18685,9 @@
                 },
                 {
                   "start": "8:00",
-                  "end": "8:30",
-                  "status": "available"
-                },
-                {
-                  "start": "8:30",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno 2BWINNER"
                 },
                 {
                   "start": "9:00",
@@ -24902,12 +24886,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 57,
+          "current": 76,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 0,
+          "current": 1,
           "max": 68
         }
       ],
