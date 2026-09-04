@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T06:38:28.528Z",
+  "generatedAt": "2026-09-04T07:07:49.521Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -7028,14 +7028,9 @@
                 },
                 {
                   "start": "19:00",
-                  "end": "19:30",
+                  "end": "20:00",
                   "status": "reserved",
                   "label": "rezervováno Spolek SPJ"
-                },
-                {
-                  "start": "19:30",
-                  "end": "20:00",
-                  "status": "available"
                 },
                 {
                   "start": "20:00",
@@ -24838,7 +24833,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 66,
+          "current": 74,
           "max": 634
         },
         {
