@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T07:35:33.547Z",
+  "generatedAt": "2026-09-04T08:09:30.403Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -20351,13 +20351,9 @@
                 },
                 {
                   "start": "8:00",
-                  "end": "8:30",
-                  "status": "available"
-                },
-                {
-                  "start": "8:30",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno HZS JmK"
                 },
                 {
                   "start": "9:00",
@@ -24833,7 +24829,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 67,
+          "current": 70,
           "max": 634
         },
         {
