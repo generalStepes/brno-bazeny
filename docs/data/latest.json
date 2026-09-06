@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T14:33:46.580Z",
+  "generatedAt": "2026-09-06T15:08:58.128Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -24822,7 +24822,7 @@
         },
         {
           "label": "WELLNESS",
-          "current": 12,
+          "current": 14,
           "max": 68
         }
       ],
