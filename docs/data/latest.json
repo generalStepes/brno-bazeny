@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T05:33:25.776Z",
+  "generatedAt": "2026-09-07T06:03:36.430Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -6803,7 +6803,7 @@
                   "start": "13:00",
                   "end": "13:30",
                   "status": "reserved",
-                  "label": "přihlaste se na akci se zálohou Aqualužánci 1/8"
+                  "label": "přihlaste se na akci se zálohou Aqualužánci 2/8"
                 },
                 {
                   "start": "13:30",
@@ -24797,7 +24797,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 84,
+          "current": 80,
           "max": 634
         },
         {
