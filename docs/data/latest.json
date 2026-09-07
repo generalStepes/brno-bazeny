@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T09:04:02.745Z",
+  "generatedAt": "2026-09-07T09:33:54.611Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -6181,23 +6181,15 @@
                 },
                 {
                   "start": "9:00",
-                  "end": "9:30",
-                  "status": "available"
-                },
-                {
-                  "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno HZS"
                 },
                 {
                   "start": "10:00",
-                  "end": "10:30",
-                  "status": "available"
-                },
-                {
-                  "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno HZS"
                 },
                 {
                   "start": "11:00",
@@ -6310,23 +6302,15 @@
                 },
                 {
                   "start": "9:00",
-                  "end": "9:30",
-                  "status": "available"
-                },
-                {
-                  "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno HZS"
                 },
                 {
                   "start": "10:00",
-                  "end": "10:30",
-                  "status": "available"
-                },
-                {
-                  "start": "10:30",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno HZS"
                 },
                 {
                   "start": "11:00",
@@ -6809,7 +6793,7 @@
                   "start": "13:30",
                   "end": "14:00",
                   "status": "reserved",
-                  "label": "přihlaste se na akci se zálohou Aqualužánci 0/8"
+                  "label": "přihlaste se na akci se zálohou Aqualužánci"
                 },
                 {
                   "start": "14:00",
@@ -11693,13 +11677,9 @@
                 },
                 {
                   "start": "20:00",
-                  "end": "20:30",
-                  "status": "available"
-                },
-                {
-                  "start": "20:30",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno SECRET"
                 },
                 {
                   "start": "21:00",
@@ -24797,7 +24777,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 94,
+          "current": 55,
           "max": 634
         },
         {
@@ -25590,8 +25570,8 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Technická přestávka"
                 },
                 {
                   "start": "13:00",
@@ -25692,8 +25672,8 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Technická přestávka"
                 },
                 {
                   "start": "13:00",
@@ -25794,8 +25774,8 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Technická přestávka"
                 },
                 {
                   "start": "13:00",
@@ -25896,8 +25876,8 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Technická přestávka"
                 },
                 {
                   "start": "13:00",
@@ -25998,8 +25978,8 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Technická přestávka"
                 },
                 {
                   "start": "13:00",
@@ -26100,8 +26080,8 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Technická přestávka"
                 },
                 {
                   "start": "13:00",
@@ -26202,8 +26182,8 @@
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Technická přestávka"
                 },
                 {
                   "start": "13:00",
