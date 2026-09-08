@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T07:33:43.350Z",
+  "generatedAt": "2026-09-08T08:04:13.623Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -11828,9 +11828,13 @@
                 },
                 {
                   "start": "19:00",
+                  "end": "19:30",
+                  "status": "available"
+                },
+                {
+                  "start": "19:30",
                   "end": "20:00",
-                  "status": "reserved",
-                  "label": "rezervováno DIRECT"
+                  "status": "available"
                 },
                 {
                   "start": "20:00",
@@ -24689,7 +24693,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 61,
+          "current": 55,
           "max": 634
         },
         {
