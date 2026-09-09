@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T04:04:34.293Z",
+  "generatedAt": "2026-09-09T04:34:53.362Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -24633,7 +24633,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 40,
+          "current": 87,
           "max": 634
         },
         {
@@ -29370,13 +29370,7 @@
       "ok": false,
       "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.kravihora-brno.cz/kryta-plavecka-hala/rozpis\", waiting until \"domcontentloaded\"\n",
       "days": [],
-      "occupancy": [
-        {
-          "label": "Bazén",
-          "current": 0,
-          "max": 135
-        }
-      ],
+      "occupancy": [],
       "webcams": [],
       "closureNotice": null
     },
