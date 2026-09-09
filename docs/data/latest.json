@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T05:05:10.507Z",
+  "generatedAt": "2026-09-09T05:34:24.383Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -24633,7 +24633,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 137,
+          "current": 99,
           "max": 634
         },
         {
@@ -29368,7 +29368,7 @@
       "name": "Krytá plavecká hala Kraví hora",
       "url": "https://www.kravihora-brno.cz/kryta-plavecka-hala",
       "ok": false,
-      "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.kravihora-brno.cz/kryta-plavecka-hala/rozpis\", waiting until \"domcontentloaded\"\n",
+      "error": "page.goto: net::ERR_TIMED_OUT at https://www.kravihora-brno.cz/kryta-plavecka-hala/rozpis\nCall log:\n  - navigating to \"https://www.kravihora-brno.cz/kryta-plavecka-hala/rozpis\", waiting until \"domcontentloaded\"\n",
       "days": [],
       "occupancy": [],
       "webcams": [],
