@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T07:03:57.020Z",
+  "generatedAt": "2026-09-11T07:33:27.213Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -8065,7 +8065,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             }
@@ -10980,7 +10981,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             }
@@ -13859,7 +13861,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             }
@@ -16478,7 +16481,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             }
@@ -19141,7 +19145,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             }
@@ -21788,7 +21793,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             }
@@ -24527,7 +24533,8 @@
                 {
                   "start": "20:00",
                   "end": "20:30",
-                  "status": "available"
+                  "status": "closed",
+                  "label": "není k dispozici Zavřeno"
                 }
               ]
             }
@@ -24537,7 +24544,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 39,
+          "current": 62,
           "max": 634
         },
         {
