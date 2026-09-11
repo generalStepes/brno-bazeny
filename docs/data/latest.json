@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T06:03:43.623Z",
+  "generatedAt": "2026-09-11T06:33:49.970Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -14478,13 +14478,9 @@
               "slots": [
                 {
                   "start": "6:00",
-                  "end": "6:30",
-                  "status": "available"
-                },
-                {
-                  "start": "6:30",
                   "end": "7:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PKBr."
                 },
                 {
                   "start": "7:00",
@@ -24541,7 +24537,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 43,
+          "current": 37,
           "max": 634
         },
         {
