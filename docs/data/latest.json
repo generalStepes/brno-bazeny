@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T09:03:45.504Z",
+  "generatedAt": "2026-09-14T09:33:28.935Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -6801,7 +6801,7 @@
                   "start": "13:30",
                   "end": "14:00",
                   "status": "reserved",
-                  "label": "přihlaste se na akci se zálohou Aqualužánci 0/8"
+                  "label": "přihlaste se na akci se zálohou Aqualužánci"
                 },
                 {
                   "start": "14:00",
@@ -8942,13 +8942,9 @@
                 },
                 {
                   "start": "9:00",
-                  "end": "9:30",
-                  "status": "available"
-                },
-                {
-                  "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno OLYMP"
                 },
                 {
                   "start": "10:00",
@@ -24214,7 +24210,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 66,
+          "current": 70,
           "max": 634
         },
         {
@@ -46313,7 +46309,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 10,
+          "current": 17,
           "max": 135
         }
       ],
