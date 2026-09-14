@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T12:04:00.527Z",
+  "generatedAt": "2026-09-14T12:33:45.221Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -18582,15 +18582,23 @@
                 },
                 {
                   "start": "9:00",
+                  "end": "9:30",
+                  "status": "available"
+                },
+                {
+                  "start": "9:30",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 16"
+                  "status": "available"
                 },
                 {
                   "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "rezervováno KPSP 16"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -24210,12 +24218,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 80,
+          "current": 84,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 4,
+          "current": 8,
           "max": 68
         }
       ],
@@ -30223,13 +30231,9 @@
                 },
                 {
                   "start": "07:00",
-                  "end": "07:30",
-                  "status": "available"
-                },
-                {
-                  "start": "07:30",
                   "end": "08:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "JAN"
                 },
                 {
                   "start": "08:00",
@@ -38097,13 +38101,9 @@
                 },
                 {
                   "start": "17:00",
-                  "end": "17:30",
-                  "status": "available"
-                },
-                {
-                  "start": "17:30",
                   "end": "18:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "SKB"
                 },
                 {
                   "start": "18:00",
@@ -46309,7 +46309,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 13,
+          "current": 15,
           "max": 135
         }
       ],
