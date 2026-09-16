@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T05:03:50.798Z",
+  "generatedAt": "2026-09-16T05:33:50.730Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -11631,13 +11631,9 @@
                 },
                 {
                   "start": "20:00",
-                  "end": "20:30",
-                  "status": "available"
-                },
-                {
-                  "start": "20:30",
                   "end": "21:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Maxdives"
                 },
                 {
                   "start": "21:00",
@@ -24074,7 +24070,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 112,
+          "current": 76,
           "max": 634
         },
         {
