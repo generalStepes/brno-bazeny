@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T12:33:30.199Z",
+  "generatedAt": "2026-09-17T13:04:02.603Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -23981,12 +23981,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 104,
+          "current": 139,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 7,
+          "current": 11,
           "max": 68
         }
       ],
@@ -29889,9 +29889,13 @@
                 },
                 {
                   "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "GAU"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -45884,7 +45888,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 12,
+          "current": 15,
           "max": 135
         }
       ],
