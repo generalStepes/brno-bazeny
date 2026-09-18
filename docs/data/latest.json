@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T09:33:33.096Z",
+  "generatedAt": "2026-09-18T10:03:49.344Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -13729,23 +13729,15 @@
                 },
                 {
                   "start": "14:00",
-                  "end": "14:30",
-                  "status": "available"
-                },
-                {
-                  "start": "14:30",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno OLYMP"
                 },
                 {
                   "start": "15:00",
-                  "end": "15:30",
-                  "status": "available"
-                },
-                {
-                  "start": "15:30",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno OLYMP"
                 },
                 {
                   "start": "16:00",
@@ -16530,23 +16522,15 @@
                 },
                 {
                   "start": "14:00",
-                  "end": "14:30",
-                  "status": "available"
-                },
-                {
-                  "start": "14:30",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno OLYMP"
                 },
                 {
                   "start": "15:00",
-                  "end": "15:30",
-                  "status": "available"
-                },
-                {
-                  "start": "15:30",
                   "end": "16:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno OLYMP"
                 },
                 {
                   "start": "16:00",
@@ -16609,23 +16593,15 @@
                 },
                 {
                   "start": "7:00",
-                  "end": "7:30",
-                  "status": "available"
-                },
-                {
-                  "start": "7:30",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno OLYMP"
                 },
                 {
                   "start": "8:00",
-                  "end": "8:30",
-                  "status": "available"
-                },
-                {
-                  "start": "8:30",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno OLYMP"
                 },
                 {
                   "start": "9:00",
@@ -19171,13 +19147,9 @@
                 },
                 {
                   "start": "14:00",
-                  "end": "14:30",
-                  "status": "available"
-                },
-                {
-                  "start": "14:30",
                   "end": "15:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno OLYMP"
                 },
                 {
                   "start": "15:00",
@@ -21648,23 +21620,15 @@
                 },
                 {
                   "start": "7:00",
-                  "end": "7:30",
-                  "status": "available"
-                },
-                {
-                  "start": "7:30",
                   "end": "8:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno OLYMP"
                 },
                 {
                   "start": "8:00",
-                  "end": "8:30",
-                  "status": "available"
-                },
-                {
-                  "start": "8:30",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno OLYMP"
                 },
                 {
                   "start": "9:00",
@@ -23878,7 +23842,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 74,
+          "current": 78,
           "max": 634
         },
         {
@@ -45733,7 +45697,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 15,
+          "current": 17,
           "max": 135
         }
       ],
