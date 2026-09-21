@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T07:33:53.067Z",
+  "generatedAt": "2026-09-21T08:03:34.073Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4317,7 +4317,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 22,
+          "current": 18,
           "max": 220
         }
       ],
@@ -23754,7 +23754,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 93,
+          "current": 91,
           "max": 634
         },
         {
@@ -26501,8 +26501,8 @@
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "ROSKA"
                 },
                 {
                   "start": "14:00",
@@ -31276,9 +31276,13 @@
                 },
                 {
                   "start": "07:00",
+                  "end": "07:30",
+                  "status": "available"
+                },
+                {
+                  "start": "07:30",
                   "end": "08:00",
-                  "status": "reserved",
-                  "label": "MOVE"
+                  "status": "available"
                 },
                 {
                   "start": "08:00",
@@ -45561,7 +45565,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 21,
+          "current": 13,
           "max": 135
         }
       ],
