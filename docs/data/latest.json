@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T09:03:55.885Z",
+  "generatedAt": "2026-09-21T09:33:48.444Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -1542,7 +1542,8 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno SŠK"
                 },
                 {
                   "start": "9:00",
@@ -1627,7 +1628,8 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno SŠK"
                 },
                 {
                   "start": "9:00",
@@ -1712,7 +1714,8 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno SŠK"
                 },
                 {
                   "start": "9:00",
@@ -4317,7 +4320,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 19,
+          "current": 26,
           "max": 220
         }
       ],
@@ -6138,7 +6141,7 @@
                   "start": "13:30",
                   "end": "14:00",
                   "status": "reserved",
-                  "label": "přihlaste se na akci se zálohou Aqualužánci 1/8"
+                  "label": "přihlaste se na akci se zálohou Aqualužánci"
                 },
                 {
                   "start": "14:00",
@@ -6150,7 +6153,7 @@
                   "start": "14:30",
                   "end": "15:00",
                   "status": "reserved",
-                  "label": "přihlaste se na akci se zálohou Aqualužánci 1/8"
+                  "label": "přihlaste se na akci se zálohou Aqualužánci 2/8"
                 },
                 {
                   "start": "15:00",
@@ -23754,7 +23757,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 64,
+          "current": 67,
           "max": 634
         },
         {
@@ -45565,7 +45568,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 12,
+          "current": 19,
           "max": 135
         }
       ],
