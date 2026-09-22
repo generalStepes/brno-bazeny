@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T06:34:23.917Z",
+  "generatedAt": "2026-09-22T07:03:51.514Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4288,7 +4288,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 31,
+          "current": 30,
           "max": 220
         },
         {
@@ -5647,13 +5647,9 @@
                 },
                 {
                   "start": "9:00",
-                  "end": "9:30",
-                  "status": "available"
-                },
-                {
-                  "start": "9:30",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno OLYMP"
                 },
                 {
                   "start": "10:00",
@@ -23890,7 +23886,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 73,
+          "current": 80,
           "max": 634
         },
         {
@@ -45681,7 +45677,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 24,
+          "current": 18,
           "max": 135
         }
       ],
