@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T07:03:51.514Z",
+  "generatedAt": "2026-09-22T07:33:35.695Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -23886,7 +23886,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 80,
+          "current": 77,
           "max": 634
         },
         {
@@ -29881,9 +29881,13 @@
               "slots": [
                 {
                   "start": "06:00",
+                  "end": "06:30",
+                  "status": "available"
+                },
+                {
+                  "start": "06:30",
                   "end": "07:00",
-                  "status": "reserved",
-                  "label": "MAMO"
+                  "status": "available"
                 },
                 {
                   "start": "07:00",
@@ -45677,7 +45681,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 18,
+          "current": 24,
           "max": 135
         }
       ],
