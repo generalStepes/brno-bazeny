@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T08:03:54.870Z",
+  "generatedAt": "2026-09-24T08:33:52.173Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4293,7 +4293,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 19,
+          "current": 26,
           "max": 220
         },
         {
@@ -23955,7 +23955,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 116,
+          "current": 108,
           "max": 634
         },
         {
@@ -27073,20 +27073,20 @@
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Plaveký klub Krokodýl Brno"
                 },
                 {
                   "start": "12:00",
                   "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Plaveký klub Krokodýl Brno"
                 },
                 {
                   "start": "13:00",
                   "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Plaveký klub Krokodýl Brno"
                 },
                 {
                   "start": "14:00",
@@ -45682,7 +45682,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 11,
+          "current": 24,
           "max": 135
         }
       ],
