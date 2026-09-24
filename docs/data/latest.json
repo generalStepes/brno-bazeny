@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T09:34:08.344Z",
+  "generatedAt": "2026-09-24T10:03:43.782Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4293,7 +4293,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 28,
+          "current": 18,
           "max": 220
         },
         {
@@ -20931,9 +20931,13 @@
                 },
                 {
                   "start": "9:00",
+                  "end": "9:30",
+                  "status": "available"
+                },
+                {
+                  "start": "9:30",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "rezervováno ZŠ Úvoz"
+                  "status": "available"
                 },
                 {
                   "start": "10:00",
@@ -21061,9 +21065,13 @@
                 },
                 {
                   "start": "9:00",
+                  "end": "9:30",
+                  "status": "available"
+                },
+                {
+                  "start": "9:30",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "rezervováno ZŠ Úvoz"
+                  "status": "available"
                 },
                 {
                   "start": "10:00",
@@ -23955,7 +23963,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 64,
+          "current": 67,
           "max": 634
         },
         {
@@ -45682,7 +45690,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 30,
+          "current": 24,
           "max": 135
         }
       ],
