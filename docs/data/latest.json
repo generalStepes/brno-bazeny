@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T06:33:31.778Z",
+  "generatedAt": "2026-09-25T07:03:56.843Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4297,7 +4297,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 30,
+          "current": 33,
           "max": 220
         },
         {
@@ -23991,7 +23991,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 43,
+          "current": 59,
           "max": 634
         },
         {
@@ -27775,13 +27775,13 @@
                   "start": "19:00",
                   "end": "20:00",
                   "status": "reserved",
-                  "label": "TJ Tesla Brno"
+                  "label": "Rybka - dospělí"
                 },
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "TJ Tesla Brno"
                 },
                 {
                   "start": "21:00",
@@ -45682,7 +45682,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 11,
+          "current": 14,
           "max": 135
         }
       ],
