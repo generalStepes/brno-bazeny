@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T10:33:34.281Z",
+  "generatedAt": "2026-09-25T11:03:49.417Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4297,7 +4297,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 21,
+          "current": 23,
           "max": 220
         },
         {
@@ -18039,13 +18039,9 @@
                 },
                 {
                   "start": "19:00",
-                  "end": "19:30",
-                  "status": "available"
-                },
-                {
-                  "start": "19:30",
                   "end": "20:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno Gargulák"
                 },
                 {
                   "start": "20:00",
@@ -23991,7 +23987,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 61,
+          "current": 55,
           "max": 634
         },
         {
