@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T14:04:06.919Z",
+  "generatedAt": "2026-09-28T14:33:41.427Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -3095,8 +3095,7 @@
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
+                  "status": "available"
                 },
                 {
                   "start": "15:00",
@@ -4297,12 +4296,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 104,
+          "current": 87,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 2,
+          "current": 1,
           "max": 12
         }
       ],
@@ -24100,12 +24099,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 103,
+          "current": 59,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 6,
+          "current": 10,
           "max": 68
         }
       ],
@@ -45725,7 +45724,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 27,
+          "current": 36,
           "max": 135
         }
       ],
