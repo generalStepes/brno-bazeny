@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T10:03:56.649Z",
+  "generatedAt": "2026-09-29T10:33:48.803Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -10880,13 +10880,9 @@
                 },
                 {
                   "start": "19:00",
-                  "end": "19:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "19:30",
                   "end": "20:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno SECRET"
                 },
                 {
                   "start": "20:00",
@@ -13901,13 +13897,9 @@
                 },
                 {
                   "start": "20:00",
-                  "end": "20:30",
-                  "status": "closed"
-                },
-                {
-                  "start": "20:30",
                   "end": "21:00",
-                  "status": "closed"
+                  "status": "closed",
+                  "label": "rezervováno SECRET"
                 },
                 {
                   "start": "21:00",
@@ -23949,7 +23941,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 61,
+          "current": 57,
           "max": 634
         },
         {
@@ -45618,7 +45610,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 32,
+          "current": 28,
           "max": 135
         }
       ],
