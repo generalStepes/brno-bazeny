@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T17:03:39.106Z",
+  "generatedAt": "2026-09-29T17:33:42.298Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -314,14 +314,12 @@
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "reserved",
-                  "label": "rezervováno PKB"
+                  "status": "available"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "reserved",
-                  "label": "rezervováno PKB"
+                  "status": "available"
                 },
                 {
                   "start": "18:00",
@@ -401,14 +399,12 @@
                 {
                   "start": "16:00",
                   "end": "17:00",
-                  "status": "reserved",
-                  "label": "rezervováno PKB"
+                  "status": "available"
                 },
                 {
                   "start": "17:00",
                   "end": "18:00",
-                  "status": "reserved",
-                  "label": "rezervováno PKB"
+                  "status": "available"
                 },
                 {
                   "start": "18:00",
@@ -1610,8 +1606,7 @@
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "reserved",
-                  "label": "rezervováno PKB"
+                  "status": "available"
                 },
                 {
                   "start": "19:00",
@@ -1697,8 +1692,7 @@
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "reserved",
-                  "label": "rezervováno PKB"
+                  "status": "available"
                 },
                 {
                   "start": "19:00",
@@ -4337,12 +4331,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 146,
+          "current": 59,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 4,
+          "current": 5,
           "max": 12
         }
       ],
@@ -23956,12 +23950,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 298,
+          "current": 184,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 9,
+          "current": 18,
           "max": 68
         }
       ],
@@ -45645,7 +45639,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 52,
+          "current": 40,
           "max": 135
         }
       ],
