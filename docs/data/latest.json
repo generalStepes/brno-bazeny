@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T16:33:41.473Z",
+  "generatedAt": "2026-09-29T17:03:39.106Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -276,17 +276,20 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "12:00",
@@ -360,17 +363,20 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "12:00",
@@ -529,7 +535,8 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "9:00",
@@ -912,17 +919,20 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "12:00",
@@ -997,17 +1007,20 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "12:00",
@@ -1166,7 +1179,8 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "9:00",
@@ -1634,12 +1648,14 @@
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "11:00",
@@ -1819,7 +1835,8 @@
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "12:00",
@@ -4025,7 +4042,8 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "9:00",
@@ -4111,19 +4129,18 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
+                  "status": "available"
                 },
                 {
                   "start": "10:00",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "rezervováno PŠB"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -4199,7 +4216,8 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "9:00",
@@ -4216,7 +4234,8 @@
                 {
                   "start": "11:00",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno PŠB"
                 },
                 {
                   "start": "12:00",
@@ -4318,12 +4337,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 114,
+          "current": 146,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 3,
+          "current": 4,
           "max": 12
         }
       ],
@@ -23937,12 +23956,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 245,
+          "current": 298,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 8,
+          "current": 9,
           "max": 68
         }
       ],
@@ -45626,7 +45645,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 59,
+          "current": 52,
           "max": 135
         }
       ],
