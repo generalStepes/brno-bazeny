@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T11:04:04.642Z",
+  "generatedAt": "2026-09-29T11:33:40.066Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4318,7 +4318,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 24,
+          "current": 27,
           "max": 220
         },
         {
@@ -23941,7 +23941,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 73,
+          "current": 82,
           "max": 634
         },
         {
@@ -31389,19 +31389,25 @@
                 },
                 {
                   "start": "17:00",
+                  "end": "17:30",
+                  "status": "available"
+                },
+                {
+                  "start": "17:30",
                   "end": "18:00",
-                  "status": "reserved",
-                  "label": "PŠB"
+                  "status": "available"
                 },
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "PŠB"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "PŠB"
                 },
                 {
                   "start": "19:00",
@@ -39868,19 +39874,25 @@
                 },
                 {
                   "start": "17:00",
+                  "end": "17:30",
+                  "status": "available"
+                },
+                {
+                  "start": "17:30",
                   "end": "18:00",
-                  "status": "reserved",
-                  "label": "PŠB"
+                  "status": "available"
                 },
                 {
                   "start": "18:00",
                   "end": "18:30",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "PŠB"
                 },
                 {
                   "start": "18:30",
                   "end": "19:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "PŠB"
                 },
                 {
                   "start": "19:00",
@@ -45610,7 +45622,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 33,
+          "current": 27,
           "max": 135
         }
       ],
