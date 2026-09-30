@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T16:03:50.481Z",
+  "generatedAt": "2026-09-30T16:33:50.135Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -271,7 +271,8 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno SŠK"
                 },
                 {
                   "start": "9:00",
@@ -359,7 +360,8 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno SŠK"
                 },
                 {
                   "start": "9:00",
@@ -447,7 +449,8 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "rezervováno SŠK"
                 },
                 {
                   "start": "9:00",
@@ -4336,12 +4339,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 199,
+          "current": 121,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 3,
+          "current": 5,
           "max": 12
         }
       ],
@@ -23935,12 +23938,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 276,
+          "current": 213,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 16,
+          "current": 25,
           "max": 68
         }
       ],
@@ -45604,7 +45607,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 73,
+          "current": 66,
           "max": 135
         }
       ],
