@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T08:03:54.875Z",
+  "generatedAt": "2026-09-30T08:33:54.929Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4335,7 +4335,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 25,
+          "current": 34,
           "max": 220
         },
         {
@@ -11204,9 +11204,13 @@
                 },
                 {
                   "start": "14:00",
+                  "end": "14:30",
+                  "status": "closed"
+                },
+                {
+                  "start": "14:30",
                   "end": "15:00",
-                  "status": "closed",
-                  "label": "rezervováno SKP 50"
+                  "status": "closed"
                 },
                 {
                   "start": "15:00",
@@ -23930,7 +23934,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 75,
+          "current": 70,
           "max": 634
         },
         {
@@ -45599,7 +45603,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 13,
+          "current": 12,
           "max": 135
         }
       ],
