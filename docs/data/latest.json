@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T13:04:10.555Z",
+  "generatedAt": "2026-10-01T13:28:21.211Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4339,12 +4339,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 48,
+          "current": 54,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 2,
+          "current": 3,
           "max": 12
         }
       ],
@@ -23826,12 +23826,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 126,
+          "current": 136,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 9,
+          "current": 10,
           "max": 68
         }
       ],
@@ -45487,7 +45487,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 17,
+          "current": 19,
           "max": 135
         }
       ],
