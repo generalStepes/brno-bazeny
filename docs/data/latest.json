@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T06:33:43.605Z",
+  "generatedAt": "2026-10-01T07:03:58.650Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4339,7 +4339,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 36,
+          "current": 35,
           "max": 220
         },
         {
@@ -23838,7 +23838,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 62,
+          "current": 81,
           "max": 634
         },
         {
@@ -24240,8 +24240,8 @@
                 {
                   "start": "15:00",
                   "end": "16:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "KOCMAN"
                 },
                 {
                   "start": "16:00",
@@ -45511,7 +45511,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 16,
+          "current": 23,
           "max": 135
         }
       ],
