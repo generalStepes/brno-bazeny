@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T15:33:48.962Z",
+  "generatedAt": "2026-10-02T16:03:52.602Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4340,12 +4340,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 120,
+          "current": 132,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 3,
+          "current": 4,
           "max": 12
         }
       ],
@@ -14717,7 +14717,7 @@
                   "start": "13:00",
                   "end": "13:30",
                   "status": "closed",
-                  "label": "přihlaste se na akci se zálohou Aqualužánci 0/8"
+                  "label": "přihlaste se na akci se zálohou Aqualužánci 1/8"
                 },
                 {
                   "start": "13:30",
@@ -23807,12 +23807,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 215,
+          "current": 257,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 7,
+          "current": 12,
           "max": 68
         }
       ],
@@ -45472,7 +45472,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 48,
+          "current": 41,
           "max": 135
         }
       ],
