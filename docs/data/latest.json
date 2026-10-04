@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T20:34:13.036Z",
+  "generatedAt": "2026-10-04T21:04:43.503Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -8,7 +8,18 @@
       "ok": true,
       "error": null,
       "days": [],
-      "occupancy": [],
+      "occupancy": [
+        {
+          "label": "BAZÉNY A POSILOVNA",
+          "current": 0,
+          "max": 220
+        },
+        {
+          "label": "FINSKÁ SAUNA",
+          "current": 0,
+          "max": 12
+        }
+      ],
       "webcams": [],
       "closureNotice": null
     },
@@ -21,7 +32,11 @@
       "days": [],
       "occupancy": [],
       "webcams": [],
-      "closureNotice": null
+      "closureNotice": {
+        "message": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen.",
+        "closedFrom": "2026-06-14",
+        "closedUntil": "2026-12-31"
+      }
     },
     {
       "venue": "luzanky",
@@ -30,7 +45,18 @@
       "ok": true,
       "error": null,
       "days": [],
-      "occupancy": [],
+      "occupancy": [
+        {
+          "label": "BAZÉNY",
+          "current": 1,
+          "max": 634
+        },
+        {
+          "label": "WELLNESS",
+          "current": 0,
+          "max": 68
+        }
+      ],
       "webcams": [
         {
           "label": "25m bazén",
@@ -41,7 +67,11 @@
           "path": "images/luzanky-50m.jpg"
         }
       ],
-      "closureNotice": null
+      "closureNotice": {
+        "message": "Parní kabina u bazénu je mimo provoz.",
+        "closedFrom": null,
+        "closedUntil": null
+      }
     },
     {
       "venue": "druzstevni",
