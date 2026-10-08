@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T18:04:28.763Z",
+  "generatedAt": "2026-10-08T00:35:27.623Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -11,12 +11,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 73,
+          "current": 0,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 3,
+          "current": 0,
           "max": 12
         }
       ],
@@ -48,12 +48,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 140,
+          "current": 0,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 20,
+          "current": 0,
           "max": 68
         }
       ],
@@ -80,725 +80,6 @@
       "ok": true,
       "error": null,
       "days": [
-        {
-          "date": "2026-10-07",
-          "resources": [
-            {
-              "name": "Dráha 1",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "6:00",
-                  "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "7:00",
-                  "end": "8:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "Gymnázium Slovanské nám."
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved",
-                  "label": "VUT v Brně"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved",
-                  "label": "VUT v Brně"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "closed",
-                  "label": "Zavřeno"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 2",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "6:00",
-                  "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "7:00",
-                  "end": "8:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "Gymnázium Slovanské nám."
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved",
-                  "label": "VUT v Brně"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved",
-                  "label": "VUT v Brně"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "closed",
-                  "label": "Zavřeno"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 3",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "6:00",
-                  "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "7:00",
-                  "end": "8:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "Gymnázium Slovanské nám."
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved",
-                  "label": "VUT v Brně"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved",
-                  "label": "VUT v Brně"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "closed",
-                  "label": "Zavřeno"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 4",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "6:00",
-                  "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "7:00",
-                  "end": "8:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "Technická přestávka"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved",
-                  "label": "VUT v Brně"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved",
-                  "label": "VUT v Brně"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "closed",
-                  "label": "Zavřeno"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 5",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "6:00",
-                  "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "7:00",
-                  "end": "8:00",
-                  "status": "reserved",
-                  "label": "BRNO TRIATLON TEAM"
-                },
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "reserved",
-                  "label": "BRNO TRIATLON TEAM"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "Technická přestávka"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved",
-                  "label": "Rybka - dospělí"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "reserved",
-                  "label": "TJ Tesla Brno"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "closed",
-                  "label": "Zavřeno"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 6",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "6:00",
-                  "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "7:00",
-                  "end": "8:00",
-                  "status": "reserved",
-                  "label": "BRNO TRIATLON TEAM"
-                },
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "reserved",
-                  "label": "BRNO TRIATLON TEAM"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "Technická přestávka"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "reserved",
-                  "label": "Rybka - dospělí"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "closed",
-                  "label": "Zavřeno"
-                }
-              ]
-            },
-            {
-              "name": "Malý bazének",
-              "category": "Malý bazének",
-              "slots": [
-                {
-                  "start": "6:00",
-                  "end": "7:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "7:00",
-                  "end": "8:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "8:00",
-                  "end": "9:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "9:00",
-                  "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "12:00",
-                  "end": "13:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "13:00",
-                  "end": "14:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "14:00",
-                  "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "18:00",
-                  "end": "19:00",
-                  "status": "reserved",
-                  "label": "PŠ RYBKA"
-                },
-                {
-                  "start": "19:00",
-                  "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "20:00",
-                  "end": "21:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "closed",
-                  "label": "Zavřeno"
-                }
-              ]
-            }
-          ]
-        },
         {
           "date": "2026-10-08",
           "resources": [
@@ -4776,6 +4057,725 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2026-10-14",
+          "resources": [
+            {
+              "name": "Dráha 1",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "6:00",
+                  "end": "7:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "7:00",
+                  "end": "8:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "reserved",
+                  "label": "Gymnázium Slovanské nám."
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "reserved",
+                  "label": "VUT v Brně"
+                },
+                {
+                  "start": "20:00",
+                  "end": "21:00",
+                  "status": "reserved",
+                  "label": "VUT v Brně"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "closed",
+                  "label": "Zavřeno"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 2",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "6:00",
+                  "end": "7:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "7:00",
+                  "end": "8:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "reserved",
+                  "label": "Gymnázium Slovanské nám."
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "reserved",
+                  "label": "VUT v Brně"
+                },
+                {
+                  "start": "20:00",
+                  "end": "21:00",
+                  "status": "reserved",
+                  "label": "VUT v Brně"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "closed",
+                  "label": "Zavřeno"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 3",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "6:00",
+                  "end": "7:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "7:00",
+                  "end": "8:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "reserved",
+                  "label": "Gymnázium Slovanské nám."
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "reserved",
+                  "label": "VUT v Brně"
+                },
+                {
+                  "start": "20:00",
+                  "end": "21:00",
+                  "status": "reserved",
+                  "label": "VUT v Brně"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "closed",
+                  "label": "Zavřeno"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 4",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "6:00",
+                  "end": "7:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "7:00",
+                  "end": "8:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "reserved",
+                  "label": "Technická přestávka"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "reserved",
+                  "label": "VUT v Brně"
+                },
+                {
+                  "start": "20:00",
+                  "end": "21:00",
+                  "status": "reserved",
+                  "label": "VUT v Brně"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "closed",
+                  "label": "Zavřeno"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 5",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "6:00",
+                  "end": "7:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "7:00",
+                  "end": "8:00",
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
+                },
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "reserved",
+                  "label": "Technická přestávka"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "reserved",
+                  "label": "Rybka - dospělí"
+                },
+                {
+                  "start": "20:00",
+                  "end": "21:00",
+                  "status": "reserved",
+                  "label": "TJ Tesla Brno"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "closed",
+                  "label": "Zavřeno"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 6",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "6:00",
+                  "end": "7:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "7:00",
+                  "end": "8:00",
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
+                },
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "reserved",
+                  "label": "Technická přestávka"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "reserved",
+                  "label": "Rybka - dospělí"
+                },
+                {
+                  "start": "20:00",
+                  "end": "21:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "closed",
+                  "label": "Zavřeno"
+                }
+              ]
+            },
+            {
+              "name": "Malý bazének",
+              "category": "Malý bazének",
+              "slots": [
+                {
+                  "start": "6:00",
+                  "end": "7:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "7:00",
+                  "end": "8:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "8:00",
+                  "end": "9:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "9:00",
+                  "end": "10:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "12:00",
+                  "end": "13:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "13:00",
+                  "end": "14:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "14:00",
+                  "end": "15:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "18:00",
+                  "end": "19:00",
+                  "status": "reserved",
+                  "label": "PŠ RYBKA"
+                },
+                {
+                  "start": "19:00",
+                  "end": "20:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "20:00",
+                  "end": "21:00",
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "closed",
+                  "label": "Zavřeno"
+                }
+              ]
+            }
+          ]
         }
       ],
       "occupancy": [],
@@ -4789,1227 +4789,6 @@
       "ok": true,
       "error": null,
       "days": [
-        {
-          "date": "2026-10-07",
-          "resources": [
-            {
-              "name": "Dráha 1",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "07:00",
-                  "status": "reserved",
-                  "label": "MAMO"
-                },
-                {
-                  "start": "07:00",
-                  "end": "07:30",
-                  "status": "available"
-                },
-                {
-                  "start": "07:30",
-                  "end": "08:00",
-                  "status": "available"
-                },
-                {
-                  "start": "08:00",
-                  "end": "08:30",
-                  "status": "available"
-                },
-                {
-                  "start": "08:30",
-                  "end": "09:00",
-                  "status": "available"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "AQUA"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "BIGY"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "reserved",
-                  "label": "CMG"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
-                  "status": "available"
-                },
-                {
-                  "start": "12:30",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "13:30",
-                  "status": "available"
-                },
-                {
-                  "start": "13:30",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "14:30",
-                  "status": "available"
-                },
-                {
-                  "start": "14:30",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "272"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "SKB"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "reserved",
-                  "label": "256"
-                },
-                {
-                  "start": "18:00",
-                  "end": "18:30",
-                  "status": "available"
-                },
-                {
-                  "start": "18:30",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "19:30",
-                  "status": "available"
-                },
-                {
-                  "start": "19:30",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "20:30",
-                  "status": "available"
-                },
-                {
-                  "start": "20:30",
-                  "end": "21:00",
-                  "status": "available"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "available"
-                },
-                {
-                  "start": "21:30",
-                  "end": "22:00",
-                  "status": "available"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 2",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "06:30",
-                  "status": "available"
-                },
-                {
-                  "start": "06:30",
-                  "end": "07:00",
-                  "status": "available"
-                },
-                {
-                  "start": "07:00",
-                  "end": "08:00",
-                  "status": "reserved",
-                  "label": "MOVE"
-                },
-                {
-                  "start": "08:00",
-                  "end": "09:00",
-                  "status": "reserved",
-                  "label": "MOVE"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "AQUA"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "BIGY"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "reserved",
-                  "label": "CMG"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
-                  "status": "available"
-                },
-                {
-                  "start": "12:30",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "13:30",
-                  "status": "available"
-                },
-                {
-                  "start": "13:30",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "14:30",
-                  "status": "available"
-                },
-                {
-                  "start": "14:30",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "272"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "272"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "reserved",
-                  "label": "U"
-                },
-                {
-                  "start": "18:00",
-                  "end": "18:30",
-                  "status": "available"
-                },
-                {
-                  "start": "18:30",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "19:30",
-                  "status": "available"
-                },
-                {
-                  "start": "19:30",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "20:30",
-                  "status": "available"
-                },
-                {
-                  "start": "20:30",
-                  "end": "21:00",
-                  "status": "available"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "available"
-                },
-                {
-                  "start": "21:30",
-                  "end": "22:00",
-                  "status": "available"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 3",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "06:30",
-                  "status": "available"
-                },
-                {
-                  "start": "06:30",
-                  "end": "07:00",
-                  "status": "available"
-                },
-                {
-                  "start": "07:00",
-                  "end": "07:30",
-                  "status": "available"
-                },
-                {
-                  "start": "07:30",
-                  "end": "08:00",
-                  "status": "available"
-                },
-                {
-                  "start": "08:00",
-                  "end": "08:30",
-                  "status": "available"
-                },
-                {
-                  "start": "08:30",
-                  "end": "09:00",
-                  "status": "available"
-                },
-                {
-                  "start": "09:00",
-                  "end": "09:30",
-                  "status": "available"
-                },
-                {
-                  "start": "09:30",
-                  "end": "10:00",
-                  "status": "available"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "BIGY"
-                },
-                {
-                  "start": "11:00",
-                  "end": "11:30",
-                  "status": "available"
-                },
-                {
-                  "start": "11:30",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
-                  "status": "available"
-                },
-                {
-                  "start": "12:30",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "13:30",
-                  "status": "available"
-                },
-                {
-                  "start": "13:30",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "14:30",
-                  "status": "available"
-                },
-                {
-                  "start": "14:30",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "256"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "256"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "reserved",
-                  "label": "TG"
-                },
-                {
-                  "start": "18:00",
-                  "end": "18:30",
-                  "status": "available"
-                },
-                {
-                  "start": "18:30",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "19:30",
-                  "status": "available"
-                },
-                {
-                  "start": "19:30",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "20:30",
-                  "status": "available"
-                },
-                {
-                  "start": "20:30",
-                  "end": "21:00",
-                  "status": "available"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "available"
-                },
-                {
-                  "start": "21:30",
-                  "end": "22:00",
-                  "status": "available"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 4",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "06:30",
-                  "status": "available"
-                },
-                {
-                  "start": "06:30",
-                  "end": "07:00",
-                  "status": "available"
-                },
-                {
-                  "start": "07:00",
-                  "end": "07:30",
-                  "status": "available"
-                },
-                {
-                  "start": "07:30",
-                  "end": "08:00",
-                  "status": "available"
-                },
-                {
-                  "start": "08:00",
-                  "end": "08:30",
-                  "status": "available"
-                },
-                {
-                  "start": "08:30",
-                  "end": "09:00",
-                  "status": "available"
-                },
-                {
-                  "start": "09:00",
-                  "end": "09:30",
-                  "status": "available"
-                },
-                {
-                  "start": "09:30",
-                  "end": "10:00",
-                  "status": "available"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "VÚ"
-                },
-                {
-                  "start": "11:00",
-                  "end": "11:30",
-                  "status": "available"
-                },
-                {
-                  "start": "11:30",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
-                  "status": "available"
-                },
-                {
-                  "start": "12:30",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "13:30",
-                  "status": "available"
-                },
-                {
-                  "start": "13:30",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "14:30",
-                  "status": "available"
-                },
-                {
-                  "start": "14:30",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "16:00",
-                  "status": "reserved",
-                  "label": "256"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "256"
-                },
-                {
-                  "start": "17:00",
-                  "end": "17:30",
-                  "status": "available"
-                },
-                {
-                  "start": "17:30",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "18:30",
-                  "status": "available"
-                },
-                {
-                  "start": "18:30",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "19:30",
-                  "status": "available"
-                },
-                {
-                  "start": "19:30",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "20:30",
-                  "status": "available"
-                },
-                {
-                  "start": "20:30",
-                  "end": "21:00",
-                  "status": "available"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "available"
-                },
-                {
-                  "start": "21:30",
-                  "end": "22:00",
-                  "status": "available"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 5",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "06:30",
-                  "status": "available"
-                },
-                {
-                  "start": "06:30",
-                  "end": "07:00",
-                  "status": "available"
-                },
-                {
-                  "start": "07:00",
-                  "end": "07:30",
-                  "status": "available"
-                },
-                {
-                  "start": "07:30",
-                  "end": "08:00",
-                  "status": "available"
-                },
-                {
-                  "start": "08:00",
-                  "end": "08:30",
-                  "status": "available"
-                },
-                {
-                  "start": "08:30",
-                  "end": "09:00",
-                  "status": "available"
-                },
-                {
-                  "start": "09:00",
-                  "end": "09:30",
-                  "status": "available"
-                },
-                {
-                  "start": "09:30",
-                  "end": "10:00",
-                  "status": "available"
-                },
-                {
-                  "start": "10:00",
-                  "end": "10:30",
-                  "status": "available"
-                },
-                {
-                  "start": "10:30",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "11:30",
-                  "status": "available"
-                },
-                {
-                  "start": "11:30",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
-                  "status": "available"
-                },
-                {
-                  "start": "12:30",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "13:30",
-                  "status": "available"
-                },
-                {
-                  "start": "13:30",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "14:30",
-                  "status": "available"
-                },
-                {
-                  "start": "14:30",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "15:30",
-                  "status": "available"
-                },
-                {
-                  "start": "15:30",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "16:30",
-                  "status": "available"
-                },
-                {
-                  "start": "16:30",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "17:30",
-                  "status": "available"
-                },
-                {
-                  "start": "17:30",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "18:30",
-                  "status": "available"
-                },
-                {
-                  "start": "18:30",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "19:30",
-                  "status": "available"
-                },
-                {
-                  "start": "19:30",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "20:30",
-                  "status": "available"
-                },
-                {
-                  "start": "20:30",
-                  "end": "21:00",
-                  "status": "available"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "available"
-                },
-                {
-                  "start": "21:30",
-                  "end": "22:00",
-                  "status": "available"
-                }
-              ]
-            },
-            {
-              "name": "Dráha 6",
-              "category": "Dráhy",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "06:30",
-                  "status": "available"
-                },
-                {
-                  "start": "06:30",
-                  "end": "07:00",
-                  "status": "available"
-                },
-                {
-                  "start": "07:00",
-                  "end": "07:30",
-                  "status": "available"
-                },
-                {
-                  "start": "07:30",
-                  "end": "08:00",
-                  "status": "available"
-                },
-                {
-                  "start": "08:00",
-                  "end": "08:30",
-                  "status": "available"
-                },
-                {
-                  "start": "08:30",
-                  "end": "09:00",
-                  "status": "available"
-                },
-                {
-                  "start": "09:00",
-                  "end": "09:30",
-                  "status": "available"
-                },
-                {
-                  "start": "09:30",
-                  "end": "10:00",
-                  "status": "available"
-                },
-                {
-                  "start": "10:00",
-                  "end": "10:30",
-                  "status": "available"
-                },
-                {
-                  "start": "10:30",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "11:30",
-                  "status": "available"
-                },
-                {
-                  "start": "11:30",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
-                  "status": "available"
-                },
-                {
-                  "start": "12:30",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "13:30",
-                  "status": "available"
-                },
-                {
-                  "start": "13:30",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "14:30",
-                  "status": "available"
-                },
-                {
-                  "start": "14:30",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "15:30",
-                  "status": "available"
-                },
-                {
-                  "start": "15:30",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "16:30",
-                  "status": "available"
-                },
-                {
-                  "start": "16:30",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "17:30",
-                  "status": "available"
-                },
-                {
-                  "start": "17:30",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "18:30",
-                  "status": "available"
-                },
-                {
-                  "start": "18:30",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "19:30",
-                  "status": "available"
-                },
-                {
-                  "start": "19:30",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "20:30",
-                  "status": "available"
-                },
-                {
-                  "start": "20:30",
-                  "end": "21:00",
-                  "status": "available"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "available"
-                },
-                {
-                  "start": "21:30",
-                  "end": "22:00",
-                  "status": "available"
-                }
-              ]
-            },
-            {
-              "name": "Hratkový bazén",
-              "category": "Hratkový bazén",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "06:30",
-                  "status": "available"
-                },
-                {
-                  "start": "06:30",
-                  "end": "07:00",
-                  "status": "available"
-                },
-                {
-                  "start": "07:00",
-                  "end": "07:30",
-                  "status": "available"
-                },
-                {
-                  "start": "07:30",
-                  "end": "08:00",
-                  "status": "available"
-                },
-                {
-                  "start": "08:00",
-                  "end": "08:30",
-                  "status": "available"
-                },
-                {
-                  "start": "08:30",
-                  "end": "09:00",
-                  "status": "available"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "MŠ"
-                },
-                {
-                  "start": "10:00",
-                  "end": "11:00",
-                  "status": "reserved",
-                  "label": "MŠ"
-                },
-                {
-                  "start": "11:00",
-                  "end": "12:00",
-                  "status": "reserved",
-                  "label": "MŠ"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
-                  "status": "available"
-                },
-                {
-                  "start": "12:30",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "13:30",
-                  "status": "available"
-                },
-                {
-                  "start": "13:30",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "14:30",
-                  "status": "available"
-                },
-                {
-                  "start": "14:30",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "15:30",
-                  "status": "available"
-                },
-                {
-                  "start": "15:30",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "17:00",
-                  "status": "reserved",
-                  "label": "SKB"
-                },
-                {
-                  "start": "17:00",
-                  "end": "18:00",
-                  "status": "reserved",
-                  "label": "256"
-                },
-                {
-                  "start": "18:00",
-                  "end": "18:30",
-                  "status": "available"
-                },
-                {
-                  "start": "18:30",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "19:30",
-                  "status": "available"
-                },
-                {
-                  "start": "19:30",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "20:30",
-                  "status": "available"
-                },
-                {
-                  "start": "20:30",
-                  "end": "21:00",
-                  "status": "available"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "available"
-                },
-                {
-                  "start": "21:30",
-                  "end": "22:00",
-                  "status": "available"
-                }
-              ]
-            },
-            {
-              "name": "Vířivka",
-              "category": "Vířivka",
-              "slots": [
-                {
-                  "start": "06:00",
-                  "end": "06:30",
-                  "status": "available"
-                },
-                {
-                  "start": "06:30",
-                  "end": "07:00",
-                  "status": "available"
-                },
-                {
-                  "start": "07:00",
-                  "end": "07:30",
-                  "status": "available"
-                },
-                {
-                  "start": "07:30",
-                  "end": "08:00",
-                  "status": "available"
-                },
-                {
-                  "start": "08:00",
-                  "end": "08:30",
-                  "status": "available"
-                },
-                {
-                  "start": "08:30",
-                  "end": "09:00",
-                  "status": "available"
-                },
-                {
-                  "start": "09:00",
-                  "end": "10:00",
-                  "status": "reserved",
-                  "label": "SEDM"
-                },
-                {
-                  "start": "10:00",
-                  "end": "10:30",
-                  "status": "available"
-                },
-                {
-                  "start": "10:30",
-                  "end": "11:00",
-                  "status": "available"
-                },
-                {
-                  "start": "11:00",
-                  "end": "11:30",
-                  "status": "available"
-                },
-                {
-                  "start": "11:30",
-                  "end": "12:00",
-                  "status": "available"
-                },
-                {
-                  "start": "12:00",
-                  "end": "12:30",
-                  "status": "available"
-                },
-                {
-                  "start": "12:30",
-                  "end": "13:00",
-                  "status": "available"
-                },
-                {
-                  "start": "13:00",
-                  "end": "13:30",
-                  "status": "available"
-                },
-                {
-                  "start": "13:30",
-                  "end": "14:00",
-                  "status": "available"
-                },
-                {
-                  "start": "14:00",
-                  "end": "14:30",
-                  "status": "available"
-                },
-                {
-                  "start": "14:30",
-                  "end": "15:00",
-                  "status": "available"
-                },
-                {
-                  "start": "15:00",
-                  "end": "15:30",
-                  "status": "available"
-                },
-                {
-                  "start": "15:30",
-                  "end": "16:00",
-                  "status": "available"
-                },
-                {
-                  "start": "16:00",
-                  "end": "16:30",
-                  "status": "available"
-                },
-                {
-                  "start": "16:30",
-                  "end": "17:00",
-                  "status": "available"
-                },
-                {
-                  "start": "17:00",
-                  "end": "17:30",
-                  "status": "available"
-                },
-                {
-                  "start": "17:30",
-                  "end": "18:00",
-                  "status": "available"
-                },
-                {
-                  "start": "18:00",
-                  "end": "18:30",
-                  "status": "available"
-                },
-                {
-                  "start": "18:30",
-                  "end": "19:00",
-                  "status": "available"
-                },
-                {
-                  "start": "19:00",
-                  "end": "19:30",
-                  "status": "available"
-                },
-                {
-                  "start": "19:30",
-                  "end": "20:00",
-                  "status": "available"
-                },
-                {
-                  "start": "20:00",
-                  "end": "20:30",
-                  "status": "available"
-                },
-                {
-                  "start": "20:30",
-                  "end": "21:00",
-                  "status": "available"
-                },
-                {
-                  "start": "21:00",
-                  "end": "21:30",
-                  "status": "available"
-                },
-                {
-                  "start": "21:30",
-                  "end": "22:00",
-                  "status": "available"
-                }
-              ]
-            }
-          ]
-        },
         {
           "date": "2026-10-08",
           "resources": [
@@ -21676,12 +20455,1237 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2026-10-21",
+          "resources": [
+            {
+              "name": "Dráha 1",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "06:00",
+                  "end": "07:00",
+                  "status": "reserved",
+                  "label": "MAMO"
+                },
+                {
+                  "start": "07:00",
+                  "end": "07:30",
+                  "status": "available"
+                },
+                {
+                  "start": "07:30",
+                  "end": "08:00",
+                  "status": "available"
+                },
+                {
+                  "start": "08:00",
+                  "end": "08:30",
+                  "status": "available"
+                },
+                {
+                  "start": "08:30",
+                  "end": "09:00",
+                  "status": "available"
+                },
+                {
+                  "start": "09:00",
+                  "end": "09:30",
+                  "status": "available"
+                },
+                {
+                  "start": "09:30",
+                  "end": "10:00",
+                  "status": "available"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "reserved",
+                  "label": "BIGY"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "reserved",
+                  "label": "CMG"
+                },
+                {
+                  "start": "12:00",
+                  "end": "12:30",
+                  "status": "available"
+                },
+                {
+                  "start": "12:30",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "13:30",
+                  "status": "available"
+                },
+                {
+                  "start": "13:30",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "14:30",
+                  "status": "available"
+                },
+                {
+                  "start": "14:30",
+                  "end": "15:00",
+                  "status": "available"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "reserved",
+                  "label": "272"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "SKB"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "reserved",
+                  "label": "256"
+                },
+                {
+                  "start": "18:00",
+                  "end": "18:30",
+                  "status": "available"
+                },
+                {
+                  "start": "18:30",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "19:30",
+                  "status": "available"
+                },
+                {
+                  "start": "19:30",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "20:30",
+                  "status": "available"
+                },
+                {
+                  "start": "20:30",
+                  "end": "21:00",
+                  "status": "available"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "available"
+                },
+                {
+                  "start": "21:30",
+                  "end": "22:00",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 2",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "06:00",
+                  "end": "06:30",
+                  "status": "available"
+                },
+                {
+                  "start": "06:30",
+                  "end": "07:00",
+                  "status": "available"
+                },
+                {
+                  "start": "07:00",
+                  "end": "08:00",
+                  "status": "reserved",
+                  "label": "MOVE"
+                },
+                {
+                  "start": "08:00",
+                  "end": "09:00",
+                  "status": "reserved",
+                  "label": "MOVE"
+                },
+                {
+                  "start": "09:00",
+                  "end": "09:30",
+                  "status": "available"
+                },
+                {
+                  "start": "09:30",
+                  "end": "10:00",
+                  "status": "available"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "reserved",
+                  "label": "BIGY"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "reserved",
+                  "label": "CMG"
+                },
+                {
+                  "start": "12:00",
+                  "end": "12:30",
+                  "status": "available"
+                },
+                {
+                  "start": "12:30",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "13:30",
+                  "status": "available"
+                },
+                {
+                  "start": "13:30",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "14:30",
+                  "status": "available"
+                },
+                {
+                  "start": "14:30",
+                  "end": "15:00",
+                  "status": "available"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "reserved",
+                  "label": "272"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "272"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "reserved",
+                  "label": "U"
+                },
+                {
+                  "start": "18:00",
+                  "end": "18:30",
+                  "status": "available"
+                },
+                {
+                  "start": "18:30",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "19:30",
+                  "status": "available"
+                },
+                {
+                  "start": "19:30",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "20:30",
+                  "status": "available"
+                },
+                {
+                  "start": "20:30",
+                  "end": "21:00",
+                  "status": "available"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "available"
+                },
+                {
+                  "start": "21:30",
+                  "end": "22:00",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 3",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "06:00",
+                  "end": "06:30",
+                  "status": "available"
+                },
+                {
+                  "start": "06:30",
+                  "end": "07:00",
+                  "status": "available"
+                },
+                {
+                  "start": "07:00",
+                  "end": "08:00",
+                  "status": "reserved",
+                  "label": "MOVE"
+                },
+                {
+                  "start": "08:00",
+                  "end": "08:30",
+                  "status": "available"
+                },
+                {
+                  "start": "08:30",
+                  "end": "09:00",
+                  "status": "available"
+                },
+                {
+                  "start": "09:00",
+                  "end": "09:30",
+                  "status": "available"
+                },
+                {
+                  "start": "09:30",
+                  "end": "10:00",
+                  "status": "available"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "reserved",
+                  "label": "BIGY"
+                },
+                {
+                  "start": "11:00",
+                  "end": "11:30",
+                  "status": "available"
+                },
+                {
+                  "start": "11:30",
+                  "end": "12:00",
+                  "status": "available"
+                },
+                {
+                  "start": "12:00",
+                  "end": "12:30",
+                  "status": "available"
+                },
+                {
+                  "start": "12:30",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "13:30",
+                  "status": "available"
+                },
+                {
+                  "start": "13:30",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "14:30",
+                  "status": "available"
+                },
+                {
+                  "start": "14:30",
+                  "end": "15:00",
+                  "status": "available"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "reserved",
+                  "label": "256"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "256"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "reserved",
+                  "label": "TG"
+                },
+                {
+                  "start": "18:00",
+                  "end": "18:30",
+                  "status": "available"
+                },
+                {
+                  "start": "18:30",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "19:30",
+                  "status": "available"
+                },
+                {
+                  "start": "19:30",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "20:30",
+                  "status": "available"
+                },
+                {
+                  "start": "20:30",
+                  "end": "21:00",
+                  "status": "available"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "available"
+                },
+                {
+                  "start": "21:30",
+                  "end": "22:00",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 4",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "06:00",
+                  "end": "06:30",
+                  "status": "available"
+                },
+                {
+                  "start": "06:30",
+                  "end": "07:00",
+                  "status": "available"
+                },
+                {
+                  "start": "07:00",
+                  "end": "07:30",
+                  "status": "available"
+                },
+                {
+                  "start": "07:30",
+                  "end": "08:00",
+                  "status": "available"
+                },
+                {
+                  "start": "08:00",
+                  "end": "08:30",
+                  "status": "available"
+                },
+                {
+                  "start": "08:30",
+                  "end": "09:00",
+                  "status": "available"
+                },
+                {
+                  "start": "09:00",
+                  "end": "09:30",
+                  "status": "available"
+                },
+                {
+                  "start": "09:30",
+                  "end": "10:00",
+                  "status": "available"
+                },
+                {
+                  "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
+                  "end": "11:00",
+                  "status": "available"
+                },
+                {
+                  "start": "11:00",
+                  "end": "11:30",
+                  "status": "available"
+                },
+                {
+                  "start": "11:30",
+                  "end": "12:00",
+                  "status": "available"
+                },
+                {
+                  "start": "12:00",
+                  "end": "12:30",
+                  "status": "available"
+                },
+                {
+                  "start": "12:30",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "13:30",
+                  "status": "available"
+                },
+                {
+                  "start": "13:30",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "14:30",
+                  "status": "available"
+                },
+                {
+                  "start": "14:30",
+                  "end": "15:00",
+                  "status": "available"
+                },
+                {
+                  "start": "15:00",
+                  "end": "16:00",
+                  "status": "reserved",
+                  "label": "256"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "256"
+                },
+                {
+                  "start": "17:00",
+                  "end": "17:30",
+                  "status": "available"
+                },
+                {
+                  "start": "17:30",
+                  "end": "18:00",
+                  "status": "available"
+                },
+                {
+                  "start": "18:00",
+                  "end": "18:30",
+                  "status": "available"
+                },
+                {
+                  "start": "18:30",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "19:30",
+                  "status": "available"
+                },
+                {
+                  "start": "19:30",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "20:30",
+                  "status": "available"
+                },
+                {
+                  "start": "20:30",
+                  "end": "21:00",
+                  "status": "available"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "available"
+                },
+                {
+                  "start": "21:30",
+                  "end": "22:00",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 5",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "06:00",
+                  "end": "06:30",
+                  "status": "available"
+                },
+                {
+                  "start": "06:30",
+                  "end": "07:00",
+                  "status": "available"
+                },
+                {
+                  "start": "07:00",
+                  "end": "07:30",
+                  "status": "available"
+                },
+                {
+                  "start": "07:30",
+                  "end": "08:00",
+                  "status": "available"
+                },
+                {
+                  "start": "08:00",
+                  "end": "08:30",
+                  "status": "available"
+                },
+                {
+                  "start": "08:30",
+                  "end": "09:00",
+                  "status": "available"
+                },
+                {
+                  "start": "09:00",
+                  "end": "09:30",
+                  "status": "available"
+                },
+                {
+                  "start": "09:30",
+                  "end": "10:00",
+                  "status": "available"
+                },
+                {
+                  "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
+                  "end": "11:00",
+                  "status": "available"
+                },
+                {
+                  "start": "11:00",
+                  "end": "11:30",
+                  "status": "available"
+                },
+                {
+                  "start": "11:30",
+                  "end": "12:00",
+                  "status": "available"
+                },
+                {
+                  "start": "12:00",
+                  "end": "12:30",
+                  "status": "available"
+                },
+                {
+                  "start": "12:30",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "13:30",
+                  "status": "available"
+                },
+                {
+                  "start": "13:30",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "14:30",
+                  "status": "available"
+                },
+                {
+                  "start": "14:30",
+                  "end": "15:00",
+                  "status": "available"
+                },
+                {
+                  "start": "15:00",
+                  "end": "15:30",
+                  "status": "available"
+                },
+                {
+                  "start": "15:30",
+                  "end": "16:00",
+                  "status": "available"
+                },
+                {
+                  "start": "16:00",
+                  "end": "16:30",
+                  "status": "available"
+                },
+                {
+                  "start": "16:30",
+                  "end": "17:00",
+                  "status": "available"
+                },
+                {
+                  "start": "17:00",
+                  "end": "17:30",
+                  "status": "available"
+                },
+                {
+                  "start": "17:30",
+                  "end": "18:00",
+                  "status": "available"
+                },
+                {
+                  "start": "18:00",
+                  "end": "18:30",
+                  "status": "available"
+                },
+                {
+                  "start": "18:30",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "19:30",
+                  "status": "available"
+                },
+                {
+                  "start": "19:30",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "20:30",
+                  "status": "available"
+                },
+                {
+                  "start": "20:30",
+                  "end": "21:00",
+                  "status": "available"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "available"
+                },
+                {
+                  "start": "21:30",
+                  "end": "22:00",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "name": "Dráha 6",
+              "category": "Dráhy",
+              "slots": [
+                {
+                  "start": "06:00",
+                  "end": "06:30",
+                  "status": "available"
+                },
+                {
+                  "start": "06:30",
+                  "end": "07:00",
+                  "status": "available"
+                },
+                {
+                  "start": "07:00",
+                  "end": "07:30",
+                  "status": "available"
+                },
+                {
+                  "start": "07:30",
+                  "end": "08:00",
+                  "status": "available"
+                },
+                {
+                  "start": "08:00",
+                  "end": "08:30",
+                  "status": "available"
+                },
+                {
+                  "start": "08:30",
+                  "end": "09:00",
+                  "status": "available"
+                },
+                {
+                  "start": "09:00",
+                  "end": "09:30",
+                  "status": "available"
+                },
+                {
+                  "start": "09:30",
+                  "end": "10:00",
+                  "status": "available"
+                },
+                {
+                  "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
+                  "end": "11:00",
+                  "status": "available"
+                },
+                {
+                  "start": "11:00",
+                  "end": "11:30",
+                  "status": "available"
+                },
+                {
+                  "start": "11:30",
+                  "end": "12:00",
+                  "status": "available"
+                },
+                {
+                  "start": "12:00",
+                  "end": "12:30",
+                  "status": "available"
+                },
+                {
+                  "start": "12:30",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "13:30",
+                  "status": "available"
+                },
+                {
+                  "start": "13:30",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "14:30",
+                  "status": "available"
+                },
+                {
+                  "start": "14:30",
+                  "end": "15:00",
+                  "status": "available"
+                },
+                {
+                  "start": "15:00",
+                  "end": "15:30",
+                  "status": "available"
+                },
+                {
+                  "start": "15:30",
+                  "end": "16:00",
+                  "status": "available"
+                },
+                {
+                  "start": "16:00",
+                  "end": "16:30",
+                  "status": "available"
+                },
+                {
+                  "start": "16:30",
+                  "end": "17:00",
+                  "status": "available"
+                },
+                {
+                  "start": "17:00",
+                  "end": "17:30",
+                  "status": "available"
+                },
+                {
+                  "start": "17:30",
+                  "end": "18:00",
+                  "status": "available"
+                },
+                {
+                  "start": "18:00",
+                  "end": "18:30",
+                  "status": "available"
+                },
+                {
+                  "start": "18:30",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "19:30",
+                  "status": "available"
+                },
+                {
+                  "start": "19:30",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "20:30",
+                  "status": "available"
+                },
+                {
+                  "start": "20:30",
+                  "end": "21:00",
+                  "status": "available"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "available"
+                },
+                {
+                  "start": "21:30",
+                  "end": "22:00",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "name": "Hratkový bazén",
+              "category": "Hratkový bazén",
+              "slots": [
+                {
+                  "start": "06:00",
+                  "end": "06:30",
+                  "status": "available"
+                },
+                {
+                  "start": "06:30",
+                  "end": "07:00",
+                  "status": "available"
+                },
+                {
+                  "start": "07:00",
+                  "end": "07:30",
+                  "status": "available"
+                },
+                {
+                  "start": "07:30",
+                  "end": "08:00",
+                  "status": "available"
+                },
+                {
+                  "start": "08:00",
+                  "end": "09:00",
+                  "status": "reserved",
+                  "label": "MŠ"
+                },
+                {
+                  "start": "09:00",
+                  "end": "10:00",
+                  "status": "reserved",
+                  "label": "MŠ"
+                },
+                {
+                  "start": "10:00",
+                  "end": "11:00",
+                  "status": "reserved",
+                  "label": "MŠ"
+                },
+                {
+                  "start": "11:00",
+                  "end": "12:00",
+                  "status": "reserved",
+                  "label": "MŠ"
+                },
+                {
+                  "start": "12:00",
+                  "end": "12:30",
+                  "status": "available"
+                },
+                {
+                  "start": "12:30",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "13:30",
+                  "status": "available"
+                },
+                {
+                  "start": "13:30",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "14:30",
+                  "status": "available"
+                },
+                {
+                  "start": "14:30",
+                  "end": "15:00",
+                  "status": "available"
+                },
+                {
+                  "start": "15:00",
+                  "end": "15:30",
+                  "status": "available"
+                },
+                {
+                  "start": "15:30",
+                  "end": "16:00",
+                  "status": "available"
+                },
+                {
+                  "start": "16:00",
+                  "end": "17:00",
+                  "status": "reserved",
+                  "label": "SKB"
+                },
+                {
+                  "start": "17:00",
+                  "end": "18:00",
+                  "status": "reserved",
+                  "label": "256"
+                },
+                {
+                  "start": "18:00",
+                  "end": "18:30",
+                  "status": "available"
+                },
+                {
+                  "start": "18:30",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "19:30",
+                  "status": "available"
+                },
+                {
+                  "start": "19:30",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "20:30",
+                  "status": "available"
+                },
+                {
+                  "start": "20:30",
+                  "end": "21:00",
+                  "status": "available"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "available"
+                },
+                {
+                  "start": "21:30",
+                  "end": "22:00",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "name": "Vířivka",
+              "category": "Vířivka",
+              "slots": [
+                {
+                  "start": "06:00",
+                  "end": "06:30",
+                  "status": "available"
+                },
+                {
+                  "start": "06:30",
+                  "end": "07:00",
+                  "status": "available"
+                },
+                {
+                  "start": "07:00",
+                  "end": "07:30",
+                  "status": "available"
+                },
+                {
+                  "start": "07:30",
+                  "end": "08:00",
+                  "status": "available"
+                },
+                {
+                  "start": "08:00",
+                  "end": "08:30",
+                  "status": "available"
+                },
+                {
+                  "start": "08:30",
+                  "end": "09:00",
+                  "status": "available"
+                },
+                {
+                  "start": "09:00",
+                  "end": "10:00",
+                  "status": "reserved",
+                  "label": "SEDM"
+                },
+                {
+                  "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
+                  "end": "11:00",
+                  "status": "available"
+                },
+                {
+                  "start": "11:00",
+                  "end": "11:30",
+                  "status": "available"
+                },
+                {
+                  "start": "11:30",
+                  "end": "12:00",
+                  "status": "available"
+                },
+                {
+                  "start": "12:00",
+                  "end": "12:30",
+                  "status": "available"
+                },
+                {
+                  "start": "12:30",
+                  "end": "13:00",
+                  "status": "available"
+                },
+                {
+                  "start": "13:00",
+                  "end": "13:30",
+                  "status": "available"
+                },
+                {
+                  "start": "13:30",
+                  "end": "14:00",
+                  "status": "available"
+                },
+                {
+                  "start": "14:00",
+                  "end": "14:30",
+                  "status": "available"
+                },
+                {
+                  "start": "14:30",
+                  "end": "15:00",
+                  "status": "available"
+                },
+                {
+                  "start": "15:00",
+                  "end": "15:30",
+                  "status": "available"
+                },
+                {
+                  "start": "15:30",
+                  "end": "16:00",
+                  "status": "available"
+                },
+                {
+                  "start": "16:00",
+                  "end": "16:30",
+                  "status": "available"
+                },
+                {
+                  "start": "16:30",
+                  "end": "17:00",
+                  "status": "available"
+                },
+                {
+                  "start": "17:00",
+                  "end": "17:30",
+                  "status": "available"
+                },
+                {
+                  "start": "17:30",
+                  "end": "18:00",
+                  "status": "available"
+                },
+                {
+                  "start": "18:00",
+                  "end": "18:30",
+                  "status": "available"
+                },
+                {
+                  "start": "18:30",
+                  "end": "19:00",
+                  "status": "available"
+                },
+                {
+                  "start": "19:00",
+                  "end": "19:30",
+                  "status": "available"
+                },
+                {
+                  "start": "19:30",
+                  "end": "20:00",
+                  "status": "available"
+                },
+                {
+                  "start": "20:00",
+                  "end": "20:30",
+                  "status": "available"
+                },
+                {
+                  "start": "20:30",
+                  "end": "21:00",
+                  "status": "available"
+                },
+                {
+                  "start": "21:00",
+                  "end": "21:30",
+                  "status": "available"
+                },
+                {
+                  "start": "21:30",
+                  "end": "22:00",
+                  "status": "available"
+                }
+              ]
+            }
+          ]
         }
       ],
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 54,
+          "current": 0,
           "max": 135
         }
       ],
