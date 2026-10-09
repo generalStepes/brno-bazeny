@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:34:37.440Z",
+  "generatedAt": "2026-10-09T12:04:29.708Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -48,12 +48,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 62,
+          "current": 81,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 0,
+          "current": 5,
           "max": 68
         }
       ],
@@ -67,11 +67,7 @@
           "path": "images/luzanky-50m.jpg"
         }
       ],
-      "closureNotice": {
-        "message": "Parní kabina u bazénu je mimo provoz.",
-        "closedFrom": null,
-        "closedUntil": null
-      }
+      "closureNotice": null
     },
     {
       "venue": "druzstevni",
@@ -21697,7 +21693,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 20,
+          "current": 21,
           "max": 135
         }
       ],
