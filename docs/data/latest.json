@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T10:34:12.326Z",
+  "generatedAt": "2026-10-10T11:04:33.658Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -11,7 +11,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 78,
+          "current": 71,
           "max": 220
         },
         {
@@ -48,7 +48,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 60,
+          "current": 65,
           "max": 634
         },
         {
@@ -21731,7 +21731,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 23,
+          "current": 17,
           "max": 135
         }
       ],
