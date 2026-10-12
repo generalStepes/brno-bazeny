@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T07:28:45.283Z",
+  "generatedAt": "2026-10-12T08:04:42.449Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -11,7 +11,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 39,
+          "current": 25,
           "max": 220
         },
         {
@@ -48,7 +48,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 48,
+          "current": 53,
           "max": 634
         },
         {
@@ -4810,13 +4810,9 @@
                 },
                 {
                   "start": "08:00",
-                  "end": "08:30",
-                  "status": "available"
-                },
-                {
-                  "start": "08:30",
                   "end": "09:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "MŠ"
                 },
                 {
                   "start": "09:00",
@@ -4952,13 +4948,9 @@
                 },
                 {
                   "start": "08:00",
-                  "end": "08:30",
-                  "status": "available"
-                },
-                {
-                  "start": "08:30",
                   "end": "09:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "MŠ"
                 },
                 {
                   "start": "09:00",
@@ -5726,9 +5718,13 @@
                 },
                 {
                   "start": "08:00",
+                  "end": "08:30",
+                  "status": "available"
+                },
+                {
+                  "start": "08:30",
                   "end": "09:00",
-                  "status": "reserved",
-                  "label": "MŠ"
+                  "status": "available"
                 },
                 {
                   "start": "09:00",
@@ -21731,7 +21727,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 23,
+          "current": 19,
           "max": 135
         }
       ],
