@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T14:04:39.594Z",
+  "generatedAt": "2026-10-19T14:34:25.161Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -11,12 +11,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 118,
+          "current": 80,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 3,
+          "current": 5,
           "max": 12
         }
       ],
@@ -48,12 +48,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 242,
+          "current": 182,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 13,
+          "current": 16,
           "max": 68
         }
       ],
@@ -13273,13 +13273,9 @@
                 },
                 {
                   "start": "08:00",
-                  "end": "08:30",
-                  "status": "available"
-                },
-                {
-                  "start": "08:30",
                   "end": "09:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "MŠ"
                 },
                 {
                   "start": "09:00",
@@ -13415,13 +13411,9 @@
                 },
                 {
                   "start": "08:00",
-                  "end": "08:30",
-                  "status": "available"
-                },
-                {
-                  "start": "08:30",
                   "end": "09:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "MŠ"
                 },
                 {
                   "start": "09:00",
@@ -14193,9 +14185,13 @@
                 },
                 {
                   "start": "08:00",
+                  "end": "08:30",
+                  "status": "available"
+                },
+                {
+                  "start": "08:30",
                   "end": "09:00",
-                  "status": "reserved",
-                  "label": "MŠ"
+                  "status": "available"
                 },
                 {
                   "start": "09:00",
@@ -21819,7 +21815,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 22,
+          "current": 29,
           "max": 135
         }
       ],
