@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T14:04:22.918Z",
+  "generatedAt": "2026-10-21T14:34:21.449Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -11,12 +11,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 98,
+          "current": 104,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 1,
+          "current": 2,
           "max": 12
         }
       ],
@@ -48,12 +48,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 238,
+          "current": 219,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 11,
+          "current": 10,
           "max": 68
         }
       ],
@@ -19440,13 +19440,9 @@
                 },
                 {
                   "start": "11:00",
-                  "end": "11:30",
-                  "status": "available"
-                },
-                {
-                  "start": "11:30",
                   "end": "12:00",
-                  "status": "available"
+                  "status": "reserved",
+                  "label": "Melichar"
                 },
                 {
                   "start": "12:00",
@@ -21835,7 +21831,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 37,
+          "current": 35,
           "max": 135
         }
       ],
