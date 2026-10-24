@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T11:08:27.500Z",
+  "generatedAt": "2026-10-24T11:38:23.504Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -21784,7 +21784,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 18,
+          "current": 23,
           "max": 135
         }
       ],
