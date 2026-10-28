@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T08:38:15.779Z",
+  "generatedAt": "2026-10-28T09:08:34.458Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -7233,9 +7233,13 @@
               "slots": [
                 {
                   "start": "06:00",
+                  "end": "06:30",
+                  "status": "available"
+                },
+                {
+                  "start": "06:30",
                   "end": "07:00",
-                  "status": "reserved",
-                  "label": "MAMO"
+                  "status": "available"
                 },
                 {
                   "start": "07:00",
@@ -21760,7 +21764,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 20,
+          "current": 25,
           "max": 135
         }
       ],
