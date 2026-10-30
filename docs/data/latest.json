@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T09:38:17.754Z",
+  "generatedAt": "2026-10-30T10:08:19.904Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -9364,9 +9364,13 @@
                 },
                 {
                   "start": "11:00",
+                  "end": "11:30",
+                  "status": "available"
+                },
+                {
+                  "start": "11:30",
                   "end": "12:00",
-                  "status": "reserved",
-                  "label": "MŠ"
+                  "status": "available"
                 },
                 {
                   "start": "12:00",
@@ -10559,9 +10563,13 @@
                 },
                 {
                   "start": "08:00",
+                  "end": "08:30",
+                  "status": "available"
+                },
+                {
+                  "start": "08:30",
                   "end": "09:00",
-                  "status": "reserved",
-                  "label": "MŠ"
+                  "status": "available"
                 },
                 {
                   "start": "09:00",
@@ -11356,9 +11364,13 @@
                 },
                 {
                   "start": "15:00",
+                  "end": "15:30",
+                  "status": "available"
+                },
+                {
+                  "start": "15:30",
                   "end": "16:00",
-                  "status": "reserved",
-                  "label": "256"
+                  "status": "available"
                 },
                 {
                   "start": "16:00",
@@ -11776,9 +11788,13 @@
                 },
                 {
                   "start": "08:00",
+                  "end": "08:30",
+                  "status": "available"
+                },
+                {
+                  "start": "08:30",
                   "end": "09:00",
-                  "status": "reserved",
-                  "label": "MŠ"
+                  "status": "available"
                 },
                 {
                   "start": "09:00",
@@ -17815,9 +17831,13 @@
                 },
                 {
                   "start": "11:00",
+                  "end": "11:30",
+                  "status": "available"
+                },
+                {
+                  "start": "11:30",
                   "end": "12:00",
-                  "status": "reserved",
-                  "label": "MŠ"
+                  "status": "available"
                 },
                 {
                   "start": "12:00",
@@ -21734,7 +21754,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 52,
+          "current": 69,
           "max": 135
         }
       ],
