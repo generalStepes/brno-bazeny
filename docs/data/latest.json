@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T07:39:49.954Z",
+  "generatedAt": "2026-11-02T08:08:20.784Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4913,9 +4913,13 @@
                 },
                 {
                   "start": "08:00",
+                  "end": "08:30",
+                  "status": "available"
+                },
+                {
+                  "start": "08:30",
                   "end": "09:00",
-                  "status": "reserved",
-                  "label": "MŠ"
+                  "status": "available"
                 },
                 {
                   "start": "09:00",
@@ -21662,7 +21666,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 18,
+          "current": 26,
           "max": 135
         }
       ],
