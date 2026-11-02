@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T14:09:49.049Z",
+  "generatedAt": "2026-11-02T14:39:31.849Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4747,8 +4747,8 @@
       "venue": "kravihora",
       "name": "Krytá plavecká hala Kraví hora",
       "url": "https://www.kravihora-brno.cz/kryta-plavecka-hala",
-      "ok": false,
-      "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.kravihora-brno.cz/kryta-plavecka-hala/rozpis\", waiting until \"domcontentloaded\"\n",
+      "ok": true,
+      "error": null,
       "days": [],
       "occupancy": [],
       "webcams": [],
