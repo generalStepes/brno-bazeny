@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T11:38:24.179Z",
+  "generatedAt": "2026-11-02T12:08:25.496Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -1046,8 +1046,8 @@
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Open Cycling Academy"
                 },
                 {
                   "start": "19:00",
@@ -21666,7 +21666,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 28,
+          "current": 30,
           "max": 135
         }
       ],
