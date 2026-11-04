@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T06:38:09.604Z",
+  "generatedAt": "2026-11-04T07:08:29.018Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -4305,8 +4305,8 @@
                 {
                   "start": "18:00",
                   "end": "19:00",
-                  "status": "reserved",
-                  "label": "Open Cycling Academy"
+                  "status": "available",
+                  "label": "otevřeno pro veřejnost"
                 },
                 {
                   "start": "19:00",
@@ -4413,8 +4413,8 @@
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Open Cycling Academy"
                 },
                 {
                   "start": "20:00",
@@ -4521,8 +4521,8 @@
                 {
                   "start": "20:00",
                   "end": "21:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "Open Cycling Academy"
                 },
                 {
                   "start": "21:00",
@@ -21638,7 +21638,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 23,
+          "current": 22,
           "max": 135
         }
       ],
