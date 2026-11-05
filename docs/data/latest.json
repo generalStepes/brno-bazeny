@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T15:38:28.943Z",
+  "generatedAt": "2026-11-05T16:08:35.547Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -848,8 +848,8 @@
                 {
                   "start": "19:00",
                   "end": "20:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "PK Kuřim"
                 },
                 {
                   "start": "20:00",
@@ -21622,7 +21622,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 38,
+          "current": 35,
           "max": 135
         }
       ],
