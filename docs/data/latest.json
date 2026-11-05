@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T15:08:22.611Z",
+  "generatedAt": "2026-11-05T15:38:28.943Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -2076,8 +2076,8 @@
                 {
                   "start": "14:00",
                   "end": "15:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "BTS"
                 },
                 {
                   "start": "15:00",
@@ -21622,7 +21622,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 48,
+          "current": 38,
           "max": 135
         }
       ],
