@@ -1,14 +1,25 @@
 {
-  "generatedAt": "2026-11-06T14:17:38.086Z",
+  "generatedAt": "2026-11-06T14:44:17.688Z",
   "venues": [
     {
       "venue": "aquapark",
       "name": "Aquapark Kohoutovice",
       "url": "https://aquapark.starez.cz/vstupenky-rezervace",
-      "ok": false,
-      "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://aquapark.starez.cz/vstupenky-rezervace\", waiting until \"domcontentloaded\"\n",
+      "ok": true,
+      "error": null,
       "days": [],
-      "occupancy": [],
+      "occupancy": [
+        {
+          "label": "BAZÉNY A POSILOVNA",
+          "current": 86,
+          "max": 220
+        },
+        {
+          "label": "FINSKÁ SAUNA",
+          "current": 4,
+          "max": 12
+        }
+      ],
       "webcams": [],
       "closureNotice": null
     },
@@ -16,22 +27,46 @@
       "venue": "ponavka",
       "name": "Bazén Ponávka",
       "url": "https://ponavka.starez.cz/vstupenky-rezervace",
-      "ok": false,
-      "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://ponavka.starez.cz/vstupenky-rezervace\", waiting until \"domcontentloaded\"\n",
+      "ok": true,
+      "error": null,
       "days": [],
       "occupancy": [],
       "webcams": [],
-      "closureNotice": null
+      "closureNotice": {
+        "message": "14. 6. od 13:00 - 31. 12. 2026 bude bazén zcela uzavřen.",
+        "closedFrom": "2026-06-14",
+        "closedUntil": "2026-12-31"
+      }
     },
     {
       "venue": "luzanky",
       "name": "Bazény Lužánky",
       "url": "https://bazenyluzanky.starez.cz/vstupenky-rezervace",
-      "ok": false,
-      "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://bazenyluzanky.starez.cz/vstupenky-rezervace\", waiting until \"domcontentloaded\"\n",
+      "ok": true,
+      "error": null,
       "days": [],
-      "occupancy": [],
-      "webcams": [],
+      "occupancy": [
+        {
+          "label": "BAZÉNY",
+          "current": 139,
+          "max": 634
+        },
+        {
+          "label": "WELLNESS",
+          "current": 15,
+          "max": 68
+        }
+      ],
+      "webcams": [
+        {
+          "label": "25m bazén",
+          "path": "images/luzanky-25m.jpg"
+        },
+        {
+          "label": "50m bazén",
+          "path": "images/luzanky-50m.jpg"
+        }
+      ],
       "closureNotice": null
     },
     {
@@ -21646,7 +21681,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 24,
+          "current": 22,
           "max": 135
         }
       ],
