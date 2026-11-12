@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T13:34:26.143Z",
+  "generatedAt": "2026-11-12T14:04:30.507Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -11,12 +11,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 29,
+          "current": 48,
           "max": 220
         },
         {
           "label": "FINSKÁ SAUNA",
-          "current": 7,
+          "current": 6,
           "max": 12
         }
       ],
@@ -48,12 +48,12 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 95,
+          "current": 133,
           "max": 634
         },
         {
           "label": "WELLNESS",
-          "current": 11,
+          "current": 16,
           "max": 68
         }
       ],
@@ -12044,9 +12044,13 @@
                 },
                 {
                   "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "BIGY"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -12178,9 +12182,13 @@
                 },
                 {
                   "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "BIGY"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -12320,9 +12328,13 @@
                 },
                 {
                   "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "BIGY"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -15420,9 +15432,13 @@
                 },
                 {
                   "start": "11:00",
+                  "end": "11:30",
+                  "status": "available"
+                },
+                {
+                  "start": "11:30",
                   "end": "12:00",
-                  "status": "reserved",
-                  "label": "MŠ"
+                  "status": "available"
                 },
                 {
                   "start": "12:00",
@@ -20605,9 +20621,13 @@
                 },
                 {
                   "start": "10:00",
+                  "end": "10:30",
+                  "status": "available"
+                },
+                {
+                  "start": "10:30",
                   "end": "11:00",
-                  "status": "reserved",
-                  "label": "BIGY"
+                  "status": "available"
                 },
                 {
                   "start": "11:00",
@@ -21643,7 +21663,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 65,
+          "current": 62,
           "max": 135
         }
       ],
