@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T09:34:17.799Z",
+  "generatedAt": "2026-11-16T10:04:46.743Z",
   "venues": [
     {
       "venue": "aquapark",
@@ -11,7 +11,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY A POSILOVNA",
-          "current": 107,
+          "current": 111,
           "max": 220
         },
         {
@@ -48,7 +48,7 @@
       "occupancy": [
         {
           "label": "BAZÉNY",
-          "current": 85,
+          "current": 106,
           "max": 634
         },
         {
@@ -1225,14 +1225,14 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
                 },
                 {
                   "start": "10:00",
@@ -1327,14 +1327,14 @@
                 {
                   "start": "8:00",
                   "end": "9:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
                 },
                 {
                   "start": "9:00",
                   "end": "10:00",
-                  "status": "available",
-                  "label": "otevřeno pro veřejnost"
+                  "status": "reserved",
+                  "label": "BRNO TRIATLON TEAM"
                 },
                 {
                   "start": "10:00",
@@ -21589,7 +21589,7 @@
       "occupancy": [
         {
           "label": "Bazén",
-          "current": 20,
+          "current": 31,
           "max": 135
         }
       ],
