@@ -2,16 +2,10 @@ import * as cheerio from 'cheerio';
 import { statusFromStarezColor } from '../lib/status.js';
 import { downloadWebcams } from '../lib/webcam.js';
 import { unifyLaneName } from '../lib/laneName.js';
+import { addDaysISO } from '../lib/dates.js';
 
 const MONTHS = { 1: '01', 2: '02', 3: '03', 4: '04', 5: '05', 6: '06', 7: '07', 8: '08', 9: '09', 10: '10', 11: '11', 12: '12' };
-
-// e.g. "neděle 5.7.2026" -> "2026-07-05"
-function parseCzechDateHeading(text) {
-  const m = text.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
-  if (!m) return null;
-  const [, d, mo, y] = m;
-  return `${y}-${MONTHS[Number(mo)]}-${String(d).padStart(2, '0')}`;
-}
+const DAYS_AHEAD = 8; // the venue's own day strip offers today + 7
 
 // The homepage carries two independent bits of live context the reservation
 // grid itself doesn't reliably reflect:
@@ -124,134 +118,174 @@ async function scrapeHomepageInfo(browser, homeUrl) {
   }
 }
 
+
+function toHexColor(style) {
+  const hex = style.match(/background-color:\s*(#[0-9a-fA-F]{6})/);
+  if (hex) return hex[1];
+  const rgb = style.match(/background-color:\s*rgb\(\s*(\d+),\s*(\d+),\s*(\d+)\s*\)/);
+  return rgb ? '#' + rgb.slice(1, 4).map((n) => Number(n).toString(16).padStart(2, '0')).join('').toUpperCase() : null;
+}
+
+function toMinutes(hhmm) {
+  const [h, m] = hhmm.split(':').map(Number);
+  return h * 60 + m;
+}
+
+function fromMinutes(min) {
+  return `${String(Math.floor(min / 60)).padStart(2, '0')}:${String(min % 60).padStart(2, '0')}`;
+}
+
+// Turns one lane's blocks into non-overlapping slots. The grid (since the
+// October 2026 redesign) draws a booking as a block spanning the whole
+// booking (e.g. 09:00-10:00) *plus* per-slot blocks under it (09:30-10:00,
+// carrying the renter's name) - so cut the lane at every block boundary and,
+// for each piece, take the most specific (shortest) block covering it.
+function blocksToSlots(blocks) {
+  const cuts = [...new Set(blocks.flatMap((b) => [b.start, b.end]))].sort((a, b) => a - b);
+  const slots = [];
+  for (let i = 0; i < cuts.length - 1; i++) {
+    const [from, to] = [cuts[i], cuts[i + 1]];
+    const covering = blocks.filter((b) => b.start <= from && b.end >= to).sort((a, b) => a.end - a.start - (b.end - b.start));
+    if (!covering.length) continue;
+    // The renter's name only sits on one of the per-slot blocks, so look
+    // across the whole booking (the longest covering block) for it.
+    const outer = covering[covering.length - 1];
+    const label = covering.find((b) => b.title)?.title ?? blocks.find((b) => b.title && b.start >= outer.start && b.end <= outer.end && b !== outer)?.title;
+    slots.push({ start: fromMinutes(from), end: fromMinutes(to), color: covering[0].color, label });
+  }
+  return slots;
+}
+
+// Parses one day of the reservation grid (server-rendered HTML, i.e. before
+// new-reservation.js rearranges it client-side): .facility (h4 = pool /
+// section) -> .facility-group__unit-row (one lane) -> .block (one time slot,
+// colored per the legend).
+function parseReservationDay(html) {
+  const $ = cheerio.load(html);
+  const date = $('.reservation').attr('data-active-date');
+  const resources = [];
+  $('.facility').each((_, facilityEl) => {
+    const $facility = $(facilityEl);
+    const baseCategory = $facility.find('.facility-group__title').first().text().replace(/\s+/g, ' ').trim() || 'Bazén';
+    $facility.find('.facility-group__unit-row').each((laneIdx, rowEl) => {
+      const $row = $(rowEl);
+      const laneName = $row.find('.facility-group__unit-label').first().text().replace(/\s+/g, ' ').trim() || `${baseCategory} #${laneIdx + 1}`;
+      const blocks = [];
+      $row.find('.block').each((__, blockEl) => {
+        const $block = $(blockEl);
+        if ($block.hasClass('booking-block')) return; // client-side overlay
+        const m = $block.find('.block-time').text().match(/(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})/);
+        if (!m) return;
+        blocks.push({
+          start: toMinutes(m[1]),
+          end: toMinutes(m[2]),
+          color: toHexColor($block.attr('style') || ''),
+          title: $block.find('.block-title').text().replace(/\s+/g, ' ').trim() || undefined,
+        });
+      });
+
+      const isSirkaLane = /šířka/i.test(laneName);
+      const slots = blocksToSlots(blocks).map(({ start, end, color, label }) => {
+        let status = statusFromStarezColor(color);
+        // Width-swim mode (volná/rezervovaná šířka) means the opposite of its
+        // literal color on a normal length lane (délka) vs. on a dedicated
+        // width lane (šířka) - confirmed directly by a regular swimmer there.
+        // When a délka lane gets painted with either width-mode color, its
+        // length is no longer usable for normal swimming (blocked), even
+        // though the color alone reads "free". A šířka lane normally just
+        // sits closed - either width-mode color appearing on it means an
+        // organized width-swim session is actually open to the public.
+        if (color && /^#(f9d993|e19e0d)$/i.test(color)) status = isSirkaLane ? 'available' : 'reserved';
+        return { start, end, status, label };
+      });
+
+      // A "šířka" (width)-numbered lane isn't extra capacity on a normal day,
+      // but can switch into active width-swim mode - so it gets its own
+      // category and is only excluded from scoring while idle (see
+      // isAuxiliaryCategory/primaryCountsAt in docs/app.js).
+      const category = isSirkaLane ? `${baseCategory} (šířka)` : baseCategory;
+      // VIP zóna (Lužánky) is a separately-booked private area, not general
+      // swim availability - dropped entirely.
+      if (!slots.length || /vip/i.test(category)) return;
+      // A numbered lane's display name is left bare ("Dráha N") - whether it
+      // needs a category prefix is decided later in applyLaneDisplayNames
+      // (index.js). Non-lane resources ("celý bazén", "část", ...) aren't
+      // self-descriptive alone, so they always keep their category.
+      const unifiedName = unifyLaneName(laneName);
+      const isNumberedLane = /^Dráha \d+$/.test(unifiedName);
+      resources.push({ name: isNumberedLane ? unifiedName : `${category} - ${laneName}`, category, slots });
+    });
+  });
+  return { date, resources };
+}
+
+// The reservation grid can keep showing normal open slots during a
+// long-term closure (Ponávka does exactly this) - if the homepage says
+// otherwise, that overrides whatever the grid shows for the affected days.
+function applyClosure(days, closure) {
+  if (!closure) return;
+  for (const day of days) {
+    if (closure.closedFrom && day.date < closure.closedFrom) continue;
+    if (closure.closedUntil && day.date > closure.closedUntil) continue;
+    for (const resource of day.resources) {
+      for (const slot of resource.slots) slot.status = 'closed';
+    }
+    day.note = closure.message;
+  }
+}
+
+function formatRequestDate(iso) {
+  const [y, m, d] = iso.split('-');
+  return `${d}.${m}.${y}`;
+}
+
 // Shared scraper for the three STAREZ-run venues, which all use the same
-// reservation grid template. All days (a full week) live inside a single
-// .s-reservation__body wrapper as a flat, repeating sequence of
-// h3 (date heading) -> h4 (pool/resource name) -> .s-reservation-table blocks.
+// reservation template. Since the October 2026 redesign the page holds one
+// day at a time; other days come from the site's own naja AJAX call
+// (?date=DD.MM.YYYY&do=getDate), which returns the server-rendered grid as a
+// snippet. That call needs the browser session the page sets up, so it's
+// made from inside the page rather than with a plain fetch.
 export async function scrapeStarezVenue(browser, { venue, name, url, webcams }) {
   const { occupancy, closure } = await scrapeHomepageInfo(browser, new URL('/', url).toString());
   const webcamImages = webcams ? await downloadWebcams(webcams) : [];
   const page = await browser.newPage();
+  const days = [];
   try {
-    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
-    await page.waitForSelector('.s-reservation__body', { timeout: 15000 }).catch(() => {});
-    const html = await page.content();
-    const $ = cheerio.load(html);
+    const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
+    const first = parseReservationDay(await response.text());
+    if (!first.date) throw new Error('reservation grid not found on page');
+    if (first.resources.length) days.push(first);
+    await page.waitForFunction(() => window.naja && typeof window.naja.makeRequest === 'function', null, { timeout: 15000 });
+    const pagePath = new URL(url).pathname.replace(/^\//, '');
 
-    const dayMap = new Map(); // date -> resources[]
-    let currentDate = null;
-    let currentResourceName = null;
-
-    $('.s-reservation__body')
-      .find('h3, h4, .s-reservation-table')
-      .each((_, el) => {
-        const $el = $(el);
-
-        if ($el.is('h3')) {
-          currentDate = parseCzechDateHeading($el.text());
-          return;
-        }
-        if ($el.is('h4')) {
-          currentResourceName = $el.text().trim();
-          return;
-        }
-        // .s-reservation-table
-        if (!currentDate) return;
-
-        const laneNames = $el
-          .find('.s-reservation-table__title > div')
-          .map((___, laneEl) => $(laneEl).text().replace(/\s+/g, ' ').trim())
-          .get();
-
-        const rows = $el.find('table.s-reservation-table__table').eq(1).find('tbody tr');
-        const resources = dayMap.get(currentDate) || [];
-        rows.each((laneIdx, rowEl) => {
-          const laneName = laneNames[laneIdx] || `${currentResourceName || 'Bazén'} #${laneIdx + 1}`;
-          const isSirkaLane = /šířka/i.test(laneName);
-          const slots = [];
-          $(rowEl)
-            .find('td span[data-date]')
-            .each((____, spanEl) => {
-              const $span = $(spanEl);
-              const style = $span.attr('style') || '';
-              const colorMatch = style.match(/background-color:\s*(#[0-9a-fA-F]{6})/);
-              let status = statusFromStarezColor(colorMatch ? colorMatch[1] : null);
-              // Width-swim mode (volná/rezervovaná šířka) means the opposite
-              // of its literal color on a normal length lane (délka) vs. on
-              // a dedicated width lane (šířka) - confirmed directly by a
-              // regular swimmer there. When a délka lane gets painted with
-              // either width-mode color, its length is no longer usable for
-              // normal swimming (blocked), even though the color alone reads
-              // "free". A šířka lane normally just sits closed and isn't
-              // offered at all - either width-mode color appearing on it
-              // means an organized width-swim session is actually open to
-              // the public right now, regardless of which of the two colors.
-              if (colorMatch && /^#(f9d993|e19e0d)$/i.test(colorMatch[1])) {
-                status = isSirkaLane ? 'available' : 'reserved';
-              }
-              const timeText = $span.find('.table-time').text().trim(); // e.g. "8:00-9:00"
-              const [start, end] = timeText.split('-').map((t) => t.trim());
-              // The <small> text carries context that the color alone
-              // doesn't, e.g. "volná šířka" / "rezervovaná šířka: KPSP 50".
-              const label = $span.find('small').text().replace(/\s+/g, ' ').trim();
-              if (start && end) slots.push({ start, end, status, label: label || undefined });
-            });
-          const baseCategory = currentResourceName || 'Bazén';
-          // A "šířka" (width)-numbered lane isn't extra capacity on a normal
-          // day - it sits idle/closed while length-swimming (délka) is
-          // offered as usual. But on days when length-lanes are blocked
-          // (e.g. a water polo/diving event), *either* délka- or
-          // šířka-numbered lanes can switch into active width-swim mode
-          // (color-coded volná/rezervovaná šířka) and become real, usable
-          // slots. So šířka-numbered lanes are tagged their own category and
-          // only excluded from primary scoring while idle (closed) - see
-          // isAuxiliaryCategory/primaryCountsAt in docs/app.js.
-          const category = /šířka/i.test(laneName) ? `${baseCategory} (šířka)` : baseCategory;
-          // VIP zóna (Lužánky) isn't part of general swim availability at
-          // all - it's a separately-booked private area, dropped entirely
-          // rather than just excluded from scoring like the other auxiliary
-          // categories (whirlpool, sauna, relaxation pool).
-          if (slots.length && !/vip/i.test(category)) {
-            // `category` is the pool/section as published by the venue itself
-            // (e.g. "Dráhy v 50m bazénu" vs "Dráhy v 25m bazénu" at Lužánky) -
-            // needed because lumping different pool sizes/types into one
-            // "lanes free" number would be misleading. The category check
-            // above uses the raw label (so "šířka" is still detected).
-            // A numbered lane's display name is left bare here ("Dráha N") -
-            // whether it needs a category prefix is decided later, once we
-            // know if this venue actually has more than one lane category to
-            // distinguish (see applyLaneDisplayNames in index.js). Non-lane
-            // resources (e.g. "část", "celý bazén", "sauna") aren't
-            // self-descriptive alone, so they always keep their category.
-            const unifiedName = unifyLaneName(laneName);
-            const isNumberedLane = /^Dráha \d+$/.test(unifiedName);
-            resources.push({ name: isNumberedLane ? unifiedName : `${category} - ${laneName}`, category, slots });
-          }
-        });
-        dayMap.set(currentDate, resources);
-      });
-
-    const days = Array.from(dayMap.entries())
-      .filter(([, resources]) => resources.length)
-      .map(([date, resources]) => ({ date, resources }));
-
-    // The reservation grid can keep showing normal open slots during a
-    // long-term closure (Ponávka does exactly this) - if the homepage says
-    // otherwise, that overrides whatever the grid shows for the affected days.
-    if (closure) {
-      for (const day of days) {
-        if (closure.closedFrom && day.date < closure.closedFrom) continue;
-        if (closure.closedUntil && day.date > closure.closedUntil) continue;
-        for (const resource of day.resources) {
-          for (const slot of resource.slots) slot.status = 'closed';
-        }
-        day.note = closure.message;
-      }
+    for (let i = 1; i < DAYS_AHEAD; i++) {
+      const date = addDaysISO(first.date, i);
+      const [snippetResponse] = await Promise.all([
+        page.waitForResponse((r) => r.url().includes('do=getDate'), { timeout: 20000 }),
+        page.evaluate(
+          ({ path, d }) => window.naja.makeRequest('GET', path, { date: d, do: 'getDate' }, { history: false }),
+          { path: pagePath, d: formatRequestDate(date) }
+        ),
+      ]);
+      const html = (await snippetResponse.json())?.snippets?.['snippet--reservation'];
+      if (!html) throw new Error(`no reservation snippet returned for ${date}`);
+      const day = parseReservationDay(html);
+      if (day.date !== date) throw new Error(`asked for ${date}, got ${day.date}`);
+      if (day.resources.length) days.push(day);
     }
+    // An empty grid means the template changed again - fail loudly instead
+    // of reporting "ok" with nothing in it (which is how the October 2026
+    // redesign went unnoticed for weeks).
+    if (!days.length) throw new Error('reservation grid parsed but contained no lanes');
+
+    applyClosure(days, closure);
 
     return { venue, name, url, ok: true, error: null, days, occupancy, webcams: webcamImages, closureNotice: closure };
   } catch (err) {
-    return { venue, name, url, ok: false, error: err.message, days: [], occupancy, webcams: webcamImages, closureNotice: closure };
+    // Keep whatever days did parse - a hiccup on day 6 shouldn't blank out
+    // today and tomorrow.
+    applyClosure(days, closure);
+    return { venue, name, url, ok: days.length > 0, error: err.message, days, occupancy, webcams: webcamImages, closureNotice: closure };
   } finally {
     await page.close();
   }

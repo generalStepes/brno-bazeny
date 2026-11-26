@@ -1,17 +1,18 @@
 import sharp from 'sharp';
 import { createWorker } from 'tesseract.js';
+import { addDaysISO, todayISO } from '../lib/dates.js';
 
 const PAGE_URL = 'https://www.tjteslabrno.cz/sportovni-zarizeni/bazen-25m';
 
-// TJ Tesla publishes real public-lane availability, but only as a monthly
-// schedule image (e.g. "Bazén Červenec 2026.jpg") - a grid of date rows x
-// hour columns, each cell holding the count of free public lanes. There's no
-// text/API source for this data, so we OCR the image directly.
-const CZECH_MONTHS = {
-  leden: 1, unor: 2, brezen: 3, duben: 4, kveten: 5, cerven: 6,
-  cervenec: 7, srpen: 8, zari: 9, rijen: 10, listopad: 11, prosinec: 12,
-};
-
+// TJ Tesla publishes public-lane availability only as an image: a grid of
+// date rows x hour columns, each cell holding the number of free public
+// lanes. There's no text/API source, so we OCR it.
+//
+// Since ~August 2026 the image is a rolling "ROZVRH DRAH PRO VEŘEJNOST"
+// table (~11 days starting today, file name e.g. "ROZPIS DRAH PRO VEŘEJNOST
+// (23).jpg") instead of the old monthly "Bazén Červenec 2026.jpg" exports.
+// The file name no longer says which dates it covers, so the first row's
+// date is OCR'd from the image itself.
 const HOUR_COLUMNS = [
   ['06:00', '07:00'], ['07:00', '08:00'], ['08:00', '09:00'], ['09:00', '10:00'],
   ['10:00', '11:00'], ['11:00', '12:00'], ['12:00', '13:00'], ['13:00', '14:00'],
@@ -19,162 +20,141 @@ const HOUR_COLUMNS = [
   ['18:00', '19:00'], ['19:00', '20:00'], ['20:00', '21:00'], ['21:00', '21:45'],
 ];
 
-// Calibrated against the July 2026 export (1306x2231px, 31 data rows).
-// These are *absolute* pixel offsets, not fractions of image size - the
-// header height and per-row height are fixed by the template regardless of
-// row count, so a half-month export (e.g. 15 rows, 1306x1239px) has a
-// shorter total image but the same header/row geometry. Using fractions of
-// total height here previously broke on exactly that case (a half-month
-// image reads as if every row were squeezed into a much shorter grid).
+// Calibrated against the 26.11.2026 export (2102x1118, 11 rows; the site
+// also serves the same image scaled, e.g. 1600x851). Every value is a
+// fraction of the image *width*, since the template scales uniformly and the
+// height only varies with the number of rows.
 const GRID = {
-  row0Top: 237,
-  rowHeight: 62.0,
-  col0Left: 287,
-  colWidth: 57,
-  cellW: 40,
-  cellH: 40,
+  rowTop0: 195 / 1600, // top edge of the first data row
+  rowPitch: 53.33 / 1600,
+  footer: 70 / 1600, // "Změna drah vyhrazena..." strip below the last row
+  col0Center: 304 / 1600,
+  colPitch: 81 / 1600,
+  cellW: 52 / 1600,
+  cellH: 42 / 1600,
+  dateCenter: 185 / 1600,
+  dateW: 140 / 1600,
 };
 
-function stripDiacritics(s) {
-  return s.normalize('NFD').replace(/[̀-ͯ]/g, '');
+function isScheduleImage(src) {
+  const name = decodeURIComponent(src).toLowerCase();
+  return /rozpis|rozvrh/.test(name) || /bazén.*\d{4}/.test(name);
 }
 
 async function findScheduleImageUrl(page) {
   await page.goto(PAGE_URL, { waitUntil: 'domcontentloaded', timeout: 45000 });
-  return page.evaluate(() => {
-    const imgs = Array.from(document.querySelectorAll('img'));
-    const match = imgs.find((img) => decodeURIComponent(img.src).includes('Bazén'));
-    return match ? match.src : null;
-  });
+  const srcs = await page.$$eval('img', (imgs) => imgs.map((img) => img.getAttribute('src') || ''));
+  return srcs.find(isScheduleImage) || null;
 }
 
-// TJ Tesla's filename format keeps changing. Seen so far, in order of
-// discovery:
-//   "Bazén Červenec 2026.jpg"        - whole month, rows are day 1..daysInMonth
-//   "Bazén 17.-31.. 2026.jpg"        - half-month, day range within the
-//                                       *current* month (no month number at
-//                                       all - inferred from scrape time)
-//   "Bazén 22.7.-31.8. 2026.jpg"     - explicit day.month range that can
-//                                       itself span two different months
-// Returns { startDate: 'YYYY-MM-DD', dayCount } either way, so the caller
-// can compute each row's date via plain date arithmetic instead of
-// per-format month/day bookkeeping (which broke once a range started
-// crossing a month boundary - "day 31 of July" doesn't roll over on its own
-// with naive string concatenation).
-function parseScheduleImageInfo(url, now = new Date()) {
-  const decoded = decodeURIComponent(url);
-
-  const monthMatch = decoded.match(/Bazén\s+(\D+?)\s+(\d{4})/i);
-  if (monthMatch) {
-    const monthKey = stripDiacritics(monthMatch[1].toLowerCase());
-    const month = CZECH_MONTHS[monthKey];
-    if (month) {
-      const year = parseInt(monthMatch[2], 10);
-      return { startDate: `${year}-${String(month).padStart(2, '0')}-01`, dayCount: new Date(year, month, 0).getDate() };
-    }
-  }
-
-  // Must be checked before the day-only pattern below - "22.7.-31.8." would
-  // otherwise partial-match as if "7.-31." were a day-only range (reading
-  // "7" as the start day and silently dropping "22." and ".8.").
-  const fullRangeMatch = decoded.match(/Bazén\s+(\d{1,2})\.(\d{1,2})\.-(\d{1,2})\.(\d{1,2})\.\s*(\d{4})/i);
-  if (fullRangeMatch) {
-    const [, sd, sm, ed, em, y] = fullRangeMatch.map(Number);
-    const start = new Date(y, sm - 1, sd);
-    const end = new Date(y, em - 1, ed);
-    const dayCount = Math.round((end - start) / 86400000) + 1;
-    return { startDate: `${y}-${String(sm).padStart(2, '0')}-${String(sd).padStart(2, '0')}`, dayCount };
-  }
-
-  const dayOnlyRangeMatch = decoded.match(/Bazén\s+(\d{1,2})\.-(\d{1,2})\.+\s*(\d{4})/i);
-  if (dayOnlyRangeMatch) {
-    const startDay = parseInt(dayOnlyRangeMatch[1], 10);
-    const endDay = parseInt(dayOnlyRangeMatch[2], 10);
-    const year = parseInt(dayOnlyRangeMatch[3], 10);
-    // No month number in this format at all - trust the month we're
-    // actually scraping in, since these are always near-term schedules.
-    const month = now.getMonth() + 1;
-    return { startDate: `${year}-${String(month).padStart(2, '0')}-${String(startDay).padStart(2, '0')}`, dayCount: endDay - startDay + 1 };
-  }
-
-  return null;
-}
-
-function addDaysISO(startDateISO, days) {
-  const [y, m, d] = startDateISO.split('-').map(Number);
-  const date = new Date(y, m - 1, d);
-  date.setDate(date.getDate() + days);
-  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
-}
-
-async function ocrCell(worker, imageBuffer, rowIdx, colIdx) {
-  const top = GRID.row0Top + rowIdx * GRID.rowHeight - GRID.cellH * 0.3;
-  const left = GRID.col0Left + colIdx * GRID.colWidth - GRID.cellW * 0.25;
-  const width = GRID.cellW;
-  const height = GRID.cellH;
-  const cropped = await sharp(imageBuffer)
-    .extract({ left: Math.round(left), top: Math.round(top), width: Math.round(width), height: Math.round(height) })
+async function crop(imageBuffer, W, { centerX, centerY, width, height }) {
+  return sharp(imageBuffer)
+    .extract({
+      left: Math.round((centerX - width / 2) * W),
+      top: Math.round((centerY - height / 2) * W),
+      width: Math.round(width * W),
+      height: Math.round(height * W),
+    })
     .greyscale()
-    .resize({ width: Math.round(width * 4) })
+    .resize({ width: Math.round(width * W * 3) })
     .toBuffer();
-  const { data } = await worker.recognize(cropped);
-  const digits = data.text.replace(/\D/g, '');
-  return digits ? parseInt(digits, 10) : null;
+}
+
+function rowCenter(rowIdx) {
+  return GRID.rowTop0 + (rowIdx + 0.5) * GRID.rowPitch;
+}
+
+// "26. 11. 2026" -> "2026-11-26"
+function parseRowDate(text) {
+  const m = text.match(/(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})/);
+  if (!m) return null;
+  const [, d, mo, y] = m.map(Number);
+  if (d < 1 || d > 31 || mo < 1 || mo > 12) return null;
+  return `${y}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+}
+
+function daysBetween(aISO, bISO) {
+  return Math.round((Date.parse(bISO + 'T00:00:00Z') - Date.parse(aISO + 'T00:00:00Z')) / 86400000);
 }
 
 const OCR_NOTE_CS =
-  'Počet volných drah je získán automatickým rozpoznáním textu z měsíčního rozpisu (obrázku) na webu TJ Tesla. Konkrétní čísla drah (Dráha 1, 2, ...) jsou orientační - důležitý je jen celkový počet volných drah.';
+  'Počet volných drah je získán automatickým rozpoznáním textu z rozpisu (obrázku) na webu TJ Tesla. Konkrétní čísla drah (Dráha 1, 2, ...) jsou orientační - důležitý je jen celkový počet volných drah.';
 
-// Takes the raw image URL, not a Playwright page - the Chromium page is only
-// needed to locate the URL. Keeping it open during the OCR loop below caused
-// scrapeTesla() to hang indefinitely on this machine even though the OCR
-// loop alone (against the same image, same coordinates) finishes in ~13s -
-// so the page must be closed before OCR starts, not after.
 async function scrapeFromImage(imgUrl) {
-  const scheduleInfo = parseScheduleImageInfo(imgUrl);
-  if (!scheduleInfo) throw new Error(`could not parse schedule date range from image URL: ${imgUrl}`);
-  const { startDate, dayCount } = scheduleInfo;
-
   const imgResp = await fetch(imgUrl);
   if (!imgResp.ok) throw new Error(`failed to download schedule image: HTTP ${imgResp.status}`);
   const imgBuffer = Buffer.from(await imgResp.arrayBuffer());
+  const { width: W, height: H } = await sharp(imgBuffer).metadata();
+  const { data: pixels, info } = await sharp(imgBuffer).removeAlpha().raw().toBuffer({ resolveWithObject: true });
+  // Cells with no free lane have a red background. Sampled just inside the
+  // cell's left edge (away from the digit) as a fallback when OCR reads
+  // nothing at all - tesseract occasionally drops a lone "0".
+  const isRedCell = (centerX, centerY) => {
+    const x = Math.round((centerX - GRID.colPitch * 0.4) * W);
+    const y = Math.round(centerY * W);
+    const i = (y * info.width + x) * info.channels;
+    const [r, g, b] = [pixels[i], pixels[i + 1], pixels[i + 2]];
+    return r > 180 && r - g > 30 && r - b > 30;
+  };
+  const rowCount = Math.round((H / W - GRID.rowTop0 - GRID.footer) / GRID.rowPitch);
+  if (rowCount < 1 || rowCount > 40) throw new Error(`unexpected schedule image layout (${W}x${H}, ${rowCount} rows)`);
 
   const worker = await createWorker('eng');
-  await worker.setParameters({ tessedit_char_whitelist: '0123456789', tessedit_pageseg_mode: '10' });
-
-  const rawGrid = [];
   try {
-    for (let d = 0; d < dayCount; d++) {
+    // Dates: OCR every row's date pill and take the first that parses (back-
+    // dated by its row index), so one misread pill doesn't lose the table.
+    await worker.setParameters({ tessedit_char_whitelist: '0123456789. ', tessedit_pageseg_mode: '7' });
+    let startDate = null;
+    for (let r = 0; r < rowCount && !startDate; r++) {
+      const buf = await crop(imgBuffer, W, { centerX: GRID.dateCenter, centerY: rowCenter(r), width: GRID.dateW, height: GRID.cellH });
+      const parsed = parseRowDate((await worker.recognize(buf)).data.text);
+      if (parsed) startDate = addDaysISO(parsed, -r);
+    }
+    if (!startDate) throw new Error('could not read any date from the schedule image');
+    // A rolling schedule should start within a few days of today - anything
+    // further off means the OCR misread the date (or the layout changed).
+    if (Math.abs(daysBetween(todayISO(), startDate)) > 40) throw new Error(`implausible schedule start date ${startDate}`);
+
+    await worker.setParameters({ tessedit_char_whitelist: '0123456789', tessedit_pageseg_mode: '10' });
+    const rawGrid = [];
+    for (let r = 0; r < rowCount; r++) {
       const row = [];
       for (let c = 0; c < HOUR_COLUMNS.length; c++) {
-        row.push(await ocrCell(worker, imgBuffer, d, c));
+        const centerX = GRID.col0Center + c * GRID.colPitch;
+        const buf = await crop(imgBuffer, W, { centerX, centerY: rowCenter(r), width: GRID.cellW, height: GRID.cellH });
+        const digits = (await worker.recognize(buf)).data.text.replace(/\D/g, '');
+        let value = digits ? parseInt(digits, 10) : null;
+        if (value !== null && value > 20) value = null;
+        if (value === null && isRedCell(centerX, rowCenter(r))) value = 0;
+        row.push(value);
       }
       rawGrid.push(row);
     }
+
+    const totalLanes = Math.max(6, ...rawGrid.flat().filter((v) => v !== null));
+    return rawGrid
+      .map((row, r) => {
+        const date = addDaysISO(startDate, r);
+        const resources = [];
+        for (let lane = 1; lane <= totalLanes; lane++) {
+          const slots = HOUR_COLUMNS.map(([start, end], c) => {
+            const free = row[c];
+            const status = free === null ? 'unknown' : lane <= free ? 'available' : 'reserved';
+            return { start, end, status };
+          });
+          resources.push({ name: `Dráha ${lane}`, category: 'Dráhy', slots });
+        }
+        return { date, resources, note: OCR_NOTE_CS };
+      })
+      .filter((day) => day.date >= todayISO());
   } finally {
     await worker.terminate();
   }
-
-  const totalLanes = Math.max(6, ...rawGrid.flat().filter((v) => v !== null && v >= 0 && v <= 20));
-
-  const days = rawGrid.map((row, d) => {
-    const date = addDaysISO(startDate, d);
-    const resources = [];
-    for (let lane = 1; lane <= totalLanes; lane++) {
-      const slots = HOUR_COLUMNS.map(([start, end], c) => {
-        const free = row[c];
-        const status = free === null ? 'unknown' : lane <= free ? 'available' : 'reserved';
-        return { start, end, status };
-      });
-      resources.push({ name: `Dráha ${lane}`, category: 'Dráhy', slots });
-    }
-    return { date, resources, note: OCR_NOTE_CS };
-  });
-
-  return days;
 }
 
 export async function scrapeTesla(browser) {
+  // The Chromium page is only needed to locate the image URL - it must be
+  // closed before OCR starts (keeping it open made scrapeTesla() hang).
   const page = await browser.newPage();
   let imgUrl;
   try {
@@ -185,7 +165,7 @@ export async function scrapeTesla(browser) {
 
   try {
     if (!imgUrl) throw new Error('schedule image not found on page');
-    const days = await scrapeFromImage(imgUrl);
+    const days = await scrapeFromImage(new URL(imgUrl, PAGE_URL).toString());
     return { venue: 'tesla', name: 'TJ Tesla Brno - Bazén 25m', url: PAGE_URL, ok: true, error: null, days, occupancy: [], webcams: [], closureNotice: null };
   } catch (err) {
     return { venue: 'tesla', name: 'TJ Tesla Brno - Bazén 25m', url: PAGE_URL, ok: false, error: err.message, days: [], occupancy: [], webcams: [], closureNotice: null };
