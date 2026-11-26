@@ -8,53 +8,69 @@ on:
     # scheduled much more reliably.
     - cron: '17 * * * *'
   workflow_dispatch: {}
+  # Code changes on main redeploy the site straight away (with the latest
+  # data from the `data` branch) instead of waiting for the next scrape.
+  push:
+    branches: [main]
 
 permissions:
-  contents: write
+  contents: write # force-push the single-commit `data` branch
+  pages: write
+  id-token: write
 
+# Serializes runs, so the `data` branch force-push below and the Pages
+# deployments never race each other.
 concurrency:
   group: scrape-pool-data
   cancel-in-progress: false
 
+# Generated data is deliberately NOT committed to main. It used to be (every
+# ~30 min: latest.json + two webcam JPEGs), which grew the repository by
+# several MB a day. Instead:
+#   - the site is deployed straight from this workflow as a Pages artifact
+#     (Settings -> Pages -> Source: GitHub Actions), and
+#   - the only state that has to survive between runs (occupancy-history.json,
+#     plus latest.json and the webcam stills for code-only redeploys) lives
+#     on the `data` branch as a
+#     single commit that is force-pushed every run, so it never accumulates
+#     history.
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      TZ: Europe/Prague
     steps:
-      # Explicit ref, not the default (the SHA at trigger time) - with the
-      # concurrency group below, a queued run can sit for several minutes
-      # before actually starting, during which an earlier run may have
-      # already pushed a fresh update. Checking out main fresh here (rather
-      # than the stale triggering SHA) is what lets the recency check below
-      # actually see that update and skip the redundant work.
       - uses: actions/checkout@v4
-        with:
-          ref: main
+
+      - name: Restore previous data
+        run: |
+          if git fetch --depth=1 origin data; then
+            git archive FETCH_HEAD | tar -x
+          else
+            echo "::warning::No data branch yet - starting with empty history"
+          fi
 
       - name: Check time since last update
         id: recency
         run: |
           # The native hourly schedule and the external ~30min cron-job.org
           # trigger sometimes land within seconds of each other (GitHub
-          # delays/queues schedule triggers unpredictably, per the comment
-          # above). Every successful run pushes a commit regardless of
-          # whether pool data actually changed, since latest.json embeds a
-          # generatedAt timestamp - so back-to-back runs each push, and each
-          # push kicks off its own GitHub Pages deployment. Overlapping
-          # deployments fail outright ("in progress deployment") rather than
-          # queuing, which can leave the live site stuck on stale data until
-          # someone notices and manually retries. Skip the (expensive)
-          # scrape+push entirely if another run just updated things, so
-          # near-duplicate triggers collapse into one.
-          last=$(node -pe "require('./docs/data/latest.json').generatedAt")
-          last_epoch=$(date -d "$last" +%s)
-          now_epoch=$(date -u +%s)
-          age=$((now_epoch - last_epoch))
-          echo "last update was ${age}s ago"
-          if [ "$age" -lt 600 ]; then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
+          # delays/queues schedule triggers unpredictably). Skip the
+          # (expensive) scrape if another run just did it. Pushes to main
+          # always deploy (with whatever data we have) so code changes go
+          # live immediately.
+          skip=false
+          if [ -f docs/data/latest.json ]; then
+            last=$(node -pe "require('./docs/data/latest.json').generatedAt")
+            age=$(( $(date -u +%s) - $(date -d "$last" +%s) ))
+            echo "last update was ${age}s ago"
+            [ "$age" -lt 600 ] && skip=true
           fi
+          [ "${{ github.event_name }}" = "push" ] && skip=true
+          echo "skip=$skip" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-node@v4
         if: steps.recency.outputs.skip != 'true'
@@ -73,30 +89,26 @@ jobs:
         if: steps.recency.outputs.skip != 'true'
         run: npm run scrape
 
-      - name: Commit updated data
+      - name: Save data to the data branch
         if: steps.recency.outputs.skip != 'true'
         run: |
           git config user.name "pool-availability-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/data/latest.json docs/data/occupancy-history.json docs/images/
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          git commit -m "Update pool availability data"
-          # Now that runs can be triggered every ~30min from an external cron
-          # (GitHub's own schedule trigger is unreliable) as well as manual
-          # dispatches, overlapping runs can race to push. Retry with rebase,
-          # preferring our just-scraped data over whatever else touched the
-          # same files, since it's the freshest snapshot either way.
-          for attempt in 1 2 3 4 5; do
-            if git push; then
-              exit 0
-            fi
-            echo "Push rejected (attempt $attempt), rebasing onto latest and retrying..."
-            git fetch origin main
-            git rebase -X ours origin/main
-            sleep $((RANDOM % 10 + 1))
-          done
-          echo "::error::Failed to push after retries"
-          exit 1
+          export GIT_INDEX_FILE="$RUNNER_TEMP/data-index"
+          # Webcam stills ride along so a code-only (push) deploy still has
+          # the images latest.json points to.
+          git add -f docs/data/latest.json docs/data/occupancy-history.json $(ls -d docs/images 2>/dev/null)
+          commit=$(git commit-tree "$(git write-tree)" -m "Pool data snapshot")
+          git push -f origin "$commit:refs/heads/data"
+
+      - uses: actions/configure-pages@v5
+        if: steps.recency.outputs.skip != 'true' || github.event_name == 'push'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.recency.outputs.skip != 'true' || github.event_name == 'push'
+        with:
+          path: docs
+
+      - uses: actions/deploy-pages@v4
+        id: deploy
+        if: steps.recency.outputs.skip != 'true' || github.event_name == 'push'

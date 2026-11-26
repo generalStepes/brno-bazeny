@@ -7,8 +7,8 @@ Venues covered: Aquapark Kohoutovice, Bazén Ponávka, Bazény Lužánky (all ST
 ## How it works
 
 - `scraper/` – a Node + Playwright script (`npm run scrape`) that visits each venue's site, parses its reservation grid, and writes a normalized snapshot to `docs/data/latest.json`. It also scrapes live headcount ("X/Y people") where a venue publishes it (Aquapark, Lužánky, Kraví hora), and appends each reading to `docs/data/occupancy-history.json`, bucketed by weekday + hour (not raw timestamp) so the file stays a small, fixed size. After a few weeks of hourly runs this becomes a genuinely useful "typically X% full at this hour" figure — including for future dates a live snapshot can't say anything about. There's no official API for this kind of data (Google's "popular times" isn't exposed through any documented API either), so it's built entirely from these venues' own numbers.
-- `docs/` – a static site (vanilla HTML/CSS/JS, no build step) that reads `data/latest.json` (and `data/occupancy-history.json`) and renders a per-venue timeline for the selected day. This folder is served directly by GitHub Pages.
-- `.github/workflows/scrape.yml` – runs the scraper hourly (at :17, not :00 — GitHub Actions queues top-of-hour runs heavily) on GitHub Actions and commits the refreshed data files, which redeploys the Pages site automatically. GitHub's own `schedule` trigger is best-effort and prone to multi-hour delays/drops under load (confirmed - our own run history showed 5-6 hour gaps despite the hourly config), so an external cron (cron-job.org) also pings the `workflow_dispatch` API every 30 minutes as the reliable trigger; the native schedule stays on as a harmless backup.
+- `docs/` – a static site (vanilla HTML/CSS/JS, no build step) that reads `data/latest.json` (and `data/occupancy-history.json`) and renders a per-venue timeline for the selected day. Generated files (`docs/data/`, `docs/images/`) are gitignored on `main`.
+- `.github/workflows/scrape.yml` – runs the scraper hourly (at :17, not :00 — GitHub Actions queues top-of-hour runs heavily) on GitHub Actions and deploys `docs/` plus the fresh data straight to GitHub Pages as an artifact (Pages source: "GitHub Actions"). Nothing is committed to `main`; the state that must survive between runs (occupancy history, last snapshot, webcam stills) is force-pushed as a single commit to the `data` branch, so the repository doesn't grow with every run. Pushes to `main` redeploy the site with the data from that branch. All dates/hours are Europe/Prague local time (the scraper sets `TZ` itself), matching how the site reads them. GitHub's own `schedule` trigger is best-effort and prone to multi-hour delays/drops under load (confirmed - our own run history showed 5-6 hour gaps despite the hourly config), so an external cron (cron-job.org) also pings the `workflow_dispatch` API every 30 minutes as the reliable trigger; the native schedule stays on as a harmless backup.
 - Lužánky also has two public webcam stills (25m/50m pool); the scraper re-downloads them each run into `docs/images/` and they're shown on today's card.
 
 ## Known limitations (site-imposed, not scraper bugs)
@@ -23,6 +23,7 @@ Venues covered: Aquapark Kohoutovice, Bazén Ponávka, Bazény Lužánky (all ST
 ```bash
 npm install
 npx playwright install --with-deps chromium
+git fetch origin data && git archive FETCH_HEAD | tar -x   # optional: current data + history
 npm run scrape          # writes docs/data/latest.json
 npx serve docs          # serve the static site locally
 ```

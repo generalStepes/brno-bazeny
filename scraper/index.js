@@ -10,6 +10,12 @@ import { scrapeTesla } from './sites/tesla.js';
 import { loadOccupancyHistory, updateHistoryWithResults, saveOccupancyHistory } from './lib/occupancyHistory.js';
 import { applyLaneDisplayNames } from './lib/laneName.js';
 
+// Everything date/hour-related here (today's date, the weekday+hour buckets
+// in occupancy-history.json, Tesla's "current month") must be Brno local
+// time - that's what the site reads them as. GitHub Actions runners are UTC,
+// which previously filed every occupancy sample 1-2 hours early.
+process.env.TZ ||= 'Europe/Prague';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = join(__dirname, '..', 'docs', 'data', 'latest.json');
 const HISTORY_PATH = join(__dirname, '..', 'docs', 'data', 'occupancy-history.json');
@@ -60,7 +66,7 @@ async function main() {
   };
 
   await mkdir(dirname(OUT_PATH), { recursive: true });
-  await writeFile(OUT_PATH, JSON.stringify(output, null, 2), 'utf-8');
+  await writeFile(OUT_PATH, JSON.stringify(output), 'utf-8');
 
   const history = await loadOccupancyHistory(HISTORY_PATH);
   updateHistoryWithResults(history, results);
