@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy_retry.outputs.page_url }}
     env:
       TZ: Europe/Prague
     steps:
@@ -109,6 +109,18 @@ jobs:
         with:
           path: docs
 
+      # deploy-pages sometimes queries the artifact API before the upload
+      # above is visible ("Found 0 artifact(s)") and fails; a delayed retry
+      # succeeds, so try once more instead of leaving the site stale for a run.
       - uses: actions/deploy-pages@v4
         id: deploy
         if: steps.recency.outputs.skip != 'true' || github.event_name == 'push'
+        continue-on-error: true
+
+      - name: Wait before retrying deploy
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 30
+
+      - uses: actions/deploy-pages@v4
+        id: deploy_retry
+        if: steps.deploy.outcome == 'failure'
