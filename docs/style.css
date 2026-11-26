@@ -4,6 +4,7 @@
   --reserved: #b0b0b0;
   --closed: #e0e0e0;
   --unknown: #f0d060;
+  --trainer: #7e57c2;
   --ink: #1c2733;
   --muted: #6b7684;
   --border: #e3e7eb;
@@ -229,6 +230,13 @@ body {
   font-weight: 400;
 }
 
+.trainer-note {
+  margin: 0.15rem 0 0;
+  font-size: 0.75rem;
+  color: var(--trainer);
+  font-weight: 600;
+}
+
 .occupancy-note {
   margin: 0.15rem 0 0;
   font-size: 0.75rem;
@@ -427,6 +435,9 @@ body {
 .slot.reserved { background: var(--reserved); }
 .slot.closed { background: var(--closed); }
 .slot.unknown { background: var(--unknown); }
+.slot.trainer { background: var(--trainer); }
+.slot.trainer-off { background: transparent; }
+.trainer-row .resource-name { color: var(--trainer); font-weight: 600; }
 
 .slot-highlight {
   outline: 2px solid var(--ink);
@@ -472,3 +483,4 @@ body {
 .swatch.reserved { background: var(--reserved); }
 .swatch.closed { background: var(--closed); }
 .swatch.unknown { background: var(--unknown); }
+.swatch.trainer { background: var(--trainer); }

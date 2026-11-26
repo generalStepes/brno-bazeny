@@ -9,6 +9,7 @@ import { scrapeKravihora } from './sites/kravihora.js';
 import { scrapeTesla } from './sites/tesla.js';
 import { loadOccupancyHistory, updateHistoryWithResults, saveOccupancyHistory } from './lib/occupancyHistory.js';
 import { applyLaneDisplayNames } from './lib/laneName.js';
+import { scrapeFreeTrainers } from './lib/freeTrainer.js';
 
 // Everything date/hour-related here (today's date, the weekday+hour buckets
 // in occupancy-history.json, Tesla's "current month") must be Brno local
@@ -59,6 +60,9 @@ async function main() {
   for (const venue of results) {
     for (const day of venue.days) applyLaneDisplayNames(day.resources);
   }
+
+  const freeTrainers = await scrapeFreeTrainers();
+  for (const venue of results) venue.freeTrainer = freeTrainers[venue.venue] || null;
 
   const output = {
     generatedAt: new Date().toISOString(),

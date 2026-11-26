@@ -37,6 +37,12 @@ const I18N = {
     'occupancy.now': 'aktuální obsazenost',
     'occupancy.people': (current, max) => `${current} z ${max} osob`,
     'occupancy.typical': (pct, samples, lowConfidence) => `obvykle bývá plno na ${pct} % (${samples}× měřeno${lowConfidence ? ', předběžný odhad' : ''})`,
+    'trainer.atTime': '🧑‍🏫 v tuto dobu je k dispozici instruktor plavání zdarma (v rámci vstupného)',
+    'trainer.day': (ranges) => `🧑‍🏫 Instruktor plavání zdarma (v rámci vstupného): ${ranges}`,
+    'trainer.unverified': 'rozvrh se nepodařilo ověřit – zkontrolujte na webu bazénu',
+    'trainer.source': 'zdroj',
+    'trainer.row': 'Instruktor zdarma',
+    'legend.trainer': 'instruktor plavání zdarma',
   },
   en: {
     'site.title': '🏊 Brno Pools – availability',
@@ -73,6 +79,12 @@ const I18N = {
     'occupancy.people': (current, max) => `${current} of ${max} people`,
     'occupancy.typical': (pct, samples, lowConfidence) =>
       `typically about ${pct}% full (based on ${samples} reading${samples === 1 ? '' : 's'}${lowConfidence ? ' - early estimate' : ''})`,
+    'trainer.atTime': '🧑‍🏫 a free swimming instructor is available at this time (included in entry)',
+    'trainer.day': (ranges) => `🧑‍🏫 Free swimming instructor (included in entry): ${ranges}`,
+    'trainer.unverified': "couldn't verify the schedule - check the pool's website",
+    'trainer.source': 'source',
+    'trainer.row': 'Free instructor',
+    'legend.trainer': 'free swimming instructor',
   },
 };
 
@@ -151,6 +163,48 @@ function parseTimeToMinutes(tstr) {
 function fmtDateLabel(iso) {
   const d = new Date(iso + 'T00:00:00');
   return { dow: DOW[lang][d.getDay()], md: `${d.getDate()}.${d.getMonth() + 1}.` };
+}
+
+// ---------- Free swimming instructor ----------
+
+// Some venues (currently Lužánky) offer a swimming instructor for free with
+// the entry ticket on fixed weekdays/hours - scraped from the venue's own
+// page into venue.freeTrainer (see scraper/lib/freeTrainer.js).
+function trainerRangesOn(venue, dateISO) {
+  const trainer = venue.freeTrainer;
+  if (!trainer || !dateISO) return [];
+  if (trainer.since && dateISO < trainer.since) return [];
+  const weekday = new Date(dateISO + 'T00:00:00').getDay();
+  return trainer.weekdays.includes(weekday) ? trainer.ranges : [];
+}
+function trainerAt(venue, dateISO, timeStr) {
+  if (!timeStr) return false;
+  const t0 = parseTimeToMinutes(timeStr);
+  return trainerRangesOn(venue, dateISO).some(([s, e]) => t0 >= parseTimeToMinutes(s) && t0 < parseTimeToMinutes(e));
+}
+function formatRanges(ranges) {
+  return ranges.map(([s, e]) => `${s.replace(/^0/, '')}–${e.replace(/^0/, '')}`).join(', ');
+}
+function renderTrainerAtTimeNote(venue, dateISO, timeStr) {
+  if (!trainerAt(venue, dateISO, timeStr)) return null;
+  const p = document.createElement('p');
+  p.className = 'trainer-note';
+  p.textContent = t('trainer.atTime');
+  return p;
+}
+function renderTrainerDayNote(venue, dateISO) {
+  const ranges = trainerRangesOn(venue, dateISO);
+  if (!ranges.length) return null;
+  const p = document.createElement('p');
+  p.className = 'trainer-note';
+  p.textContent = t('trainer.day', formatRanges(ranges)) + (venue.freeTrainer.verified ? '' : ` (${t('trainer.unverified')})`) + ' · ';
+  const a = document.createElement('a');
+  a.href = venue.freeTrainer.sourceUrl;
+  a.target = '_blank';
+  a.rel = 'noopener';
+  a.textContent = t('trainer.source');
+  p.appendChild(a);
+  return p;
 }
 
 // ---------- Recommendation / query logic ----------
@@ -371,6 +425,8 @@ function renderResultLine(entry) {
   const breakdown = counts ? renderCategoryBreakdown(categories) : null;
   if (breakdown) info.appendChild(breakdown);
   for (const note of renderOccupancyNotes(venue, queryDate, queryTime)) info.appendChild(note);
+  const trainerNote = renderTrainerAtTimeNote(venue, queryDate, queryTime);
+  if (trainerNote) info.appendChild(trainerNote);
   li.appendChild(info);
 
   const badge = document.createElement('span');
@@ -410,6 +466,8 @@ function renderRecommendationCard(entry, index) {
   if (breakdown) card.appendChild(breakdown);
 
   for (const note of renderOccupancyNotes(entry.venue, queryDate, queryTime)) card.appendChild(note);
+  const trainerNote = renderTrainerAtTimeNote(entry.venue, queryDate, queryTime);
+  if (trainerNote) card.appendChild(trainerNote);
 
   const link = document.createElement('a');
   link.href = entry.venue.url;
@@ -488,7 +546,7 @@ function populateQueryControls() {
 // highlightCol marks which half-hour column matches the time picked in
 // "Chci jít plavat", so a user can see at a glance where that slot falls in
 // every venue's own schedule grid, not just in the ranked summary above.
-function renderTimeline(resources, highlightCol = null) {
+function renderTimeline(resources, highlightCol = null, trainerRanges = []) {
   const wrap = document.createElement('div');
   wrap.className = 'timeline-wrap';
 
@@ -502,6 +560,27 @@ function renderTimeline(resources, highlightCol = null) {
     hoursRow.appendChild(label);
   }
   wrap.appendChild(hoursRow);
+
+  // Not a resource (doesn't count toward any free-lane numbers) - just shows
+  // when the free instructor is on the pool deck that day.
+  if (trainerRanges.length) {
+    const row = document.createElement('div');
+    row.className = 'resource-row trainer-row';
+    const name = document.createElement('div');
+    name.className = 'resource-name';
+    name.textContent = t('trainer.row');
+    row.appendChild(name);
+    for (let c = 0; c < TIMELINE_COLS; c++) {
+      const tmin = TIMELINE_START_MIN + c * 30;
+      const on = trainerRanges.some(([s, e]) => tmin >= parseTimeToMinutes(s) && tmin < parseTimeToMinutes(e));
+      const cell = document.createElement('div');
+      cell.className = `slot ${on ? 'trainer' : 'trainer-off'}${c === highlightCol ? ' slot-highlight' : ''}`;
+      const timeStr = `${String(Math.floor(tmin / 60)).padStart(2, '0')}:${String(tmin % 60).padStart(2, '0')}`;
+      if (on) cell.title = `${timeStr} – ${t('legend.trainer')}`;
+      row.appendChild(cell);
+    }
+    wrap.appendChild(row);
+  }
 
   for (const resource of resources) {
     const row = document.createElement('div');
@@ -598,6 +677,9 @@ function renderVenue(venue, selectedDate) {
   const occNote = renderOccupancyNote(venue, selectedDate);
   if (occNote) card.appendChild(occNote);
 
+  const trainerDayNote = renderTrainerDayNote(venue, selectedDate);
+  if (trainerDayNote) card.appendChild(trainerDayNote);
+
   // Live camera stills only mean something for "right now", same reasoning
   // as the live occupancy note - not shown for other dates.
   if (venue.webcams && venue.webcams.length && selectedDate === todayISO()) {
@@ -644,7 +726,7 @@ function renderVenue(venue, selectedDate) {
     // Only meaningful when this card's day matches the picked query date -
     // otherwise the picked time doesn't correspond to anything shown here.
     const highlightCol = selectedDate === queryDate && queryTime ? Math.round((parseTimeToMinutes(queryTime) - TIMELINE_START_MIN) / 30) : null;
-    card.appendChild(renderTimeline(dayData.resources, highlightCol));
+    card.appendChild(renderTimeline(dayData.resources, highlightCol, trainerRangesOn(venue, selectedDate)));
   }
 
   return card;
